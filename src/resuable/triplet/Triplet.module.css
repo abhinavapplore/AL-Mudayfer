@@ -37,7 +37,7 @@
     font-weight: 500;
     color: white;
     padding: 40px 0;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .content_sub_heading {
@@ -49,7 +49,7 @@
 }
 
 .content_button {
-    text-transform: uppercase;
+    text-transform: capitalize;
     background-color: #ffffff;
     width: max-content;
     padding: 15px 30px;
@@ -124,7 +124,7 @@
         font-weight: 500;
         color: white;
         padding: 40px 0;
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
 
     .content_sub_heading {

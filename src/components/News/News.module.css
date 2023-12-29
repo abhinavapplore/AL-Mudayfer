@@ -1,0 +1,146 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.const_container {
+    background-image: url('../../images/about/const1.jpg');
+    width: 23%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-transform: capitalize;
+    background-repeat: no-repeat;
+    background-size: 327px 251px;
+    border: 1px solid var(--blue);
+}
+
+.girl_container {
+    background-image: url('../../images/girls.jpg');
+    width: 27%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid var(--blue);
+}
+
+.date {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: -190px;
+    left: 0;
+    
+    /* background-color: var(--skyblue); */
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.headline {
+    /* position: absolute; */
+    color: rgb(0, 0, 0);
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    font-weight: 700;
+    font-size: 20px;
+    margin: 17px;
+    margin-top: -150px;
+    text-transform: capitalize;
+}
+.details {
+
+    color: rgb(0, 0, 0);
+   
+    margin: 17px;
+    margin-top: -10px;
+    text-transform: capitalize;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 8px;
+    color: var(--blue);
+}
+
+.line {
+    border: 1px solid var(--skyblue);
+    width: 100px;
+    margin: 2px 18px;
+}
+.readmore{
+   /* margin-top: 80px ; */
+   margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .girl_container ,
+    .const_container {
+        background-image: url('../../images/about/const1.jpg');
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-transform: capitalize;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 1px solid var(--blue);
+        margin-bottom: 20px;
+    }
+
+    .date {
+        position: absolute;
+        color: white;
+        top: 0;
+        left: 0;
+        background-color: var(--skyblue);
+        padding: 10px 20px;
+        margin: 10px;
+    }
+
+    .headline {
+        /* position: absolute; */
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 34px;
+        text-transform: capitalize;
+    }
+
+    .bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        padding: 40px 30px;
+        color: var(--blue);
+    }
+
+    .line {
+        border: 1px solid var(--skyblue);
+        width: 100px;
+        /* margin: 20px 0; */
+    }
+}

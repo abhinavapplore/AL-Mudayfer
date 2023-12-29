@@ -1,20 +1,24 @@
 import React from 'react'
 import styles from './ImageBox.module.css';
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
 
-const ImageBoxRight = ({ imageSrc, heading, text, buttonText }) => {
+const ImageBoxRight = ({ imageSrc, heading, text, buttonText ,page }) => {
+    
+    
+    const {t} = useTranslation()
     return (
         <>
             <div className={styles.container}>
 
                 <div className={styles.right}>
                     <div className={styles.right_heading}>
-                        {heading} 
+                        {t(`${page}.imageBoxRight.heading`)} 
                         <div className={styles.right_line}></div>
                     </div>
-                    <div className={styles.right_text}>{text}</div>
+                    <div className={styles.right_text}>{t(`${page}.imageBoxRight.text`)} </div>
                     <Link to='/contact'>
-                        <div className={styles.right_button}>{buttonText}</div>
+                        <div className={styles.right_button}>{t(`${page}.imageBoxRight.buttonText`)}</div>
                     </Link>
                 </div>
 

@@ -35,7 +35,7 @@
     color: white;
     border-bottom: 2px solid #ffffff;
     padding: 20px 0;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .content_sub_heading {
@@ -46,7 +46,7 @@
 }
 
 .content_button {
-    text-transform: uppercase;
+    text-transform: capitalize;
     background-color: #ffffff;
     width: max-content;
     padding: 20px 40px;
@@ -121,7 +121,7 @@
         color: white;
         border-bottom: 2px solid #ffffff;
         padding: 20px 0;
-        text-transform: uppercase;
+        text-transform: capitalize;
         /* display: none; */
     }
 

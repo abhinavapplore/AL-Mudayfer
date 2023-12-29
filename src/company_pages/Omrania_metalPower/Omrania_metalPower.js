@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Testimonial from '../../resuable/testimonials/Testimonial'
 import Heading from '../../components/Heading/Heading'
 import ImageBoxRight from '../../components/ImageBoxRight/ImageBoxRight'
@@ -23,9 +23,12 @@ import CompanySlider from '../../resuable/company_slider/CompanySlider'
 
 import img1 from '../../images/const1.jpg'
 import img2 from '../../images/const2.jpg'
+import CompanyTesti from '../../components/companyTesti/companyTesti'
 
 const Omrania_metalPower = () => {
-    const sliderItems = [
+
+    const [arr,setArr] = useState([])
+    const sliderItemsEn = [
         {
             image: img1,
             heading: 'Construction',
@@ -48,21 +51,56 @@ const Omrania_metalPower = () => {
         },
     ];
 
+
+    const slidetemsAr =[
+        {
+          "image": img1,
+          "heading": "الإنشاءات",
+          "subHeading": "أصول الخبرة للمقاولات"
+        },
+        {
+          "image": img2,
+          "heading": "الإنشاءات",
+          "subHeading": "بدر الدوسري للمقاولات"
+        },
+        {
+          "image": img1,
+          "heading": "الإنشاءات",
+          "subHeading": "أصول الخبرة للمقاولات"
+        },
+        {
+          "image": img2,
+          "heading": "الإنشاءات",
+          "subHeading": "بدر الدوسري للمقاولات"
+        }
+      ]
+
+     
+
+      useEffect (()=>{
+        setArr( localStorage.getItem('i18nextLng') === "ar"? slidetemsAr : sliderItemsEn)
+       },[arr])
+      
+
     return (
         <>
             <Investment
+               page="Omrania_metalPower"
                 backgroundImage={aboutscreen}
                 heading1="Al-Omrania Materials Company for Metal Forming"
                 sub_heading="Al-Omrania Materials Metal Forming Company is a leader in the field of metal forming, providing modern and contemporary engineering solutions that meet the needs of various metal forming domains."
                 button="Get started "
             />
+           
             <Heading
+              page="Omrania_metalPower"
                 heading1="about AL-Omrania materials"
                 heading2="Al-Omrania Materials Company for Metal Forming"
                 description1="Al-Omrania Metal Forming Company was established in 2018. It is a specialized company in metal forming, providing modern and contemporary engineering solutions in all fields of metal forming. The company boasts a technical team with the highest qualifications and experiences, utilizing the latest advanced technologies and adhering to industrial methods with the highest standards."
             />
 
             <Card
+              page="Omrania_metalPower"
                 image1={vision_big}
                 icon1={vision}
                 heading1="Our Vision"
@@ -80,6 +118,8 @@ const Omrania_metalPower = () => {
             />
 
             <Heading
+            page="Omrania_metalPower_heading2"
+           
                 heading2="omrania materials company"
                 description1="The company offers a number of precise and high-quality artistic works, including:
 
@@ -91,24 +131,28 @@ const Omrania_metalPower = () => {
 
             {/* <Trusted /> */}
             <ImageBoxLeft
+                page="Omrania_metalPower"
                 imageSrc={electrostatic}
                 heading="Electrostatic"
                 text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
                 buttonText="read more"
             />
             <ImageBoxRight
+                page="Omrania_metalPower"
                 imageSrc={punching}
                 heading="Punching"
                 text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
                 buttonText="read more"
             />
             <ImageBoxLeft
+                page="Omrania_metalPower_ImageBoxLeft2"
                 imageSrc={formingMetals}
                 heading="Forming various metals"
                 text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
                 buttonText="read more"
             />
             <ImageBoxRight
+                page="Omrania_metalPower_ImageBoxRight2"
                 imageSrc={weldingMaterials}
                 heading="Welding of metal materials"
                 text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
@@ -117,22 +161,24 @@ const Omrania_metalPower = () => {
 
 
             <Heading
+            page="Omrania_metalPower_heading3"
                 heading1="Welding equipment for the Al-Omrania Crusher Company"
                 heading2="PRODUCTS WE WERE PART OF"
             />
 
-            <CompanySlider items={sliderItems} />
+            <CompanySlider items={arr} />
 
             <Heading
+            page="Omrania_metalPower_heading4"
                 heading1="Partner with OMRANIA for concrete"
                 heading2="Testimonials"
                 description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
             />
 
-            <Testimonial />
+            <Testimonial  page="Omrania_metalPower" />
             <Helper_numbers />
         </>
     )
 }
 
-export default Omrania_metalPower
+export default Omrania_metalPower;

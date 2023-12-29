@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Testimonial from '../../resuable/testimonials/Testimonial'
 import Heading from '../../components/Heading/Heading'
 import ImageBoxRight from '../../components/ImageBoxRight/ImageBoxRight'
 import ImageBoxLeft from '../../components/ImageBoxLeft/ImageBoxLeft'
+import CompanyTesti from "../../components/companyTesti/companyTesti"
 import Trusted from '../../components/TrustedByCompany/Trusted'
 import Card from '../../resuable/cards/Card'
 import Investment from '../../components/InvestmentOpp/Investment'
@@ -25,28 +26,77 @@ import img1 from '../../images/const1.jpg'
 import img2 from '../../images/const2.jpg'
 
 const Omrania_crushers = () => {
-    const sliderItems = [
+
+    const [arr,setArr] = useState([])
+    
+    const sliderItemsEn = [
         {
             image: img1,
             heading: 'Construction',
-            subHeading: 'Origins of Expertise Contracting Est',
+            subHeading: 'Supplying raw materials to Badr Al-Dosari Contracting Est',
         },
         {
             image: img2,
             heading: 'Construction',
-            subHeading: 'Badr Al Dosari Contracting Est',
+            subHeading: 'Supply of raw materials, Origins of Expertise Contracting Est',
         },
         {
             image: img1,
             heading: 'Construction',
-            subHeading: 'Origins of Expertise Contracting Est',
+            subHeading: 'Sakhrat Al-Summan Contracting Est ',
         },
         {
             image: img2,
             heading: 'Construction',
-            subHeading: 'Badr Al Dosari Contracting Est',
+            subHeading: 'Shaghaf Altanmiah Contracting Est',
+        },
+        {
+            image: img1,
+            heading: 'Construction',
+            subHeading: 'Ghayoum Dammam Cement Products Company',
+        },
+        {
+            image: img2,
+            heading: 'Construction',
+            subHeading: 'Konoz Alshra Contracting Est ',
+        },
+        {
+            image: img2,
+            heading: 'Construction',
+            subHeading: 'Gebal Althahab Contracting Est ',
         },
     ];
+
+    const sliderItemsAr = [
+          {
+            image: img1,
+            heading: "البناء",
+            subHeading: "أصول خبرة المقاولات"
+          },
+          {
+            image: img2,
+            heading: "البناء",
+            subHeading: "بدر الدوسري للمقاولات"
+          },
+          {
+            image: img1,
+            heading: "البناء",
+            subHeading: "أصول خبرة المقاولات"
+          },
+          {
+            image: img2,
+            heading: "البناء",
+            subHeading: "بدر الدوسري للمقاولات"
+          }
+        ]
+      
+
+
+        useEffect (()=>{
+            setArr( localStorage.getItem('i18nextLng') === "ar"? sliderItemsAr : sliderItemsEn)
+           },[arr])
+       
+      
 
     return (
         <>
@@ -55,10 +105,13 @@ const Omrania_crushers = () => {
                 heading1="Omrania Crusher"
                 sub_heading="Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks and balustrades for more than 50 years in the middle east."
                 button="Get started "
+                page="omraniaCrusher"
             />
+              <CompanyTesti />
             <Heading
                 heading1="about omrania crusher"
                 heading2="from the land of saudi arabia"
+                page="omraniaCrusher"
                 description1="From the land of Saudi Arabia... Omrania Crusher.
                 Because raw materials are a priority for the success of the industry, we invested in establishing Omrania Crusher in 2004. This investment marks our journey in producing construction materials with high reliability, meeting the highest specifications, and ensuring sustainability.
                 We supply the local market with the finest types of gravel in various sizes, which are used in many different cement industries. These materials play a crucial role in development and progress. Omrania Crusher has contributed to the execution of numerous distinguished projects within the Kingdom. Our product quality sets the foundation for the overall quality of the factories, starting with the quality of the crusher materials."
@@ -79,9 +132,11 @@ const Omrania_crushers = () => {
                 icon3={vision}
                 heading3="QUALITY & SAFETY"
                 subHeading3="Implemented a Quality Control department with advanced testing for customized products meeting global standards. A Safety and Security department, managed by a skilled team, ensures meticulous and safe task execution, minimizing risks to property, the environment, and personnel."
+                page="omraniaCrusher"
             />
 
             <Heading
+            page="omraniaCrusher_products"
                 heading2="OMRANIA CRUSHER COMPANY PRODUCTS"
                 description1="Our quarries have been selected based on geological factors and meticulous planning. The extraction of materials (gravel, stone, and rock) from the earth is carried out using the best methods, tools, and techniques to ensure the production of a high-quality final product."
             />
@@ -92,18 +147,21 @@ const Omrania_crushers = () => {
                 heading="GRAVEL"
                 text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
                 buttonText="read more"
+                page="omraniaCrusher"
             />
             <ImageBoxRight
                 imageSrc={stone}
                 heading="STONE"
                 text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
                 buttonText="read more"
+                page="omraniaCrusher"
             />
             <ImageBoxLeft
                 imageSrc={rock}
                 heading="ROCK"
                 text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
                 buttonText="read more"
+                page="omraniaCrusherleftBox2"
             />
             {/* <ImageBoxRight
                 imageSrc={tiles}
@@ -113,19 +171,23 @@ const Omrania_crushers = () => {
             /> */}
 
             <Heading
+            page="omraniaCrusher_heading2"
                 heading1="Partner with OMRANIA CRUSHER"
                 heading2="our products pulse to"
             />
             
-            <CompanySlider items={sliderItems} />
+            <CompanySlider items={arr} />
+
+            
 
             <Heading
+               page="omraniaCrusher_heading3"
                 heading1="Partner with OMRANIA CRUSHER"
                 heading2="Testimonials"
                 description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
             />
 
-            <Testimonial />
+            <Testimonial page="omraniaCrusher" />
             <Helper_numbers />
         </>
     )

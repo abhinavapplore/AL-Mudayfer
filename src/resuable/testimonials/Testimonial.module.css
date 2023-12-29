@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    text-transform: uppercase;
+    text-transform: capitalize;
     background-repeat: no-repeat;
     background-size: contain;
     border: 1px solid var(--blue);
@@ -87,7 +87,7 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        text-transform: uppercase;
+        text-transform: capitalize;
         background-repeat: no-repeat;
         background-size: contain;
         border: 1px solid var(--blue);

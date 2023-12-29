@@ -5,6 +5,7 @@ import social from '../../images/about/social.jpg'
 import national from '../../images/about/national.jpg'
 import environmental from '../../images/about/environmental.jpg'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 const Triplet = ({
     img1,
@@ -14,6 +15,8 @@ const Triplet = ({
     description1,
     button
 }) => {
+    const { t } = useTranslation();
+
     return (
         <>
             <div className={styles.container}>
@@ -22,14 +25,13 @@ const Triplet = ({
                     <img src={social} alt="" />
                     <div className={styles.content}>
                         <div className={styles.content_heading}>
-                            SOCIAL RESPONSIBILITY
+                        {t('about.triplet.social.heading')}
                             <div className={styles.under__line}></div>
                         </div>
                         <div className={styles.content_sub_heading}>
-                            Saleh Al-Mudaifer Sons Holding Group carries in its genes the love of doing good for others, working for everyone, and the culture of social responsibility, believing that it is from this country and to it and part of its interconnected society.
-                        </div>
+                        {t('about.triplet.social.sub_heading')}                        </div>
                         <Link to='/social_responsibility'>
-                            <div className={styles.content_button}>Learn More</div>
+                            <div className={styles.content_button}>{t('about.triplet.social.button')} </div>
                         </Link>
                     </div>
                 </div>
@@ -40,12 +42,12 @@ const Triplet = ({
                         <img src={national} alt="" />
                         <div className={styles.content}>
                             <div className={styles.content_heading}>
-                                national RESPONSIBILITY
+                            {t('about.triplet.national.heading')}
                                 <div className={styles.under__line}></div>
                             </div>
 
                             <Link to='/national_responsibility'>
-                                <div className={styles.content_button}>Learn More</div>
+                                <div className={styles.content_button}>{t('about.triplet.national.heading')}</div>
                             </Link>
                         </div>
                     </div>
@@ -53,13 +55,11 @@ const Triplet = ({
                         <img src={environmental} alt="" />
                         <div className={styles.content}>
                             <div className={styles.content_heading}>
-                                environmental
-                                <br />
-                                RESPONSIBILITY
+                            {t('about.triplet.environmental.heading')}
                                 <div className={styles.under__line}></div>
                             </div>
                             <Link to='/environmental_responsibility'>
-                                <div className={styles.content_button}>Learn More</div>
+                                <div className={styles.content_button}>{t('about.triplet.environmental.button')}</div>
                             </Link>
                         </div>
                     </div>

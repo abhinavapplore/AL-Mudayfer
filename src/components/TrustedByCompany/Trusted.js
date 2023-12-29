@@ -10,12 +10,13 @@ import company7 from '../../images/investment/company7.svg'
 import company8 from '../../images/investment/company8.svg'
 
 import Marquee from "react-fast-marquee";
+import { t } from 'i18next';
 
-const Trusted = () => {
+const Trusted = ({trust}) => {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.heading}>Trusted by 45M+ users</div>
+                <div className={styles.heading}>{trust}</div>
                 <div className={styles.images}>
                     <Marquee>
                         <div className={styles.image}>

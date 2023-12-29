@@ -1,0 +1,1317 @@
+{
+  "header": {
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "ourInvestments": "Our Investments",
+      "joinUs": "Join Us",
+      "media": "Media",
+      "contactUs": "Contact Us"
+    },
+    "languageDropdown": {
+      "globeIcon": "🌐",
+      "dropdownOptions": [
+        "اردو",
+        "English"
+      ]
+    },
+    "mobileLinks": {
+      "home": "Home",
+      "about": "About",
+      "ourInvestment": "Our Investment",
+      "joinUs": "Join Us",
+      "media": "Media",
+      "contactUs": "Contact Us"
+    }
+  },
+  "home": {
+    "investment": {
+      "heading1": "AL-MUDAYFER",
+      "heading2": "HOLDING",
+      "sub_heading": "The name that has been associated with building and construction works for development monuments over generations from the Kingdom of Saudi Arabia and to the Middle East.",
+      "button": "Know More"
+    },
+    "partner": {
+      "heading1": "Partner with AL-MUDAYFER",
+      "heading2": "The Building  & Construction Expert",
+      "description1": "The Sons of Saleh Almudayfer Sons Holding Group is characterized by leadership and sustainability in the business and investment world. As a successful investor, the group seeks diversification and sustainable expansion, with a focus on innovation and the development of new investment models. With its distinguished history, the group remains committed to excellence and leadership, achieving excellence in various aspects of its business and participating as a key member in a leading alliance of prominent investment companies in the region.",
+      "description2": "Trust our project management experts at Al-Mudafir Holdings from Design to Completion!"
+    },
+    "milestone": {},
+    "trust":"Our Investment",
+    "experience62": {
+      "heading": "Experience 62+ Years",
+      "text": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Learn More",
+      "imageSrc": "/path/to/image"
+    },
+    "trusted": {},
+    "ourValues": {
+      "OurVal":"our values",
+      "ourVision":"our vision",
+      "selectHeading": "Quality, Reliability, Leadership",
+      "selectDescription": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "otherHeading": "Vision",
+      "otherDescription": "Striving for excellence in the world of investment and developing a global model for success, with a focus on continuous evolution and the enhancement of innovative values."
+    },
+    "consHeading": {
+      "heading": "with AL-MUDAYFER",
+      "subHeading": "CONSCIOUS LEADERSHIP\nWELCOMES YOU"
+    },
+    "imageBoxRight": {
+      "heading": "the board of directors",
+      "text": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Get to know",
+      "imageSrc": "/path/to/image"
+    },
+    "company": {
+      "heading1": "INVESTMENT",
+      "heading2": "OPPORTUNITIES",
+      "sub_heading": "The name that has been associated with building and construction works for development monuments over generations from the Kingdom of Saudi Arabia and to the Middle East.",
+      "button": "Know More",
+      "backgroundImage": "/path/to/image"
+    },
+    "imageBoxLeft": {
+      "heading": "Employment Portal",
+      "text": "Joining the work community of Saleh Al-Mudaifer Sons Holding Group companies is an opportunity that we are proud to offer to Saudi youth of all abilities and backgrounds, as the group’s work is diverse. We consider those working with us as our extended family in an ideal work environment that guarantees obtaining many job benefits and practical experiences.",
+      "buttonText": "know more",
+      "imageSrc": "/path/to/image"
+    },
+    "timeline": {
+      "heading1": "Partner with AL-MUDAYFER",
+      "heading2": "Timeline",
+      "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years.",
+      "description2": "Trust our project management experts at Al-Mudafir Holdings from Design to Completion!"
+    },
+    "newsHeadline": {
+      "heading": "News Headline",
+      "subHeading": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Read More"
+    }
+  },
+  "about": {
+    "investment": {
+      "backgroundImage": "/path/to/aboutscreen",
+      "heading1": "Saleh Almudayfer",
+      "heading2": "Sons Holding Company",
+      "sub_heading": "Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks, and balustrades for more than 50 years in the Middle East.",
+      "button": "Get started"
+    },
+    "partner": {
+      "heading1": "Partner with AL-MUDAYFER",
+      "heading2": "The Building  & Construction Expert",
+      "description1": "In the sixties, the Saleh Almudayfer Sons Holding Group embarked on its investment journey by establishing the Omrania Materials Materials Company for building materials. This marked the splendid beginning of an investment history filled with achievements and uniqueness. Since then, the group has preserved its strong legacy and prosperity over the decades, achieving remarkable success in various economic fields.",
+      "description2": "Today, the group is recognized as a leading force in the investment sector, characterized by innovation and excellence. Its ambitious investment vision is distinguished by the ability to make smart decisions and foster innovation, making it a key player in a pioneering alliance of the region's foremost investment companies. The group's investments span across various sectors, including building materials, concrete, and wooden products. These investments reflect a diverse and creative investment journey, contributing effectively to sustainable development. With pride in its long and inspiring history, the Sons of Saleh Al-Mudayfer Holding Group continues to elevate its vision and excel in all areas of its business."
+    },
+    "card": {
+      "vision": { 
+        "image": "/path/to/vision_big",
+        "icon": "/path/to/vision",
+        "heading": "Our Vision",
+        "subHeading": "Striving for excellence in the world of investment and developing a global model for success, with a focus on continuous evolution and the enhancement of innovative values."
+      },
+      "mission": {
+        "image": "/path/to/message_big",
+        "icon": "/path/to/message",
+        "heading": "Our Mission",
+        "subHeading": "To empower individuals and businesses by providing cutting-edge solutions and unparalleled services, fostering sustainable growth and prosperity. We are dedicated to pioneering innovative approaches, maintaining the highest standards of integrity, and making a positive impact on the global landscape."
+      },
+      "values": {
+        "image": "/path/to/value_big",
+        "icon": "/path/to/vision",
+        "heading": "Our Values",
+        "subHeading": "Excellence, innovation, integrity, and sustainability are the core values that drive our business. We are committed to achieving the highest standards of quality and excellence in all our endeavors. We are dedicated to fostering innovation and creativity, and we are committed to the highest standards of integrity and transparency. We are committed to sustainable development and making a positive impact on the global landscape."
+      }
+    },
+    "trusted": {},
+    "responsibility": {
+      "heading": "Our Responsibility",
+      "right_heading": "Social, National, Environmental",
+      "right_sub_heading": "Our responsibility extends beyond business success to encompass a commitment to societal and environmental well-being. We believe in contributing positively to the communities in which we operate, minimizing our environmental footprint, and promoting ethical and sustainable practices. Our responsibility is to serve as a catalyst for positive change, fostering social development, and environmental stewardship. Through transparent and accountable actions, we aim to inspire others and be recognized as a responsible corporate citizen dedicated to making a meaningful impact on the world."
+    },
+    "triplet": {
+      "social": {
+        "heading": "SOCIAL RESPONSIBILITY",
+        "sub_heading": "Saleh Al-Mudaifer Sons Holding Group carries in its genes the love of doing good for others, working for everyone, and the culture of social responsibility, believing that it is from this country and to it and part of its interconnected society.",
+        "button": "Learn More"
+      },
+      "national": {
+        "heading": "NATIONAL RESPONSIBILITY",
+        "button": "Learn More"
+      },
+      "environmental": {
+        "heading": "ENVIRONMENTAL RESPONSIBILITY",
+        "button": "Learn More"
+      }
+    },
+    "testimonial": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    }
+  },
+  "about_testi": {
+    "partner": {
+      "heading1": "Partner with AL-MUDAYFER",
+      "heading2": "Testimonials",
+      "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years."
+    }
+  },
+  "invest": {
+    "investment": {
+      "heading1": "Our Investments",
+      "sub_heading": "Always be close to us and be part of our journey to get what you want directly from its source.",
+      "button": "Get Started"
+    },
+    "partner": {
+      "heading1": "Partner with AL-MUDAYFER",
+      "heading2": "Our Companies",
+      "description1": "As an investor or entrepreneur with creative and distinct ideas, we integrate with you in the Al-Mudaifer Group. We are happy to exchange opinions about ideas and are open to everyone, until we implement projects in reality.",
+      "description2": "Today, Al-Mudaifer Holding Group finds itself accelerating the pace of expanding its business to keep pace with all the giant projects created by Vision 2030 and intersecting with the group’s work. Especially with the group’s known products of high reliability and the long-standing experience of a national company. Al-Mudaifer Holding Group aspires to work diligently to enhance its national presence and write new chapters of its success story through its distinctive interaction with the comprehensive national vision. Enter into more projects and investments that enhance its effective presence at all levels, including localization of the industry, enhancing local content, industrial growth, creating job opportunities, and bridging the gap in the market. Locally and looking to expand externally."
+    },
+    "companies": {
+      "1": "Al-OMRANIA MATERIALS",
+      "2": "Al-OMRANIA Company for Ready Mix Concrete",
+      "3": "Al-OMRANIA Company for WOODEN PRODUCTS",
+      "4": "Al-Omrania Crusher",
+      "5": "Al-OMRANIA METAL POWER",
+      "6": "Al-OMRANIA MATERIALS FOR LAND TRANSPORT",
+      "7": "Al-OMRANIA LOGISTICS SUPPORT",
+      "8": "Saudi Player for Polishing Materials"
+    },
+    "gallery": "Gallery",
+    "companyDetails": {
+      "1": {
+        "name": "Al-Omrania Building Materials Company",
+        "description1": "Al-Omrania Building Materials Company is a pioneer in the production and manufacturing of essential construction materials in the Kingdom of Saudi Arabia.",
+        "description2": "The company's product range includes tiles, blocks, interlock pavers, and paving slabs. With a history spanning over half a century, the company has become a symbol of innovation and leadership in the construction sector, extending its influence across the Middle East.",
+        "establishmentYear": 1972,
+        "buttonText": "Learn More",
+        "achievements1": "Advanced",
+        "achievements2": "Branches: 20M",
+        "website": "https://comaco.sa/"
+      },
+      "2": {
+        "name": "Al-Omrania Ready Mix Concrete",
+        "description1": "We strive diligently to provide confidence and certainty to all stakeholders through our innovative and sustainable approach. Our aim is to assist them in delivering high-quality construction materials and products, along with providing reliable services to customers and local communities.",
+        "description2": "At Al-Omrania Ready Mix Concrete, we strongly believe that business and environmental preservation should go hand in hand. This is achieved by promoting local culture and traditions and integrating the company's strategies regarding industrial efficiency and innovation with climate protection, reducing reliance on natural resources, and minimizing harmful air emissions.",
+        "buttonText": "Learn More",
+        "establishmentYear": 2003,
+        "achievements": [
+          "Advanced",
+          "Branches: 20M"
+        ],
+        "website": "https://orm.sa/"
+      },
+      "3": {
+        "name": "Al-Omrania for Wood Products",
+        "description1": "A leading Saudi company in manufacturing high-quality furniture and producing custom-made furniture.",
+        "description2": "It is a leading Saudi company in the manufacturing of high-quality furniture, producing custom-made furniture such as reception units, cabinets, kitchens, wall panels, doors, ceilings, and bespoke solutions. They utilize the latest technologies to manufacture furniture that meets the highest international standards. Al-Omrania for Wood Products is one of the investments of the Sons of Saleh Al-Mudayfer Holding Company, established in 1996. They have significant commercial interests in a wide range of activities across the Kingdom.",
+        "buttonText": "Learn More",
+        "establishmentYear": 1996,
+        "achievements": [
+          "Advanced",
+          "Branches: 20M"
+        ],
+        "website": "https://omraniahwood.sa/?lang=ar"
+      },
+      "4": {
+        "name": "Omrania Crusher",
+        "description1": "We invested in Omrania Crusher to make it our journey in the production of construction materials with high reliability.",
+        "description2": "From the land of Saudi Arabia... Omrania Crusher. Because raw materials are a priority for the success of the industry, we invested in establishing Omrania Crusher in 2004. This investment marks our journey in producing construction materials with high reliability, meeting the highest specifications, and ensuring sustainability. We supply the local market with the finest types of gravel in various sizes, which are used in many different cement industries. These materials play a crucial role in development and progress. Omrania Crusher has contributed to the execution of numerous distinguished projects within the Kingdom. Our product quality sets the foundation for the overall quality of the factories, starting with the quality of the crusher materials.",
+        "buttonText": "Learn More",
+        "establishmentYear": 2004,
+        "achievements": [
+          "Advanced",
+          "Branches: 20M"
+        ],
+        "website": "https://occo.sa/"
+      },
+      "5": {
+        "name": "Al-Omrania Materials Metal Forming Company",
+        "description1": "Al-Omrania Materials Metal Forming Company is a leader in the field of metal forming, providing modern and contemporary engineering solutions that meet the needs of various metal forming domains.",
+        "description2": "Al-Omrania Metal Forming Company was established in 2018. It is a specialized company in metal forming, providing modern and contemporary engineering solutions in all fields of metal forming. The company boasts a technical team with the highest qualifications and experiences, utilizing the latest advanced technologies and adhering to industrial methods with the highest standards.",
+        "buttonText": "Learn More",
+        "establishmentYear": 2018,
+        "achievements": [
+          "Advanced",
+          "Branches: 20M"
+        ],
+        "website": "https://cmmf.sa/"
+      },
+      "6": {
+        "name": "Al-Omrania Land Transportation Company",
+        "description1": "Integrated and innovative solutions specialized in land transportation with the latest technologies. We have provided a ground transportation fleet with the highest standards of safety and security to ensure the preservation of products.",
+        "description2": "Due to the significant and continuous economic development, Al-Omrania Land Transportation Company was established to keep pace with progress and provide integrated and innovative solutions specialized in land transportation with the latest technologies. We have introduced a ground transportation fleet with the highest standards of safety and security to ensure the preservation of products.",
+        "buttonText": "Learn More",
+        "establishmentYear": 1979,
+        "achievements": [
+          "Advanced",
+          "Branches: 20M"
+        ],
+        "website": "https://otco.sa/"
+      },
+      "7": {
+        "name": "Al-Omrania Materials for Logistics Support",
+        "description1": "The Al-Omrania Materials for Logistics Support company is based on core values that it adheres to and contributes to its business growth. These values include integrity, quality, and excellence.",
+        "description2": "Established in 2019 as part of the Sons of Saleh Al-Mudayfer Holding Company to keep pace with developments in the logistics sector, especially with the focus on the Kingdom's Vision 2030 and the establishment of a national strategy for transportation and logistics.",
+        "buttonText": "Learn More",
+        "establishmentYear": 2019,
+        "achievements": [
+          "Advanced",
+          "Branches: 20M"
+        ],
+        "website": "https://olsco.sa/"
+      },
+      "8": {
+        "name": "Saudi Player for Polishing Materials",
+        "description1": "A leader in the field of manufacturing building materials and the first specialized Saudi factory in the production of gears and cutting cylinders in various sizes and for various purposes.",
+        "description2": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+        "buttonText": "Learn More",
+        "establishmentYear": 1979,
+        "achievements": [
+          "Advanced",
+          "Branches: 20M"
+        ],
+        "website": "https://saudi-grinding-polishing.sa/"
+      },
+      "doe": "Date of Estabilishment",
+      "achievement1": "Advanced",
+      "achievement2": "Branches: 20M"
+    }
+  },
+  "join": {
+    "investment": {
+      "backgroundImage": "aboutscreen",
+      "heading1": "join us ",
+      "sub_heading": "Always be close to us and part of our journey and get what you want from it’s source.",
+      "button": "get started",
+      "supplier":"Supplier",
+      "invester" : "Investor",
+      "employee" : "Employee"
+    },
+    "partner": {
+      "heading1": "Partner with AL-MUDAYFER",
+      "heading2": "explore jobs",
+      "description1": "Building bridges of communication with others is part of our ambitious vision to keep pace with the national economic movement and towards greater effectiveness for society and for us as an important economic component in the Kingdom of Saudi Arabia."
+    },
+    "sliderCards": [
+      {
+        "image": "worker",
+        "badge": "dealer",
+        "heading": "MATERIAL DEALER",
+        "subHeading": "Lorem ipsum dolor sit amet",
+        "buttonText": "read more"
+      },
+      {
+        "image": "worker",
+        "badge": "dealer",
+        "heading": "MATERIAL DEALER",
+        "subHeading": "Lorem ipsum dolor sit amet",
+        "buttonText": "read more"
+      },
+      {
+        "image": "worker",
+        "badge": "dealer",
+        "heading": "MATERIAL DEALER",
+        "subHeading": "Lorem ipsum dolor sit amet",
+        "buttonText": "read more"
+      },
+      {
+        "image": "worker",
+        "badge": "dealer",
+        "heading": "MATERIAL DEALER",
+        "subHeading": "Lorem ipsum dolor sit amet",
+        "buttonText": "read more"
+      },
+      {
+        "image": "worker",
+        "badge": "dealer",
+        "heading": "MATERIAL DEALER",
+        "subHeading": "Lorem ipsum dolor sit amet",
+        "buttonText": "read more"
+      },
+      {
+        "image": "worker",
+        "badge": "dealer",
+        "heading": "MATERIAL DEALER",
+        "subHeading": "Lorem ipsum dolor sit amet",
+        "buttonText": "read more"
+      }
+    ],
+    "supplier": {
+      "heading": "Join as a Supplier",
+      "mainHeading": "Discover the benefits of collaborating with us as a",
+      "subHeading1": "Integration in the commercial market is an important requirement, especially between the producer and the investor who wants to benefit from his experience and work in marketing products by obtaining an important role as a wholesale and retail trader.",
+      "form": {
+        "formHeading": "FILL THIS FORM TO GET A QUOTATION",
+        "formSubHeading": "Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur.",
+        "labels": {
+          "firstName": "First name",
+          "email": "Email",
+          "lastName": "Last name",
+          "telephone": "Telephone",
+          "message": "Message"
+        },
+        "button": "SEND MESSAGE"
+      }
+    },
+    "client": {
+      "joinHeading": "Join as a client",
+      "mainHeading": "Unlock tailored solutions and unparalleled support by becoming our client.",
+      "subHeading1": "Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur.",
+      "subHeading2": "Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur.",
+      "form": {
+        "heading": "FILL THIS FORM TO GET A QUOTATION",
+        "subHeading": "Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur.",
+        "labels": {
+          "firstName": "First name",
+          "lastName": "Last name",
+          "email": "Email",
+          "phone": "Telephone",
+          "message": "Message"
+        },
+        "placeholders": {
+          "firstName": "Ex. Aamir",
+          "lastName": "Ex. Doe",
+          "email": "Email",
+          "phone": "Telephone",
+          "message": "Write Message"
+        },
+        "button": "SEND MESSAGE"
+      }
+    },
+    "company": {
+      "backgroundImage": "path/to/your/image.jpg",
+      "heading1": "INVESTMENT",
+      "heading2": "OPPORTUNITIES",
+      "sub_heading": "The name that has been associated with building and construction works for development monuments over generations from the Kingdom of Saudi Arabia and to the Middle East.",
+      "button": "Know More"
+    }
+  },
+  "media": {
+    "investment": {
+      "heading1": "Media Center",
+      "sub_heading": "Always be close to us and part of our journey and get what you want from its source.",
+      "button": "Get Started"
+    },
+    "partner": {
+      "heading1": "Partner with AL-MUDAYFER",
+      "heading2": "News",
+      "description1": "The most important developments about and about the group."
+    },
+    "testimonial": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    },
+    "news1": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    },
+    "news2": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    },
+    "news3": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    },
+    "readMoreLink": "read more",
+    "mediaKit": {
+      "heading": "Media Kit",
+      "Logo": "Logo",
+      "Assets": "Assets",
+      "Management": "Management",
+      "button": "Open Media Kit"
+    },
+    "mediaRelationship": {
+      "heading": "Media Relationship",
+      "subHeading": "You can be assured of reliable sources from the Al-Mudayfer group by contacting us.",
+      "button": "Contact"
+    },
+    "blueBoard": {
+      "heading": "With AL-MUDAYFER",
+      "subHeading": "Press Release",
+      "whiteBoard": {
+        "whiteHeading": "Quality, Reliability, Leadership",
+        "whiteSubHeading": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
+      }
+    }
+  },
+  "newsDetails":{
+   "news1":{
+    "heading":"راعياً ذهبياً لمعرض البناء السعودي 2023",
+    "text":"شركة أبناء صالح المديفر القابضة راعياً ذهبياً لمعرض البناء السعودي 2023 المقام في تاريخ 06 إلى 09 نوفمبر 2023,",
+       "img": "https://almudayfer.com/wp-content/uploads/2023/10/%D8%B5%D9%88%D8%B1%D8%A9-%D9%85%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-1445-04-03-%D9%81%D9%8A-10.57.29.jpg"
+   },
+   "news2":{
+    "heading":"Saleh Almudayfer Sons Holding company participated in the Saudi building and construction exhibition 2022",
+    "text":"In order to keep pace with the continuous development, and to promote the kingdom’s Vision 2030 to achieve a diversified and prosperous economy We continue to play an active role in development Our companies were present at the Saudi building and construction exhibition 2022 under the umbrella of the most prestigious brand in the construction world",
+    "img": "https://almudayfer.com/wp-content/uploads/2022/11/%D8%B5-2.jpg"
+   },
+   "news3":{
+    "heading":"The Launch Of The New Logos",
+    "text":"The selection of the new logos of the Group’s companies reflects and enhances the confidence and reputation gained by our esteemed customers throughout our service to them for more than half a century throughout the Kingdom.",
+    "img": "https://almudayfer.com/wp-content/uploads/2022/03/%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9-2-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9.jpg"
+   }
+  },
+  "national": {
+    "investment": {
+      "backgroundImage": "/path/to/aboutscreen",
+      "heading1": "National",
+      "heading2": "responsibility",
+      "sub_heading": "Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks and balustrades for more than 50 years in the middle east.",
+      "button": "Get started"
+    },
+    "partner": {
+      "heading1": "About AL-MUDAYFER",
+      "heading2": "national responsibility",
+      "description1": "Despite the close connection and clear connection between the activities of the companies of the Saleh Al-Mudaifer Sons Holding Group and the impacts on the environment from geological or industrial works and carbon emissions to industrial waste, the group was keen to put this matter in the highest consideration, so it developed a comprehensive and systematic plan to include all the work of the Saleh Al-Mudaifer Sons Holding Group and its factories. It applies strict national standards towards the environment and carbon emissions, and the group is environmentally friendly. For this reason, it has been partnered with the most prominent specialized companies to supervise and control with regard to the potential environmental impact resulting from the business, and to assist the group in obtaining the necessary national certificates in this field to confirm the solidity of the business.",
+      "description2": "On this side. Al-Mudaifer Holding has achieved tangible results as a result of this environmental concern, starting from preserving the health of its employees to preserving the general environment or surrounding the work and activities of companies and factories and reducing carbon emissions. Environmental commitment is one of the most prominent pillars on which the group’s work is based, which has reflected its excellence over time."
+    },
+    "experience62": {
+      "imageSrc": "exp",
+      "heading": "Experience 62+ Years",
+      "text": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Learn More"
+    }
+  },
+  "environmental": {
+    "investment": {
+      "backgroundImage": "/path/to/aboutscreen",
+      "heading1": "environmental",
+      "heading2": "responsibility",
+      "sub_heading": "Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks and balustrades for more than 50 years in the middle east.",
+      "button": "Get started"
+    },
+    "partner": {
+      "heading1": "About AL-MUDAYFER",
+      "heading2": "environmental responsibility",
+      "description1": "Despite the close connection and clear connection between the activities of the companies of the Saleh Al-Mudaifer Sons Holding Group and the impacts on the environment from geological or industrial works and carbon emissions to industrial waste, the group was keen to put this matter in the highest consideration, so it developed a comprehensive and systematic plan to include all the work of the Saleh Al-Mudaifer Sons Holding Group and its factories. It applies strict national standards towards the environment and carbon emissions, and the group is environmentally friendly. For this reason, it has been partnered with the most prominent specialized companies to supervise and control with regard to the potential environmental impact resulting from the business, and to assist the group in obtaining the necessary national certificates in this field to confirm the solidity of the business.",
+      "description2": "On this side. Al-Mudaifer Holding has achieved tangible results as a result of this environmental concern, starting from preserving the health of its employees to preserving the general environment or surrounding the work and activities of companies and factories and reducing carbon emissions. Environmental commitment is one of the most prominent pillars on which the group’s work is based, which has reflected its excellence over time."
+    },
+    "experience62": {
+      "imageSrc": "exp",
+      "heading": "Experience 62+ Years",
+      "text": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Learn More"
+    },
+    "buttonText": "Learn More"
+    }
+  ,
+  "socialResponsibility": {
+    "investment": {
+      "backgroundImage": "/path/to/aboutscreen",
+      "heading1": "social",
+      "heading2": "responsibility",
+      "sub_heading": "Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks and balustrades for more than 50 years in the middle east.",
+      "button": "Get started"
+    },
+    "partner": {
+      "heading1": "About AL-MUDAYFER",
+      "heading2": "social responsibility",
+      "description1": "Despite the close connection and clear connection between the activities of the companies of the Saleh Al-Mudaifer Sons Holding Group and the impacts on the environment from geological or industrial works and carbon emissions to industrial waste, the group was keen to put this matter in the highest consideration, so it developed a comprehensive and systematic plan to include all the work of the Saleh Al-Mudaifer Sons Holding Group and its factories. It applies strict national standards towards the environment and carbon emissions, and the group is environmentally friendly. For this reason, it has been partnered with the most prominent specialized companies to supervise and control with regard to the potential environmental impact resulting from the business, and to assist the group in obtaining the necessary national certificates in this field to confirm the solidity of the business.",
+      "description2": "On this side. Al-Mudaifer Holding has achieved tangible results as a result of this environmental concern, starting from preserving the health of its employees to preserving the general environment or surrounding the work and activities of companies and factories and reducing carbon emissions. Environmental commitment is one of the most prominent pillars on which the group’s work is based, which has reflected its excellence over time."
+    },
+    "experience62": {
+      "imageSrc": "exp",
+      "heading": "Experience 62+ Years",
+      "text": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Learn More"
+    }
+  },
+
+  "omraniaCrusher": {
+    "investment": {
+      "backgroundImage": "/path/to/aboutscreen",
+      "heading1": "Omrania Crusher",
+      "sub_heading": "Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks and balustrades for more than 50 years in the middle east.",
+      "button": "Get started"
+    },
+    "partner": {
+      "heading1": "about omrania crusher",
+      "heading2": "from the land of saudi arabia",
+      "description1": "Despite the close connection and clear connection between the activities of the companies of the Saleh Al-Mudaifer Sons Holding Group and the impacts on the environment from geological or industrial works and carbon emissions to industrial waste, the group was keen to put this matter in the highest consideration, so it developed a comprehensive and systematic plan to include all the work of the Saleh Al-Mudaifer Sons Holding Group and its factories. It applies strict national standards towards the environment and carbon emissions, and the group is environmentally friendly. For this reason, it has been partnered with the most prominent specialized companies to supervise and control with regard to the potential environmental impact resulting from the business, and to assist the group in obtaining the necessary national certificates in this field to confirm the solidity of the business.",
+      "description2": "From the land of Saudi Arabia... Omrania Crusher. Because raw materials are a priority for the success of the industry, we invested in establishing Omrania Crusher in 2004. This investment marks our journey in producing construction materials with high reliability, meeting the highest specifications, and ensuring sustainability. We supply the local market with the finest types of gravel in various sizes, which are used in many different cement industries. These materials play a crucial role in development and progress. Omrania Crusher has contributed to the execution of numerous distinguished projects within the Kingdom. Our product quality sets the foundation for the overall quality of the factories, starting with the quality of the crusher materials."
+  
+    },
+    "experience62": {
+      "imageSrc": "exp",
+      "heading": "Experience 62+ Years",
+      "text": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Learn More"
+    },
+    "card": {
+      "vision": {
+        "image": "/path/to/vision_big",
+        "icon": "/path/to/vision",
+        "heading": "Our Vision",
+        "subHeading": "We aim to provide highly reliable raw materials with extensive distribution in the Saudi market."
+      },
+      "mission": {
+        "image": "/path/to/message_big",
+        "icon": "/path/to/message",
+        "heading": "Our Mission",
+        "subHeading": "Our mission is to meet the supply chain needs for cement products according to the highest standardsOur mission is to meet the supply chain needs for cement products according to the highest standards"
+      },
+      "values": {
+        "image": "/path/to/value_big",
+        "icon": "/path/to/vision",
+        "heading": "Our Values",
+        "subHeading": "Implemented a Quality Control department with advanced testing for customized products meeting global standards. A Safety and Security department, managed by a skilled team, ensures meticulous and safe task execution, minimizing risks to property, the environment, and personnel."
+      }
+    },
+    "imageBoxLeft": {
+      "heading": "GRAVEL",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    },
+    "imageBoxRight": {
+      "heading": "STONE",
+      "text": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    },
+    "testimonial": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    },
+    "helper_nums": {
+      "heading": "WE ARE HAPPY TO COMMUNICATE WITH YOU",
+      "phone": {
+        "icon": "FaPhoneAlt",
+        "text": "Phone: 920000116"
+      },
+      "email": {
+        "icon": "MdEmail",
+        "text": "Email: Info@smsh.com.sa"
+      },
+      "whatsapp": {
+        "icon": "RiWhatsappFill",
+        "text": "Whatsapp: 966501906677"
+      }
+    }
+  },
+  "omraniaCrusherleftBox2": {
+    "imageBoxLeft": {
+      "heading": "ROCK",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "omraniaCrusher_products": {
+    "partner": {
+      "heading2": "OMRANIA CRUSHER COMPANY PRODUCTS",
+      "description1": "Our quarries have been selected based on geological factors and meticulous planning. The extraction of materials (gravel, stone, and rock) from the earth is carried out using the best methods, tools, and techniques to ensure the production of a high-quality final product."
+    }
+  },
+  "omraniaCrusher_heading2": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "our Projects pulse to"
+    }
+  },
+  "omraniaCrusher_heading3": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "Testimonials",
+      "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years."
+    }
+  },
+
+
+  "Omrania_concrete": {
+    "investment": {
+      "backgroundImage": "/path/to/aboutscreen",
+      "heading1": "Omrania For",
+      "heading2": "Concrete",
+      "sub_heading": "Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks, and balustrades for more than 50 years in the Middle East.",
+      "button": "Get started"
+    },
+    "partner": {
+      "heading1": "about omrania for concrete",
+      "heading2": "Al-Omrania Ready Mix Concrete Company",
+      "description1": "One of our holding group's companies, established in 2003, strives to provide confidence and certainty to all stakeholders through an innovative and sustainable approach. We aim to assist them in delivering high-quality construction materials and products, along with providing reliable services to customers and local communities.",
+      "description2": "At Al-Omrania Ready Mix Concrete, we strongly believe that business and environmental preservation should go hand in hand. This is achieved by promoting local culture and traditions and integrating the company's strategies regarding industrial efficiency and innovation with climate protection, reducing reliance on natural resources, and minimizing harmful air emissions. It is a source of pride and honor to use the company's products in constructing some of the finest buildings and renowned structures in the Kingdom. This contributes to enhancing its future position by providing services to the market and meeting the growing needs of consumers. The Riyadh-based factory houses the latest computer-operated production lines, consisting of five modern wet-mixing stations with a total production capacity of up to 720 m³/hour. The factory also includes the latest fleet of German-made mixers for the fastest transportation of ready-mix concrete to construction sites, with a total of 60 mixers. We pay great attention to quality, precision, efficiency, and construction standards in the manufacturing of concrete blocks."
+    },
+    "card": {
+      "vision": {
+        "image": "vision_big",
+        "icon": "vision",
+        "heading": "Our Vision",
+        "subHeading": "We aspire to be pioneers in providing innovative and promising solutions, setting new standards in the field of concrete products, with a focus on maximizing benefits for all stakeholders in the industry."
+      },
+      "mission": {
+        "image": "message_big",
+        "icon": "message",
+        "heading": "Our Mission",
+        "subHeading": "Committed to positive impact in the concrete industry, we deliver innovative, sustainable solutions. Dedicated to excellence, we contribute to societal and environmental progress through continuous development and operational enhancement."
+      },
+      "values": {
+        "image": "value_big",
+        "icon": "vision",
+        "heading": "Quality and Safety",
+        "subHeading": "The company has specialized maintenance workshops for heavy equipment, mixers, and pumps, managed by skilled technicians. Our high-level quality laboratory conducts essential tests, ensuring production quality. We employ an advanced system for mixing, automated weight control, and size control."
+      }
+    },
+    "imageBoxLeft": {
+      "heading": "Ready Mixed Concrete",
+      "text": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    },
+    "testimonial": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    }
+  },
+  "Omraniaheading2": {
+    "partner": {
+      "heading2": "Omrania for Concrete Products",
+      "description1": "Al-Omraniya Concrete Company provides you with the service you need at the lowest costs and in the shortest possible time to ensure ease of work."
+    }
+  },
+  "Omraniaheading3": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "PRODUCTS WE WERE PART OF"
+    }
+  },
+  "Omraniaheading4": {
+    "partner": {
+      "heading1": "Partner with OMRANIA for concrete",
+      "heading2": "Testimonials",
+      "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
+    }
+  },
+  "Omraniaheading5": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "PROJECTS WE WERE PART OF"
+    }
+  },
+  "Omrania_material": {
+    "investment": {
+      "backgroundImage": "/path/to/aboutscreen",
+      "heading1": "Al-Omrania Materials Company",
+      "heading2": "Concrete",
+      "sub_heading": "Al-Omrania Building Materials Company is a pioneer in the production and manufacturing of essential construction materials in the Kingdom of Saudi Arabia.",
+      "button": "Get started"
+    },
+    "partner": {
+      "heading1": "about omrania materials",
+      "heading2": "Saudi Building Icon: Al-Omrania Materials Company",
+      "description1": "Established in 1972, Omrania Materials Company has since secured a leading position in the production of essential building materials in the Kingdom of Saudi Arabia. Our vision is to continuously meet the market's needs by delivering high-quality and efficient products for various construction projects. With a distinguished history spanning over half a century, we commit to providing reliable solutions in the construction sector, including tiles, blocks, interlock pavers, and pavements. Our company has become a preferred choice for both government and private projects within the Kingdom. We adhere to the highest standards of quality and safety, leveraging modern technology and a spirit of innovation to offer products distinguished by efficiency and durability. Our factories showcase a strong commitment to quality through the establishment of advanced laboratories for monitoring and confirming quality, based on both international and local technical specifications",
+      "description2": " We take pride in our commitment to high standards  including  American Society for Quality Testing Specifications  , British Standard Tests ,  Saudi Standards  Metrology  and Quality Organization , We continue to strive for continuous improvement and innovation to achieve the highest levels of customer satisfaction in the Kingdom of Saudi Arabia  maintaining our position at the forefront of the construction materials sector"
+    },
+    "card": {
+      "vision": {
+        "image": "vision_big",
+        "icon": "vision",
+        "heading": "Our Vision",
+        "subHeading": "We aim for sustainable leadership in the construction materials industry through continuous development. We exceed expectations by delivering distinguished products and consistently seek innovation."
+      },
+      "mission": {
+        "image": "message_big",
+        "icon": "message",
+        "heading": "Our Message",
+        "subHeading": "At Al-Omrania, we go beyond expectations through uniqueness and innovation in the construction materials industry. Our mission propels us towards the future, where we commit to achieving excellence and supremacy in the construction sector."
+      },
+      "values": {
+        "image": "value_big",
+        "icon": "vision",
+        "heading": "QUALITY & SAFETY",
+        "subHeading": "The Omraniya factory was established on clear foundations and a comprehensive vision, so it adopted quality as a cornerstone. The management devoted its efforts and focused on quality to ensure obtaining an international Saudi product."
+      }
+    },
+    "imageBoxLeft": {
+      "heading": "Terrazzo Tiles",
+      "text": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    },
+    "imageBoxRight": {
+      "heading": "Block",
+      "text": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Get to know",
+      "imageSrc": "/path/to/image"
+    },
+    "testimonial": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    }
+  },
+  "Omrania_material_heading2": {
+    "partner": {
+      "heading2": "omrania materials company",
+      "description1": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications."
+    }
+  },
+  "Omrania_material_ImageBoxLeft2": {
+    "imageBoxLeft": {
+      "heading": "interlock",
+      "text": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "Omrania_material_ImageBoxRight2": {
+    "imageBoxRight": {
+      "heading": "pavers",
+      "text": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "Omrania_material_heading3": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "PRODUCTS WE WERE PART OF"
+    }
+  },
+  "Omrania_material_heading4": {
+    "partner": {
+      "heading1": "Partner with OMRANIA for concrete",
+      "heading2": "Testimonials",
+      "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
+    }
+  },
+   "Omrania_material_heading5": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "PROJECTS WE WERE PART OF"
+    }
+  },
+
+
+
+
+  "Omrania_metalPower": {
+    "investment": {
+      "backgroundImage": "/path/to/aboutscreen",
+      "heading1": "Al-Omrania Materials Company for Metal Forming",
+      "heading2": "",
+      "sub_heading": "Al-Omrania Materials Metal Forming Company is a leader in the field of metal forming, providing modern and contemporary engineering solutions that meet the needs of various metal forming domains.",
+      "button": "Get started"
+    },
+    "partner": {
+      "heading1": "about AL-Omrania materials",
+      "heading2": "Al-Omrania Materials Company for Metal Forming",
+      "description1": "Al-Omrania Metal Forming Company was established in 2018. It is a specialized company in metal forming, providing modern and contemporary engineering solutions in all fields of metal forming. The company boasts a technical team with the highest qualifications and experiences, utilizing the latest advanced technologies and adhering to industrial methods with the highest standards."
+    },
+    "card": {
+      "vision": {
+        "image": "vision_big",
+        "icon": "vision",
+        "heading": "Our Vision",
+        "subHeading": "We aim for sustainable leadership in the construction materials industry through continuous development. We exceed expectations by delivering distinguished products and consistently seek innovation."
+      },  
+      "mission": {
+        "image": "message_big",
+        "icon": "message",
+        "heading": "Our Message",
+        "subHeading": "At Al-Omrania, we go beyond expectations through uniqueness and innovation in the construction materials industry. Our mission propels us towards the future, where we commit to achieving excellence and supremacy in the construction sector."
+      },
+      "values": {
+        "image": "value_big",
+        "icon": "vision",
+        "heading": "QUALITY & SAFETY",
+        "subHeading": "The Omraniya factory was established on clear foundations and a comprehensive vision, so it adopted quality as a cornerstone. The management devoted its efforts and focused on quality to ensure obtaining an international Saudi product."
+      }
+    },
+    "imageBoxLeft": {
+      "heading": "Electrostatic",
+      "text": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    },
+    "imageBoxRight": {
+      "heading": "Punching",
+      "text": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Get to know",
+      "imageSrc": "/path/to/image"
+    },
+    "testimonial": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    }
+  },
+  "Omrania_metalPower_heading2": {
+    "partner": {
+      "heading2": "omrania materials company",
+      "description1": "The company offers a number of precise and high-quality artistic works  including: 1. Electrostatics \n 2. Punching \n  3. Forming various metal materials \n  4. Welding of metal materials"
+    }
+  },
+  "Omrania_metalPower_ImageBoxLeft2": {
+    "imageBoxLeft": {
+      "heading": "Forming various metals",
+      "text": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "Omrania_metalPower_ImageBoxRight2": {
+    "imageBoxRight": {
+      "heading": "Welding of metal materials",
+      "text": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "Omrania_metalPower_heading3": {
+    "partner": {
+      "heading1": "Welding equipment for the Al-Omrania Crusher Company",
+      "heading2": "PRODUCTS WE WERE PART OF"
+    }
+  },
+  "Omrania_metalPower_heading4": {
+    "partner": {
+      "heading1": "Partner with OMRANIA for concrete",
+      "heading2": "Testimonials",
+      "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
+    }
+  },
+
+
+
+  "Omrania_woodProducts": {
+    "investment": {
+      "backgroundImage": "/path/to/aboutscreen",
+      "heading1": "Al-Omrania Company for Wooden Products",
+      "heading2": "",
+      "sub_heading": "A leading Saudi company in manufacturing high-quality furniture and producing custom-made furniture",
+      "button": "Get started"
+    },
+    "partner": {
+      "heading1": "about Wooden Products",
+      "heading2": "Our Products",
+      "description1": "It is a leading Saudi company in the manufacturing of high-quality furniture, producing custom-made furniture such as reception units, cabinets, kitchens, wall panels, doors, ceilings, and bespoke solutions. They utilize the latest technologies to manufacture furniture that meets the highest international standards. Al-Omrania for Wood Products is one of the investments of the Sons of Saleh Al-Mudayfer Holding Company, established in 1996. They have significant commercial interests in a wide range of activities across the Kingdom. Al-Mudayfer Company aims to form an integrated industrial group serving urban areas, corporate affairs, and individuals. From this vision, the idea of establishing Al-Umrania for Wood Products emerged. The wood products factory is an integral service component, in addition to other services provided by the holding group."
+    },
+    "card": {
+      "vision": {
+        "image": "vision_big",
+        "icon": "vision",
+        "heading": "Our Vision",
+        "subHeading": "Project management is conducted in a timely manner with the required quality, and the values we achieve align with the Vision 2030 of the Kingdom of Saudi Arabia in industrial development, aiming to compete with global industries."
+      },  
+      "mission": {
+        "image": "message_big",
+        "icon": "message",
+        "heading": "Our Message",
+        "subHeading": "Paying meticulous attention to details, uniqueness in creativity, and providing an exceptional experience of beauty and quality in the world of furniture, translating it from local to global."
+      },
+      "values": {
+        "image": "value_big",
+        "icon": "vision",
+        "heading": "QUALITY & SAFETY",
+        "subHeading": "Wide-ranging expertise and established partnerships with effective companies have shaped our work in local and global joint ventures, recognized as leaders. This contributes to achieving excellence and mastering partnerships with high efficiency, all to maintain the company's vision characterized by sincerity and trust."
+      }
+    },
+    "imageBoxLeft": {
+      "heading": "Reception Units",
+      "text": "lorem the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    },
+    "imageBoxRight": {
+      "heading": "Cabinets",
+      "text": " lorem epsum We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Get to know",
+      "imageSrc": "/path/to/image"
+    },
+    "testimonial": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    }
+  },
+  "Omrania_woodProducts_heading2": {
+    "partner": {
+      "heading2": "Al-Omrania Company for Wooden Products",
+      "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
+    }
+  },
+  "Omrania_woodProducts_ImageBoxLeft2": {
+    "imageBoxLeft": {
+      "heading": "Kitchens",
+      "text": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "Omrania_woodProducts_ImageBoxRight2": {
+    "imageBoxRight": {
+      "heading": "Wall Panels",
+      "text": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "Omrania_woodProducts_heading3": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "PRODUCTS WE WERE PART OF"
+    }
+  },
+  "Omrania_woodProducts_heading4": {
+    "partner": {
+      "heading1": "Partner with OMRANIA for concrete",
+      "heading2": "Testimonials",
+      "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
+    }
+  },
+
+
+  "SaudiPlayer_polishingMaterials": {
+    "investment": {
+      "page": "SaudiPlayer_polishingMaterials",
+      "backgroundImage": "aboutscreen",
+      "heading1": "Saudi Factory for Grinding and Polishing Materials Company",
+      "sub_heading": "A leader in the field of manufacturing building materials and the first specialized Saudi factory in the production of gears and cutting cylinders in various sizes and for various purposes.",
+      "button": "Get started"
+    },
+    "partner": {
+      "page": "SaudiPlayer_polishingMaterials",
+      "heading1": "about omrania materials",
+      "heading2": "Saudi Factory for Grinding and Polishing Materials Company",
+      "description1": "One of the leading companies in the field of manufacturing building materials and the first specialized Saudi factory in the production of gears and cutting cylinders in various sizes and for various purposes. Some are used for cutting iron, others for cutting and breaking stones and tiles, as well as manufacturing grinding stones commonly used in tile polishing of various types. The idea of establishing a factory dedicated to producing these materials emerged from the founder Saleh Al-Madaifer's keenness to provide complementary materials for the production of tile industry instead of importing them. It is known that the tile industry, in its various types, requires, in its final stage, grinding the product to remove impurities, making it ready for installation. In addition, cutting cylinders are also used in tiling. This factory now meets the needs of the group's affiliated factories and similar factories. Besides, cylinders and gears are used for other purposes in light and heavy iron industries, supplying the local market with them.",
+      "description2": "The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
+    },
+    "card": {
+      "vision": {
+        "heading": "Our Vision",
+        "subHeading": "Leadership and excellence in product diversity with the highest standards in the field of manufacturing grinding and polishing materials."
+      },
+      "mission": {
+        "heading": "Our Message",
+        "subHeading": "Commitment to continuous investment in intensifying research and product development."
+      },
+      "values": {
+        "heading": "QUALITY & SAFETY",
+        "subHeading": "The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
+      }
+    },
+    "imageBoxLeft": {
+      "heading": "STONE",
+      "text": "lorem the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    },
+    "imageBoxRight": {
+      "heading": "CAST IRON",
+      "text": " lorem epsum We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Get to know",
+      "imageSrc": "/path/to/image"
+    },
+    "testimonial": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    }
+  },
+  "SaudiPlayer_polishingMaterials_heading2": {
+    "partner": {
+      "heading2": "omrania materials company",
+      "description1": "A group of cutting, grinding and polishing gears such as:"
+    }
+  },
+  "SaudiPlayer_polishingMaterials_ImageBoxLeft2": {
+    "imageBoxLeft": {
+      "heading": "METAL",
+      "text": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "SaudiPlayer_polishingMaterials_ImageBoxRight2": {
+    "imageBoxRight": {
+      "heading": "S.STEEL",
+      "text": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "SaudiPlayer_polishingMaterials_heading3": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "PRODUCTS WE WERE PART OF"
+    }
+  },
+  "SaudiPlayer_polishingMaterials_heading4": {
+    "partner": {
+      "heading1": "Partner with OMRANIA for concrete",
+      "heading2": "Testimonials",
+      "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
+    }
+  },
+  "SaudiPlayer_polishingMaterials_heading5": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "PROJECTS WE WERE PART OF"
+    }
+  },
+
+
+
+  "Omrania_landTransport": {
+    "investment": {
+      "backgroundImage": "aboutscreen",
+      "heading1": "Al-Omrania Materials Company for Land Transport",
+      "sub_heading": "Integrated and innovative solutions specialized in land transportation with the latest technologies. We have provided a ground transportation fleet with the highest standards of safety and security to ensure the preservation of products.",
+      "button": "Get started"
+    },
+    "partner": {
+      "heading1": "about omrania materials",
+      "heading2": "Al-Omrania Materials Company for Land Transport",
+      "description1": "Due to the significant and continuous economic development,Al-Omrania Land Transportation Company was established to keep pace with progress and provide integrated and innovative solutions specialized in land transportation with the latest technologies. We have introduced a ground transportation fleet with the highest standards of safety and security to ensure the preservation of products. Through continuous planning and the adoption of advanced methods and technologies, the company has gained great trust, established relationships with major companies and brands, and became the optimal solution for transporting raw materials and infrastructure for all factories and contracting companies.",
+      "description2": "It serves as a key driver for the growth of import and export companies by providing international land transportation solutions (partial and full) based on the following principles: • We commit to the concept of comprehensive quality in all our operations and services to achieve added value for our customers and stakeholders."
+    },
+    "card": {
+      "vision": {
+        "heading": "Our Vision",
+        "subHeading": "Leadership and excellence in product diversity with the highest standards in the field of manufacturing grinding and polishing materials."
+      },
+      "mission": {
+        "heading": "Our Message",
+        "subHeading": "Commitment to continuous investment in intensifying research and product development."
+      },
+      "values": {
+        "heading": "QUALITY & SAFETY",
+        "subHeading": "The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
+      }
+    },
+    "imageBoxLeft": {
+      "heading": "Land transportation via trucks",
+      "text": "lorem the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    },
+ 
+    "testimonial": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    }
+  },
+  "Omrania_landTransport_heading2": {
+    "partner": {
+      "heading2": "Al-Omrania Materials Company for Land Transport",
+      "description1": "Freight transport by trucks includes the movement of raw materials and products within and outside the Kingdom.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "Omrania_landTransport_heading3": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "PRODUCTS WE WERE PART OF.",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "Omrania_landTransport_heading4": {
+    "partner": {
+      "heading1": "Partner with OMRANIA for concrete",
+      "heading2": "Testimonials",
+      "description1":"Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
+
+    }
+  },
+
+
+
+
+
+  "Omrania_logisticSupport": {
+    "investment": {
+      "backgroundImage": "aboutscreen",
+      "heading1": "Al-Omrania Logistics Support Company",
+      "sub_heading": "The Al-Omrania Materials for Logistics Support company is based on core values that it adheres to and contributes to its business growth. These values include integrity, quality, and excellence.",
+      "button": "Get started"
+    },
+    "partner": {
+      "heading1": "about omrania materials",
+      "heading2": "Saudi Building Icon: Al-Omrania Materials Company",
+      "description1": "Established in 2019 as part of the Sons of Saleh Al-Mudayfer Holding Company to keep pace with developments in the logistics sector, especially with the focus on the Kingdom's Vision 2030 and the establishment of a national strategy for transportation and logistics.",
+      "description2": "Al-Omrania Logistics, as a subsidiary, excels in planning, implementing, and controlling the flexible and efficient flow and storage of goods between the point of production and the point of consumption, aiming to satisfy the consumer."
+    },
+    "card": {
+      "vision": {
+        "heading": "Our Vision",
+        "subHeading": "Aligning with the Kingdom's Vision 2030, Al-Omrania Logistics serves as a key supporter of logistic activities, playing a fundamental role in driving economic leadership through logistic services."
+      },
+      "mission": {
+        "heading": "Our Message",
+        "subHeading": "Commitment to continuous investment in intensifying research and product development."
+      },
+      "values": {
+        "heading": "QUALITY & SAFETY",
+        "subHeading": "The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
+      }
+    },
+    "imageBoxLeft": {
+      "heading": "Shipping services",
+      "text": "lorem the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    },
+    "imageBoxRight": {
+      "heading": "Storage services",
+      "text": " lorem epsum We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "buttonText": "Get to know",
+      "imageSrc": "/path/to/image"
+    },
+    "testimonial": {
+      "date": "October 28, 2003",
+      "headline": "The Construction Experts",
+      "read_more": "Read More"
+    }
+  },
+  "Omrania_logisticSupport_heading2": {
+    "partner": {
+      "heading2": "Al-Omrania Logistics Support Company",
+      "description1": "No need to worry about your shipping procedures with Al-Omrania for Logistics Support, a trusted shipping agent in the region. With extensive coverage and a vast network of agents, backed by years of experience in the field, we handle shipments whether they are large quantities or just a few kilograms. Whether shipping by air, sea, or land, businesses worldwide entrust us with their cargo. Our experience over the years has helped businesses grow and expand across borders. In addition to shipping, we also commit to assisting with customs clearance and import-export, working alongside you to provide value-added services.",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "Omrania_logisticSupport_heading3": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "PRODUCTS WE WERE PART OF.",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "Omrania_logisticSupport_heading5": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "PROJECT WE WERE PART OF.",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "Omrania_logisticSupport_heading4": {
+    "partner": {
+      "heading1": "Partner with OMRANIA for concrete",
+      "heading2": "Testimonials",
+      "description1":"Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
+
+    }
+  },
+  "Omrania_logisticSupport_ImageBoxLeft2": {
+    "imageBoxLeft": {
+      "heading": "Distribution services",
+      "text": "With the trust we've built as a logistics services partner and strategically located warehouses, you can expect easy entry into local markets in the shortest time by working with us. Our extensive network of operations allows us to tailor our fleet to your transportation and logistics service requirements. We can accurately assess the local goods distribution network in terms of size and area, then customize a package that meets all your essential needs",
+      "buttonText": "read more",
+      "imageSrc": "/path/to/image"
+    }
+  },
+  "contact":{
+    "investment": {
+      "backgroundImage": "contact",
+      "heading1": "still curious?",
+      "heading2": "contact us",
+      "sub_heading": "New Industrial City - Al-Musafa District - Street 194 Riyadh - Kingdom of Saudi Arabia",
+      "button": "Know More"
+    },
+    "partner": {
+      "heading2": "LET’S GET IN TOUCH WITH OUR PROFESSIONALS TEAM WORKING",
+      "description1": "Integration in the commercial market is an important requirement, especially between the producer and the investor who wants to benefit from his experience and work in marketing products by obtaining an important role as a wholesale and retail trader.20 We at Saleh Al-Mudaifer Sons Holding Group seek to maximize the benefits of our commercial activity to include different segments of society and we welcome partnerships of this kind with all companies affiliated with the group."
+    },
+    "touch":"stay in touch",
+    "contactInfo": {
+      "officeLocation": {
+        "heading": "Office Location",
+        "subHeading": "New Industrial City - Al-Musafa"
+      },
+      "email": {
+        "heading": "Email",
+        "subHeading": "info@smsh.com.sa"
+      },
+      "phone": {
+        "heading": "Phone",
+        "subHeading": "920000116"
+      },
+      "whatsapp": {
+        "heading": "Whatsapp",
+        "subHeading": "966501906677"
+      }
+    },
+    "form": {
+      "formHeading": "Keep in touch",
+      "formSubHeading": "Please let us know how can we help you",
+      "label": {
+        "firstName": "First name",
+        "email": "Email",
+        "lastName": "Last name",
+        "phone": "Telephone",
+        "message": "Message"
+      },
+      "placeholders": {
+        "firstName": "Ex. Aamir",
+        "email": "Email",
+        "lastName": "Ex. Doe",
+        "phone": "Telephone",
+        "message": "Write Message"
+      },
+      "button": "SEND MESSAGE"
+    }
+  },
+  "Milestone": {
+    "yr": {
+      "heading": "29+",
+      "subHeading": "Years in business"
+    },
+    "projectsValue": {
+      "heading": "$3B",
+      "subHeading": "in projects"
+    },
+    "annualSpend": {
+      "heading": "$300M+",
+      "subHeading": "spend per year"
+    },
+    "completedProjects": {
+      "heading": "275+",
+      "subHeading": "completed projects"
+    }
+  },
+
+  "footer": {
+    "mainLine": "Saleh AL-MUDAYFER Sons Holding Company (investment in building the nation), a Saudi Company",
+    "mainLineMobile": "Saleh AL-MUDAYFER Sons Holding Company (investment in building the nation), a Saudi Company",
+    "alwaysBeWithUs": "ALWAYS BE WITH US",
+    "phone": "Phone : 800-286-2915",
+    "email": "Email : info@segalebros.com",
+    "icons": {
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "github": "GitHub"
+    },
+    "company": {
+      "heading1": "COMPANY",
+      "about": "About AL-MUDAYFER",
+      "visionMission": "Vision and Mission",
+      "ourHistory": "Our History",
+      "socialResponsibility": "Social Responsibility",
+      "environmentalResponsibility": "Environmental Responsibility",
+      "nationalResponsibility": "National Responsibility"
+    },
+    "investment": {
+      "heading2": "RESOURCES",
+      "ourInvestments": "Our Investments",
+      "investWithUs": "Invest with us",
+      "joinAsSupplier": "Join as a Supplier",
+      "joinAsClient": "Join as an Investor",
+      "joinAsEmployee": "Join as an Employee"
+    }
+  }
+}

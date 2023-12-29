@@ -26,7 +26,7 @@
     line-height: 47px;
     font-weight: 500;
     color: var(--skyblue);
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .right_line {
@@ -43,7 +43,7 @@
     color: white;
     background-color: var(--blue);
     padding: 20px 40px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     cursor: pointer;
 }
 
@@ -82,7 +82,7 @@
         font-size: 24px;
         font-weight: 500;
         color: var(--skyblue);
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
 
     .right_line {

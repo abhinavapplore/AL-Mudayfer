@@ -23,8 +23,13 @@ import Omrania_landTransport from './company_pages/Omrania_landTransport/Omrania
 import Omrania_woodProducts from './company_pages/Omrania_woodProducts/Omrania_woodProducts';
 import SaudiPlayer_polishingMaterials from './company_pages/SaudiPlayer_polishingMaterials/SaudiPlayer_polishingMaterials';
 import Omrania_logisticSupport from './company_pages/Omrania_logisticSupport/Omrania_logisticSupport';
+import NewsDetails from './components/NewsDetails/NewsDetails';
+
 
 const App = () => {
+
+
+  
   return (
     <>
       <Header />
@@ -33,15 +38,13 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/media' element={<Media />} />
         <Route path='/investment' element={<Investment />} />
-        <Route path='/join' element={<Join />} />
+        <Route path='/join/:id' element={<Join />} />
         <Route path='/contact' element={<Contact />} />
 
-
+    
         <Route path='/national_responsibility' element={<National />} />
         <Route path='/environmental_responsibility' element={<Environmental />} />
         <Route path='/social_responsibility' element={<Social_Responsibility />} />
-
-
         <Route path='/omrania_crusher' element={<Omrania_crushers />} /> {/*company 1 */}
         <Route path='/omrania_concrete' element={<Omrania_concrete />} /> {/*company 2 */}
         <Route path='/omrania_material' element={<Omrania_material />} /> {/*company 3 */}
@@ -50,6 +53,9 @@ const App = () => {
         <Route path='/SaudiPlayer_polishingMaterials' element={<SaudiPlayer_polishingMaterials />} /> {/*company 6 */}
         <Route path='/omrania_landTransport' element={<Omrania_landTransport />} /> {/*company 7 */}
         <Route path='/omrania_logisticSupport' element={<Omrania_logisticSupport />} /> {/*company 8 */}
+
+        
+        <Route path='/newsDetails/:id' element={<NewsDetails />} />
 
 
         <Route path='*' element={<PageNotFound />} />

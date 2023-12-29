@@ -28,7 +28,7 @@
     line-height: 47px;
     font-weight: 500;
     color: var(--skyblue);
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .right_line {
@@ -86,7 +86,7 @@
         font-size: 24px;
         font-weight: 500;
         color: var(--skyblue);
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
 
     .right_line {

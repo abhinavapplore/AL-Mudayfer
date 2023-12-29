@@ -7,31 +7,34 @@ import { BsFillTelephoneFill } from 'react-icons/bs'
 import { MdEmail } from 'react-icons/md'
 import logo from '../../images/logo0.svg'
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 
 const Footer = () => {
+
+    const {t} = useTranslation()
     return (
         <>
             <div className={styles.footer}>
                 <div className={styles.container}>
                     <div className={styles.main_line}>
-                        Saleh AL-MUDAYFER Sons Holding Company (investment in building the nation),  a Saudi Company
+                        {t('footer.mainLine')}
                     </div>
                     <div className={styles.main_line_mobile}>
-                        Saleh AL-MUDAYFER Sons Holding Company (investment in building the nation),  a Saudi Company
-                    </div>
+                    {t('footer.mainLineMobile')}                    </div>
                     <div className={styles.footer_container}>
                         <div className={styles.left}>
                             <div className={styles.logo}>
                                 <img src={logo} alt="" />
                             </div>
                             <div className={styles.left_box}>
-                                <div className={styles.tag_line}>ALWAYS BE WITH US</div>
+                                <div className={styles.tag_line}> {t('footer.alwaysBeWithUs')} </div>
                                 <div className={styles.phone}>
-                                    <BsFillTelephoneFill /> Phone : 800-286-2915
+                                    <BsFillTelephoneFill /> <a href={`skype:${'footer.phone'}?call`}>{t('footer.phone')}</a>
                                 </div>
+                                
                                 <div className={styles.phone}>
-                                    <MdEmail /> Email : info@segalebros.com
+                                    <MdEmail /> <a href={`mailto:${t('footer.email')}`}>{t('footer.email')}</a>
                                 </div>
                             </div>
 
@@ -53,64 +56,64 @@ const Footer = () => {
 
                         <div className={styles.right}>
                             <div className={styles.right_company}>
-                                <div className={styles.right_company_heading}>Company</div>
+                                <div className={styles.right_company_heading}> {t('footer.company.heading1')}</div>
                                 <div className={styles.right_company_content}>
                                     <Link to='/about'>
-                                        About AL-MUDAYFER
+                                    {t('footer.company.about')}
                                     </Link>
                                 </div>
                                 <div className={styles.right_company_content}>
                                     <Link to='/about'>
-                                        Vision and Mission
+                                    {t('footer.company.visionMission')}
                                     </Link>
                                 </div>
                                 <div className={styles.right_company_content}>
                                     <Link to='/about'>
-                                        Our History
+                                    {t('footer.company.ourHistory')}
                                     </Link>
                                 </div>
                                 <div className={styles.right_company_content}>
                                     <Link to="/social_responsibility">
-                                        Social Responsibility
+                                    {t('footer.company.socialResponsibility')}
                                     </Link>
                                 </div>
                                 <div className={styles.right_company_content}>
                                     <Link to="/environmental_responsibility">
-                                        Environmental Responsibility
+                                    {t('footer.company.environmentalResponsibility')}
                                     </Link>
                                 </div>
                                 <div className={styles.right_company_content}>
                                     <Link to="/national_responsibility">
-                                        National Responsibility
+                                    {t('footer.company.nationalResponsibility')}
                                     </Link>
                                 </div>
                             </div>
 
                             <div className={styles.right_company}>
-                                <div className={styles.right_company_heading}>Company</div>
+                                <div className={styles.right_company_heading}> {t('footer.investment.heading2')}</div>
                                 <div className={styles.right_company_content}>
                                     <Link to="/investment">
-                                        Our Investments
+                                    {t('footer.investment.ourInvestments')}
                                     </Link>
                                 </div>
                                 <div className={styles.right_company_content}>
                                     <Link to="/investment">
-                                        Invest with us
+                                    {t('footer.investment.investWithUs')}
                                     </Link>
                                 </div>
                                 <div className={styles.right_company_content}>
-                                    <Link to="/join">
-                                        Join as a Supplier
+                                    <Link to="/join/supplier">
+                                    {t('footer.investment.joinAsSupplier')}
                                     </Link>
                                 </div>
                                 <div className={styles.right_company_content}>
-                                    <Link to="/join">
-                                        Join as a Client
+                                    <Link to="/join/investor">
+                                    {t('footer.investment.joinAsClient')}
                                     </Link>
                                 </div>
                                 <div className={styles.right_company_content}>
-                                    <Link to='/contact'>
-                                        Join as an Employee
+                                    <Link to='/join/employee'>
+                                    {t('footer.investment.joinAsEmployee')}
                                     </Link>
                                 </div>
                             </div>

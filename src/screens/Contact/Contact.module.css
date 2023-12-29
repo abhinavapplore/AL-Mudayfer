@@ -18,7 +18,7 @@
 
 .blue_heading {
     font-size: 34px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +47,7 @@
     line-height: 78px;
     font-size: 24px;
     white-space: nowrap;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .sub_heading {
@@ -98,7 +98,7 @@
 .form_heading {
     font-size: 25px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     /* line-height: 32px; */
 }
 

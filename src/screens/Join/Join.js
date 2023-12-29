@@ -14,11 +14,20 @@ import { AiOutlineLine } from 'react-icons/ai'
 import Slider from '../../resuable/slider/Slider';
 
 import worker from '../../images/join/worker.jpg'
+import { useTranslation } from 'react-i18next';
+import { useParams } from 'react-router-dom';
+
 
 
 
 const Join = () => {
+  const { t } = useTranslation();
+  const {id} = useParams()
+ 
+
   const url = process.env.REACT_APP_BACKEND_URL + "/create"
+
+
 
   const [formData, setFormData] = useState({
     firstName: '',
@@ -63,8 +72,12 @@ const Join = () => {
   };
 
 
-  // SLIDER IMAGES
-  const sliderCards = [
+
+
+  
+
+ // SLIDER IMAGES
+  const sliderCardsEn = [
     {
       image: worker,
       badge: 'dealer',
@@ -109,6 +122,52 @@ const Join = () => {
     },
   ];
 
+  const sliderCardsAr =[
+    {
+      image: worker,
+      badge: "تاجر",
+      heading: "تاجر مواد",
+      subHeading: "لوريم إيبسوم دولور سيت أميت",
+      buttonText: "قراءة المزيد"
+    },
+    {
+      image: worker,
+      badge: "تاجر",
+      heading: "تاجر مواد",
+      subHeading: "لوريم إيبسوم دولور سيت أميت",
+      buttonText: "قراءة المزيد"
+    },
+    {
+      image: worker,
+      badge: "تاجر",
+      heading: "تاجر مواد",
+      subHeading: "لوريم إيبسوم دولور سيت أميت",
+      buttonText: "قراءة المزيد"
+    },
+    {
+      image: worker,
+      badge: "تاجر",
+      heading: "تاجر مواد",
+      subHeading: "لوريم إيبسوم دولور سيت أميت",
+      buttonText: "قراءة المزيد"
+    },
+    {
+      image: worker,
+      badge: "تاجر",
+      heading: "تاجر مواد",
+      subHeading: "لوريم إيبسوم دولور سيت أميت",
+      buttonText: "قراءة المزيد"
+    },
+    {
+      image: worker,
+      badge: "تاجر",
+      heading: "تاجر مواد",
+      subHeading: "لوريم إيبسوم دولور سيت أميت",
+      buttonText: "قراءة المزيد"
+    }
+  ];
+
+
   return (
     <>
       <Investment
@@ -116,30 +175,26 @@ const Join = () => {
         heading1="join us"
         sub_heading="Always be close to us and part of our journey and get what you want from it’s source."
         button="get started"
+        page="join"
       />
-      <Heading
+      {/* <Heading
         heading1="Partner with AL-MUDAYFER"
         heading2="explore jobs"
         description1="Building bridges of communication with others is part of our ambitious vision to keep pace with the national economic movement and towards greater effectiveness for society and for us as an important economic component in the Kingdom of Saudi Arabia."
+        page="join"
       />
 
-      <Slider cards={sliderCards} />
+      <Slider cards={  localStorage.getItem('i18nextLng') === "ar" ?sliderCardsAr :  sliderCardsEn}/> */}
 
       {/* supplier */}
-      <div className={styles.container}>
+      <div className={styles.container} id='formSection'>
         <div className={styles.left}>
-          <div className={styles.heading}> <div className={styles.mid_line}></div> join as a supplier</div>
+          <div className={styles.heading}> <div className={styles.mid_line}></div>{`Join As a ${id}`}</div>
           <div className={styles.main_heading}>
-            Discover the benefits of collaborating with us as a supplier.
+          {t('join.supplier.mainHeading') +' '+id +'.'}
           </div>
           <div className={styles.sub_heading1}>
-            Integration in the commercial market is an important requirement, especially between
-            the producer and the investor who wants to benefit from his experience and work in
-            marketing products by obtaining an important role as a wholesale and retail trader.
-            20
-            We at Saleh Al-Mudaifer Sons Holding Group seek to maximize the benefits of our
-            commercial activity to include different segments of society and we welcome
-            partnerships of this kind with all companies affiliated with the group.
+          {t('join.supplier.subHeading1')}
           </div>
           {/* <div className={styles.sub_heading2}>
             Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur.
@@ -148,16 +203,15 @@ const Join = () => {
         <div className={styles.right}>
           <div className={styles.form}>
             <div className={styles.form_top}>
-              <div className={styles.form_heading}>FILL THIS FORM TO GET AN QUOTATION</div>
+              <div className={styles.form_heading}>{t('join.supplier.form.formHeading')}</div>
               <div className={styles.form_sub_heading}>
-                Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur.
-              </div>
+              {t('join.supplier.form.formHeading')} </div>
             </div>
 
             <form onSubmit={handleSubmit}>
               <div className={styles.main_form_container}>
                 <div className={styles.left_form_container}>
-                  <div className={styles.label_name}>First name</div>
+                  <div className={styles.label_name}>{t('join.supplier.form.labels.firstName')}</div>
                   <input
                     type="text"
                     placeholder='Ex. Aamir'
@@ -166,11 +220,11 @@ const Join = () => {
                     name="firstName"
                     required
                   />
-                  <div className={styles.label_name}>email</div>
+                  <div className={styles.label_name}>{t('join.supplier.form.labels.email')}</div>
                   <input
                     type="email"
                     pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$"
-                    placeholder='Email'
+                    placeholder={t('join.supplier.form.labels.email')}
                     onChange={handleChange}
                     value={formData.email}
                     name="email"
@@ -178,7 +232,7 @@ const Join = () => {
                   />
                 </div>
                 <div className={styles.left_form_container}>
-                  <div className={styles.label_name}>Last name</div>
+                  <div className={styles.label_name}>{t('join.supplier.form.labels.lastName')}</div>
                   <input
                     type="text"
                     placeholder='Ex. Doe'
@@ -187,11 +241,11 @@ const Join = () => {
                     onChange={handleChange}
                     required
                   />
-                  <div className={styles.label_name}>Telephone</div>
+                  <div className={styles.label_name}>{t('join.supplier.form.labels.telephone')}</div>
                   <input
                     type="text"
                     pattern="^\d{7}$|^\d{10}$"
-                    placeholder='Telephone'
+                    placeholder={t('join.supplier.form.labels.telephone')}
                     title="Please Enter The Mobile Number"
                     value={formData.phone}
                     onChange={handleChange}
@@ -201,7 +255,7 @@ const Join = () => {
                 </div>
               </div>
               <div className={styles.button_and_textarea}>
-                <div className={styles.label_name}>Message</div>
+                <div className={styles.label_name}>{t('join.supplier.form.labels.message')}</div>
                 <input
                   type="textarea"
                   placeholder='Write Message'
@@ -211,8 +265,8 @@ const Join = () => {
                   required
                 />
                 <div className={styles.send_button}>
-                  <button>
-                    SEND MESSAGE
+                  <button onClick={console.log("formData",formData)}>
+                  {t('join.supplier.form.button')}
                   </button>
                 </div>
               </div>
@@ -223,34 +277,33 @@ const Join = () => {
       </div>
 
       {/* client */}
-      <div className={styles.container}>
+      {/* <div className={styles.container}>
 
         <div className={styles.right}>
           <div className={styles.form}>
             <div className={styles.form_top}>
-              <div className={styles.form_heading}>FILL THIS FORM TO GET AN QUOTATION</div>
+              <div className={styles.form_heading}>{t('join.client.form.heading')}</div>
               <div className={styles.form_sub_heading}>
-                Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur.
-              </div>
+              {t('join.client.form.subHeading')}              </div>
             </div>
 
             <form onSubmit={handleSubmit}>
               <div className={styles.main_form_container}>
                 <div className={styles.left_form_container}>
-                  <div className={styles.label_name}>First name</div>
+                  <div className={styles.label_name}>{t('join.client.form.labels.firstName')}</div>
                   <input
                     type="text"
-                    placeholder='Ex. Aamir'
+                    placeholder={t('join.client.form.placeholders.firstName')}
                     onChange={handleChange}
                     value={formData.firstName}
                     name="firstName"
                     required
                   />
-                  <div className={styles.label_name}>email</div>
+                  <div className={styles.label_name}>{t('join.client.form.labels.email')}</div>
                   <input
                     type="email"
                     pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$"
-                    placeholder='Email'
+                    placeholder={t('join.client.form.placeholders.email')}
                     onChange={handleChange}
                     value={formData.email}
                     name="email"
@@ -258,20 +311,20 @@ const Join = () => {
                   />
                 </div>
                 <div className={styles.left_form_container}>
-                  <div className={styles.label_name}>Last name</div>
+                  <div className={styles.label_name}>{t('join.client.form.labels.lastName')}</div>
                   <input
                     type="text"
-                    placeholder='Ex. Doe'
+                    placeholder={t('join.client.form.placeholders.lastName')}
                     name="lastName"
                     value={formData.lastName}
                     onChange={handleChange}
                     required
                   />
-                  <div className={styles.label_name}>Telephone</div>
+                  <div className={styles.label_name}>{t('join.client.form.labels.phone')}</div>
                   <input
                     type="text"
                     pattern="^\d{7}$|^\d{10}$"
-                    placeholder='Telephone'
+                    placeholder={t('join.client.form.placeholders.phone')}
                     title="Please Enter The Mobile Number"
                     value={formData.phone}
                     onChange={handleChange}
@@ -281,10 +334,10 @@ const Join = () => {
                 </div>
               </div>
               <div className={styles.button_and_textarea}>
-                <div className={styles.label_name}>Message</div>
+                <div className={styles.label_name}>{t('join.client.form.labels.message')}</div>
                 <input
                   type="textarea"
-                  placeholder='Write Message'
+                  placeholder={t('join.client.form.placeholders.message')}
                   onChange={handleChange}
                   value={formData.message}
                   name="message"
@@ -292,27 +345,25 @@ const Join = () => {
                 />
                 <div className={styles.send_button}>
                   <button>
-                    SEND MESSAGE
+                  {t('join.client.form.button')}
                   </button>
                 </div>
               </div>
-              {/* <div className={styles.right_form_container}></div> */}
+        
             </form>
           </div>
         </div>
         <div className={styles.left}>
-          <div className={styles.heading}> <div className={styles.mid_line}></div> join as a client</div>
+          <div className={styles.heading}> <div className={styles.mid_line}></div>{t('join.client.joinHeading')}</div>
           <div className={styles.main_heading}>
-            Unlock tailored solutions and unparalleled support by becoming our client.
+          {t('join.client.mainHeading')}
           </div>
           <div className={styles.sub_heading1}>
-            Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur.
-          </div>
+          {t('join.client.subHeading1')}</div>
           <div className={styles.sub_heading2}>
-            Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur.
-          </div>
+          {t('join.client.subHeading2')} </div>
         </div>
-      </div>
+      </div> */}
 
       <Company
         backgroundImage={value}
@@ -320,7 +371,9 @@ const Join = () => {
         heading2="OPPORTUNITIES"
         sub_heading="The name that has been associated with building and construction works for development monuments over generations from the Kingdom of Saudi Arabia and to the Middle East."
         button="Know More "
+        page="join"
       />
+
 
     </>
   )

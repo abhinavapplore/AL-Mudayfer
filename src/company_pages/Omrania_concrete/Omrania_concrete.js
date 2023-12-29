@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Testimonial from '../../resuable/testimonials/Testimonial'
 import Heading from '../../components/Heading/Heading'
 import ImageBoxRight from '../../components/ImageBoxRight/ImageBoxRight'
@@ -23,32 +23,83 @@ import CompanySlider from '../../resuable/company_slider/CompanySlider'
 
 import img1 from '../../images/const1.jpg'
 import img2 from '../../images/const2.jpg'
+import imgProduct1 from '../../images/Omrania_concrete_imgProduct1.png'
+import imgschoolImg from '../../images/Omrania_concrete_imgschool.png'
+import CompanyTesti from '../../components/companyTesti/companyTesti'
+
 
 const Omrania_concrete = () => {
+
+
+    const [arr,setArr] = useState([])
+    
+
+    const productslider = [
+        {
+            image: imgProduct1,
+            heading: 'Product',
+            subHeading: 'Ready Mixed Concrete',
+        },  
+    ]
+
     // SLIDER DATA
-    const sliderItems = [
+    const sliderItemsEn = [
         {
             image: img1,
             heading: 'Construction',
-            subHeading: 'Origins of Expertise Contracting Est',
+            subHeading: 'Establishment of Dr. Sulaiman Al-Habib Hospital',
         },
         {
             image: img2,
             heading: 'Construction',
-            subHeading: 'Badr Al Dosari Contracting Est',
+            subHeading: 'Construction of 500 residential villas',
         },
         {
             image: img1,
             heading: 'Construction',
-            subHeading: 'Origins of Expertise Contracting Est',
+            subHeading: 'Asas Makin residential projects',
         },
         {
             image: img2,
             heading: 'Construction',
-            subHeading: 'Badr Al Dosari Contracting Est',
+            subHeading: 'Increasing the efficiency of water plants',
+        },
+        {
+            image: imgschoolImg,
+            heading: 'Construction',
+            subHeading: ' Establishing educational schools and international schools - Science Oasis Schools',
         },
     ];
+    const sliderItemsAr = [
+        {
+          image: img1,
+          heading: 'البناء',
+          subHeading: 'أصول خبرة المقاولات'
+        },
+        {
+          image: img2,
+          heading: 'البناء',
+          subHeading: 'بدر الدوسري للمقاولات'
+        },
+        {
+          image: img1,
+          heading: 'البناء',
+          subHeading: 'أصول خبرة المقاولات'
+        },
+        {
+          image: imgschoolImg,
+          heading: 'البناء',
+          subHeading: 'بدر الدوسري للمقاولات'
+        }
+      ];
 
+      
+
+      useEffect (()=>{
+        setArr( localStorage.getItem('i18nextLng') === "ar"? sliderItemsAr : sliderItemsEn)
+       },[arr])
+      
+      
 
     return (
         <>
@@ -58,8 +109,11 @@ const Omrania_concrete = () => {
                 heading2=" Concrete"
                 sub_heading="Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks and balustrades for more than 50 years in the middle east."
                 button="Get started "
+                page="Omrania_concrete"
             />
+          <CompanyTesti/>
             <Heading
+            page="Omrania_concrete"
                 heading1="about omrania for concrete"
                 heading2="Al-Omrania Ready Mix Concrete Company"
                 description1="One of our holding group's companies, established in 2003, strives to provide confidence and certainty to all stakeholders through an innovative and sustainable approach. We aim to assist them in delivering high-quality construction materials and products, along with providing reliable services to customers and local communities.
@@ -70,6 +124,7 @@ const Omrania_concrete = () => {
             />
 
             <Card
+              page="Omrania_concrete"
                 image1={vision_big}
                 icon1={vision}
                 heading1="Our Vision"
@@ -87,6 +142,7 @@ const Omrania_concrete = () => {
             />
 
             <Heading
+                 page="Omraniaheading2"
                 heading2="omrania for concrete products"
                 description1="Al-Omraniya Concrete Company provides you with the service you need  at the lowest costs and in the shortest possible time to ensure ease of work."
             />
@@ -96,6 +152,7 @@ const Omrania_concrete = () => {
                 heading="Ready Mixed Concrete"
                 text="We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
                 buttonText="read more"
+                page="Omrania_concrete"
             />
             {/* <ImageBoxRight
                 imageSrc={interlock}
@@ -117,22 +174,32 @@ const Omrania_concrete = () => {
             /> */}
 
             <Heading
+             page="Omraniaheading3"
                 heading1="Partner with OMRANIA CRUSHER"
                 heading2="PRODUCTS WE WERE PART OF "
             />
 
-            <CompanySlider items={sliderItems} />
+            <CompanySlider items={productslider} />
 
             <Heading
+                page="Omraniaheading5"
+                heading1="Partner with OMRANIA CRUSHER"
+                heading2="PROJECT WE WERE PART OF"
+            />
+
+            <CompanySlider items={arr} />
+
+            <Heading
+            page="Omraniaheading4"
                 heading1="Partner with OMRANIA for concrete"
                 heading2="Testimonials"
                 description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
             />
 
-            <Testimonial />
+            <Testimonial page="Omrania_concrete" />
             <Helper_numbers />
         </>
     )
 }
 
-export default Omrania_concrete
+export default Omrania_concrete;

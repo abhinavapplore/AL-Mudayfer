@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a611f64f.css",
-    "main.js": "/static/js/main.823fcdf0.js",
+    "main.css": "/static/css/main.17a895a7.css",
+    "main.js": "/static/js/main.23ee9351.js",
     "static/js/787.a03d1148.chunk.js": "/static/js/787.a03d1148.chunk.js",
     "static/media/pavers.png": "/static/media/pavers.ed7b4d23a9c1fcc59d6f.png",
     "static/media/gravel.png": "/static/media/gravel.572a0db9e9ad6d6346a0.png",
     "static/media/stone.png": "/static/media/stone.0bfec50586708606758e.png",
     "static/media/rock.png": "/static/media/rock.f075ee178ffcd890e82b.png",
     "static/media/company5.svg": "/static/media/company5.a25971165f780ca7fb228ad553be0570.svg",
+    "static/media/Omrania_concrete_imgProduct1.png": "/static/media/Omrania_concrete_imgProduct1.8ca7f1ecbecd506564f6.png",
     "static/media/tiles.jpg": "/static/media/tiles.1b4fc5f6d7f1fd18f5f0.jpg",
     "static/media/truck.jpg": "/static/media/truck.0ccbeb41b2ea6c8beb40.jpg",
     "static/media/aboutscreen.jpg": "/static/media/aboutscreen.aa14f30b3e7503eb8a7b.jpg",
     "static/media/social_screen1.jpg": "/static/media/social_screen1.796097882f0c07919e03.jpg",
+    "static/media/Omrania_concrete_imgschool.png": "/static/media/Omrania_concrete_imgschool.69b47965079db449176d.png",
     "static/media/homescreen.jpg": "/static/media/homescreen.8b9db2011cd77e08a065.jpg",
     "static/media/exp.jpg": "/static/media/exp.a74fbbcd368e066ee071.jpg",
     "static/media/kitchen.jpg": "/static/media/kitchen.26bf5cd22310718d062e.jpg",
@@ -72,12 +74,13 @@
     "static/media/location.svg": "/static/media/location.fd99e532f7a407b7b101d82f1e0d2a8b.svg",
     "static/media/message.svg": "/static/media/message.0e2fc4ef14324eaba6ae557b845258a2.svg",
     "index.html": "/index.html",
-    "main.a611f64f.css.map": "/static/css/main.a611f64f.css.map",
-    "main.823fcdf0.js.map": "/static/js/main.823fcdf0.js.map",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.17a895a7.css.map": "/static/css/main.17a895a7.css.map",
+    "main.23ee9351.js.map": "/static/js/main.23ee9351.js.map",
     "787.a03d1148.chunk.js.map": "/static/js/787.a03d1148.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a611f64f.css",
-    "static/js/main.823fcdf0.js"
+    "static/css/main.17a895a7.css",
+    "static/js/main.23ee9351.js"
   ]
 }

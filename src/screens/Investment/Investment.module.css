@@ -15,12 +15,15 @@
 }
 
 .sticky_container {
-  top: 180px;
+  top: 120px;
   position: sticky;
   text-align: left !important;
   display: flex;
   flex-direction: column;
-  padding: 0 50px;
+  padding: 0 20px;
+  background: var(--blue);
+  width: 80%;
+  color: #fff;
 }
 
 a .builder_names {
@@ -30,33 +33,34 @@ a .builder_names {
   width: 100%;
   /* background-color: red; */
   color: var(--grey);
-  text-transform: uppercase;
+  text-transform: capitalize;
   cursor: pointer;
 }
 
 .active {
  
-  border-bottom: 2px solid #233E99;
-  color: var(--blue) !important;
+  border-bottom: 2px solid #fff;
+  color: #fff !important;
 }
 
 .active>div {
-  color: #233E99 !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
 }
 
 .builder_names {
   font-size: 18px;
   padding: 10px 0;
-  font-weight: 800;
+  font-weight: 700 !important;
   width: 100%;
   /* background-color: red; */
-  color: var(--grey);
-  text-transform: uppercase;
+  color: #838383 !important;
+  text-transform: capitalize;
   cursor: pointer;
 }
 
 .builder_names:hover {
-  color: var(--blue);
+  color:  #fff !important;
 }
 
 .right_container {
@@ -98,7 +102,7 @@ a .builder_names {
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
-  margin: 50px 0;
+  margin: 15px 0;
   width: 80%;
 }
 
@@ -111,7 +115,7 @@ a .builder_names {
 .numbers {
   /* border: 1px solid lime; */
   display: flex;
-  padding: 40px 0;
+  padding: 20px 0;
   font-weight: 700;
   font-size: 40px;
   flex-direction: column;

@@ -21,8 +21,12 @@ import message from "../../images/about/message.svg";
 import message_big from "../../images/about/message.jpg";
 import value_big from "../../images/about/value.jpg";
 import Responsibility from "../../components/About/Responsibility";
+import Timeline from "../../components/Timeline/Timeline";
 
 const About = () => {
+
+ 
+
   return (
     <>
       <Investment
@@ -31,6 +35,7 @@ const About = () => {
         heading2="Sons Holding Company "
         sub_heading="Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks and balustrades for more than 50 years in the middle east."
         button="Get started "
+        page="about"
       />
       <Heading
         heading1="Partner with AL-MUDAYFER"
@@ -38,10 +43,8 @@ const About = () => {
         description1="In the sixties, the Saleh Almudayfer Sons Holding Group embarked on its investment journey by establishing the Omrania Materials Materials Company for building materials. This marked the splendid beginning of an investment history filled with achievements and uniqueness. Since then, the group has preserved its strong legacy and prosperity over the decades, achieving remarkable success in various economic fields."
         description2="Today, the group is recognized as a leading force in the investment sector, characterized by innovation and excellence. Its ambitious investment vision is distinguished by the ability to make smart decisions and foster innovation, making it a key player in a pioneering alliance of the region's foremost investment companies.
         The group's investments span across various sectors, including building materials, concrete, and wooden products. These investments reflect a diverse and creative investment journey, contributing effectively to sustainable development.
-        With pride in its long and inspiring history, the Sons of Saleh Al-Mudayfer Holding Group continues to elevate its vision and excel in all areas of its business.
-
-
-        "
+       "
+       page="about"
       />
 
       <Card
@@ -58,6 +61,7 @@ const About = () => {
         icon3={vision}
         heading3="Our Values"
         subHeading3="Excellence, innovation, integrity, and sustainability are the core values that drive our business. We are committed to achieving the highest standards of quality and excellence in all our endeavors. We are dedicated to fostering innovation and creativity, and we are committed to the highest standards of integrity and transparency. We are committed to sustainable development and making a positive impact on the global landscape."
+        page="about"
       />
 
       <Trusted />
@@ -93,8 +97,10 @@ const About = () => {
         heading1="Partner with AL-MUDAYFER"
         heading2="Testimonials"
         description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
+      page="about_testi"
       />
-      <Testimonial />
+      <Testimonial page="about" />
+      <Timeline />
     </>
   );
 };
