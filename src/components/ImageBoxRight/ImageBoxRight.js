@@ -13,7 +13,7 @@ const ImageBoxRight = ({
   bacground,
 }) => {
   return (
-    <div className={bacground ? styles.container : styles.containerActive}>
+    <div className={bacground ? styles.containerActive : styles.container}>
       <div className={styles.content}>
         <span className={styles.subheading}>{subheading}</span>
         <div className={styles.heading}>{heading}</div>

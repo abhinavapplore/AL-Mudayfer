@@ -1,10 +1,22 @@
-.container {
+.container,
+.joinContainer {
   width: 100%;
   color: white;
   padding-top: 130px;
   display: flex;
   flex-direction: column;
   text-align: left;
+}
+
+.joinContainer {
+  padding: 0px 20px;
+  margin-bottom: 120px;
+}
+
+.joinContainer .background_image {
+  padding: 80px 0px;
+  border-top: 1px solid #e4e5e8;
+  border-bottom: 1px solid #e4e5e8;
 }
 
 .background_image {
@@ -30,8 +42,12 @@
   font-size: 48px;
   font-weight: 500;
   line-height: 63.36px;
-  text-transform: uppercase;
   color: #181b1f;
+}
+
+.joinContainer .heading {
+  font-size: 32px;
+  line-height: 45px;
 }
 
 .sub_heading {
@@ -123,5 +139,14 @@
   }
   .imageWrapper {
     height: 658px;
+  }
+
+  .joinContainer {
+    padding: 0px 100px;
+  }
+
+  .joinContainer .heading {
+    font-size: 42px;
+    line-height: 55.68px;
   }
 }

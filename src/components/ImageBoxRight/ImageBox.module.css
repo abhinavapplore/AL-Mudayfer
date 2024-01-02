@@ -15,6 +15,10 @@
   gap: 30px;
 }
 
+.containerActive {
+  background-color: #ffffff;
+}
+
 .heading {
   font-size: 32px;
   color: #181b1f;

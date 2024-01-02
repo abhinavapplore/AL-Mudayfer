@@ -1,133 +1,141 @@
+.container {
+  gap: 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+}
+
 .slider_container {
-    position: relative;
-    padding: 0 0px 0 100px;
-    /* border: 2px solid red; */
-    width: 100%;
-    overflow: hidden;
-    /* overflow-x: scroll  ; */
+  position: relative;
+  /* border: 2px solid red; */
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  /* overflow-x: scroll  ; */
+}
+
+.buttonArrow {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #181b1f;
+  text-transform: uppercase;
+  gap: 14px;
+  white-space: nowrap;
+}
+
+.arrow {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #2a4074;
+  border-radius: 50%;
+  transform: rotateZ(-45deg);
+}
+
+.arrow svg {
+  color: #2a4074;
 }
 
 .container {
-    position: relative;
-    /* margin: 100px; */
-    display: flex;
-    /* justify-content: space-between; */
-    overflow-x: hidden;
-    /* overflow-x: scroll; */
-    padding-left: 100px;
-    width: 100%;
-    /* border: 2px solid aqua; */
+  position: relative;
+  /* margin: 100px; */
+  display: flex;
+  /* justify-content: space-between; */
+  overflow-x: hidden;
+  /* overflow-x: scroll; */
+  padding-left: 100px;
+  width: 100%;
+  /* border: 2px solid aqua; */
 }
 
 .card_container {
-    position: relative;
-    min-width: 400px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    color: white;
-    background-color: var(--blue);
+  position: relative;
+  max-width: 397px;
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 14px;
 }
 
 .image {
-    width: 100%;
+  width: 100%;
+  height: 278px;
 }
 
 .image img {
-    display: block;
-    width: 100%;
-}
-
-.badge {
-    position: absolute;
-    text-transform: uppercase;
-    padding: 10px;
-    font-size: 12px;
-    margin: 10px;
-    background-color: var(--blue);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .content {
-    padding: 40px 30px;
-    /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* background-color: red; */
 }
 
 .heading {
-    font-size: 25px;
-    text-transform: uppercase;
+  font-size: 24px;
+  color: #2c2c2c;
+  font-weight: 500;
 }
 
 .sub_heading {
-    font-size: 17px;
-    padding: 20px 0;
-    font-weight: 400;
+  font-size: 14px;
+  color: #5b5d60;
+  line-height: 21px;
+  font-weight: 400;
 }
 
 .read_more_button {
-    background-color: white;
-    width: max-content;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--blue);
-    padding: 15px 30px;
+  background-color: white;
+  width: max-content;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--blue);
+  padding: 15px 30px;
 }
 
 .buttons {
-    display: flex;
-    justify-content: space-around;
-    width: 20%;
-    margin: auto;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 60px;
 }
 
 .buttons button {
-    /* padding: 0px 20px;/ */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-    cursor: pointer;
-    border: none;
-    border-radius: 300px;
-    color: var(--blue);
-    background-color: transparent;
-    transition: 100ms ease-in-out;
+  /* padding: 0px 20px;/ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #2a4074;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
 }
 
-button:hover {
-    transform: scale(1.1)
-        /* box-shadow: outset 2px 20px 10px grey; */
-        /* background-color: rgba(232, 232, 232, 0.889); */
+.buttons button svg {
+  color: #2a4074;
 }
 
+.buttons button:hover {
+  background-color: #2a4074;
+}
 
-
-@media(max-width: 600px) {
-    .slider_container {
-        position: relative;
-        padding: 0 0px 0 0px;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .container {
-        position: relative;
-        display: flex;
-        overflow-x: hidden;
-        padding-left: 10px;
-        width: 100%;
-    }
-
-    .card_container {
-        position: relative;
-        min-width: 300px;
-        margin-right: 10px;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        color: white;
-        background-color: var(--blue);
-    }
+.buttons button:hover svg {
+  color: #ffffff;
 }

@@ -9,10 +9,11 @@ const Investment = ({
   heading2,
   sub_heading,
   button,
+  join,
 }) => {
   return (
     <>
-      <div className={styles.container}>
+      <div className={join ? styles.joinContainer : styles.container}>
         <div className={styles.background_image}>
           <div className={styles.content}>
             <div className={styles.heading}>
@@ -28,9 +29,11 @@ const Investment = ({
               </div>
             </div>
           </div>
-          <div className={styles.imageWrapper}>
-            <img src={backgroundImage} />
-          </div>
+          {backgroundImage && (
+            <div className={styles.imageWrapper}>
+              <img src={backgroundImage} />
+            </div>
+          )}
         </div>
       </div>
     </>
