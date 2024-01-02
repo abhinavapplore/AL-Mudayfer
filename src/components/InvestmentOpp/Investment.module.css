@@ -77,12 +77,22 @@
   height: 300px;
   overflow: hidden;
   padding-left: 20px;
+  flex-shrink: 0;
+  width: 100%;
 }
 
 .imageWrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.containerInvestment {
+  padding: 130px 20px 100px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
 }
 
 @media (min-width: 1024px) {
@@ -92,6 +102,10 @@
     align-items: center;
     gap: 124px;
     justify-content: space-between;
+  }
+
+  .containerInvestment {
+    padding: 130px 100px 100px 100px;
   }
 
   .heading {

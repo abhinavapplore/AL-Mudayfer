@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.640897da.css",
-    "main.js": "/static/js/main.76578a28.js",
+    "main.css": "/static/css/main.05e45747.css",
+    "main.js": "/static/js/main.38295eb1.js",
     "static/js/787.a03d1148.chunk.js": "/static/js/787.a03d1148.chunk.js",
     "static/media/pavers.png": "/static/media/pavers.ed7b4d23a9c1fcc59d6f.png",
     "static/media/gravel.png": "/static/media/gravel.572a0db9e9ad6d6346a0.png",
     "static/media/stone.png": "/static/media/stone.0bfec50586708606758e.png",
     "static/media/rock.png": "/static/media/rock.f075ee178ffcd890e82b.png",
+    "static/media/investmentsscreen.png": "/static/media/investmentsscreen.c3b3437b28c7289d6e7f.png",
     "static/media/homescreen.png": "/static/media/homescreen.6798d0c5b53878728408.png",
     "static/media/company5.svg": "/static/media/company5.21cabbb725e6daeb0a4ae7c41c8dc4a8.svg",
     "static/media/aboutscreen.png": "/static/media/aboutscreen.04442643ea9538ea307c.png",
@@ -23,7 +24,6 @@
     "static/media/receptionUnit.jpg": "/static/media/receptionUnit.a6bdd5168a2fb1adad2d.jpg",
     "static/media/stone1.jpg": "/static/media/stone1.6a46992f6c96296eea18.jpg",
     "static/media/skirting.jpg": "/static/media/skirting.1cef27d5cbc86091f8bc.jpg",
-    "static/media/investmentscreen.jpg": "/static/media/investmentscreen.799495b87166efc2ac5c.jpg",
     "static/media/blo.jpg": "/static/media/blo.5e06c7ebd74891e5f934.jpg",
     "static/media/sSteel.jpg": "/static/media/sSteel.d90e5ec2bb4be642a5ac.jpg",
     "static/media/cabinets.jpg": "/static/media/cabinets.bb5f808026e44c133551.jpg",
@@ -48,6 +48,8 @@
     "static/media/block.jpg": "/static/media/block.8bb8434cfead1d7ac98d.jpg",
     "static/media/const2.jpg": "/static/media/const2.f253fdf224130ab134d1.jpg",
     "static/media/interlocks.jpg": "/static/media/interlocks.df579f89e47d13255fa0.jpg",
+    "static/media/img1.png": "/static/media/img1.752acbdfcc2bc0caffe9.png",
+    "static/media/img2.png": "/static/media/img2.42e18771576b66e08b9f.png",
     "static/media/company4.png": "/static/media/company4.fa1d01df3164930bd7fc.png",
     "static/media/environmental.jpg": "/static/media/environmental.7b309cddd8d7caa51046.jpg",
     "static/media/message.jpg": "/static/media/message.9521d7ed7e85ca927cdb.jpg",
@@ -77,12 +79,12 @@
     "static/media/location.svg": "/static/media/location.2f363feff4014eb0de3ffcfe085d7583.svg",
     "static/media/message.svg": "/static/media/message.fa13e0128b6cd62b505c8a54e114b7b4.svg",
     "index.html": "/index.html",
-    "main.640897da.css.map": "/static/css/main.640897da.css.map",
-    "main.76578a28.js.map": "/static/js/main.76578a28.js.map",
+    "main.05e45747.css.map": "/static/css/main.05e45747.css.map",
+    "main.38295eb1.js.map": "/static/js/main.38295eb1.js.map",
     "787.a03d1148.chunk.js.map": "/static/js/787.a03d1148.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.640897da.css",
-    "static/js/main.76578a28.js"
+    "static/css/main.05e45747.css",
+    "static/js/main.38295eb1.js"
   ]
 }

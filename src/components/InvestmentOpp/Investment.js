@@ -20,13 +20,11 @@ const Investment = ({
               <br />
               {heading2}
             </div>
-            <div className={styles.subheadingSection}>
-              <div className={styles.sub_heading}>{sub_heading}</div>
-              <div className={styles.button}>
-                {button}
-                <div className={styles.arrow}>
-                  <BsArrowRight />
-                </div>
+            <div className={styles.sub_heading}>{sub_heading}</div>
+            <div className={styles.button}>
+              {button}
+              <div className={styles.arrow}>
+                <BsArrowRight />
               </div>
             </div>
           </div>
