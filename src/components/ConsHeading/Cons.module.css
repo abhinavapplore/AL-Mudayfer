@@ -1,65 +1,58 @@
 .container {
-    width: 100%;
-    background-color: var(--blue);
-    color: white;
-    /* height: 50vh; */
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    padding: 150px 0;
-    /* border: 2px solid lime; */
+  background: #233e990a;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .heading {
-    font-size: 22px;
-    letter-spacing: 3px;
-    line-height: 24px;
-    text-transform: uppercase;
+  width: 100%;
+  white-space: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 
-    padding: 40px 0;
-    /* background-color: red; */
+.heading h1 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--grey);
+  font-weight: 400;
+  position: relative;
+  padding-left: 70px;
+  letter-spacing: 2px;
+  line-height: 18.48px;
+  box-sizing: border-box;
+}
+
+.heading h1::before {
+  background-color: var(--grey);
+  content: "";
+  top: 50%;
+  width: 64px;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  transform: translateY(-50%);
 }
 
 .sub_heading {
-    text-align: center;
-    font-size: 50px;
-    letter-spacing: 4px;
+  color: #181b1f;
+  font-size: 32px;
+  line-height: 42.24px;
+  font-weight: 500;
 }
 
+@media only screen and (min-width: 1024px) {
+  .container {
+    padding: 100px 100px 60px 100px;
+  }
+  .heading {
+    justify-content: center;
+  }
 
-@media (max-width: 600px) {
-    .container {
-        width: 100%;
-        background-color: var(--blue);
-        color: white;
-        /* height: 50vh; */
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-        padding: 0px 0 50px 0;
-        /* border: 2px solid lime; */
-    }
-
-    .heading {
-        font-size: 22px;
-        letter-spacing: 3px;
-        line-height: 24px;
-        text-transform: uppercase;
-
-        padding: 40px 0;
-        /* background-color: red; */
-    }
-
-    .sub_heading {
-        text-align: center;
-        font-size: 45px;
-        letter-spacing: 4px;
-    }
-
+  .sub_heading {
+    text-align: center;
+  }
 }

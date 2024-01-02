@@ -1,13 +1,13 @@
 import Hamburger from "hamburger-react";
 import { Link, NavLink } from "react-router-dom";
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 import { FaGlobe } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
 import { IoMdClose } from "react-icons/io";
 import { useLocation } from "react-router-dom";
 
-import logo from "../../images/logo0.svg";
+import logo from "../../images/logo.png";
 import styles from "./Header.module.css";
 
 const Header = () => {
@@ -97,21 +97,23 @@ const Header = () => {
       {/* mobile view */}
       <div className={styles.mobile_container}>
         <div className={styles.top}>
-          <div className={styles.left_mobile}>
-            <a href="/">
-              <img src={logo} alt="" />
-            </a>
-          </div>
-          {/* <button onClick={toggleMobileMenu}> */}
           <div className={styles.right_mobile}>
             {/* {open ? <IoMdClose /> : <FaBars />} */}
             <Hamburger
+              size={18}
               rounded
               toggled={open}
               toggle={setOpen}
               hideOutline={false}
             />
           </div>
+          <div className={styles.left_mobile}>
+            <a href="/">
+              <img src={logo} alt="" />
+            </a>
+          </div>
+          {/* <button onClick={toggleMobileMenu}> */}
+
           {/* </button> */}
         </div>
         {open && (

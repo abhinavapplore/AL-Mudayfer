@@ -1,52 +1,40 @@
-import React from 'react'
-import styles from './Trusted.module.css';
-import company1 from '../../images/investment/company1.svg'
-import company2 from '../../images/investment/company2.svg'
-import company3 from '../../images/investment/company3.svg'
-import company4 from '../../images/investment/company4.svg'
-import company5 from '../../images/investment/company5.svg'
-import company6 from '../../images/investment/company6.svg'
-import company7 from '../../images/investment/company7.svg'
-import company8 from '../../images/investment/company8.svg'
-
-import Marquee from "react-fast-marquee";
+import React from "react";
+import styles from "./Trusted.module.css";
+import walmart from "../../images/investment/walmart.png";
+import cisco from "../../images/investment/cisco.png";
+import volvo from "../../images/investment/volvo.png";
+import deloitte from "../../images/investment/deloitte.png";
+import okta from "../../images/investment/okta.png";
+import { BsArrowRight } from "react-icons/bs";
 
 const Trusted = () => {
-    return (
-        <>
-            <div className={styles.container}>
-                <div className={styles.heading}>Trusted by 45M+ users</div>
-                <div className={styles.images}>
-                    <Marquee>
-                        <div className={styles.image}>
-                            <img src={company1} alt="" />
-                        </div>
-                        <div className={styles.image}>
-                            <img src={company2} alt="" />
-                        </div>
-                        <div className={styles.image}>
-                            <img src={company3} alt="" />
-                        </div>
-                        <div className={styles.image}>
-                            <img src={company4} alt="" />
-                        </div>
-                        <div className={styles.image}>
-                            <img src={company5} alt="" />
-                        </div>
-                        <div className={styles.image}>
-                            <img src={company6} alt="" />
-                        </div>
-                        <div className={styles.image}>
-                            <img src={company7} alt="" />
-                        </div>
-                        <div className={styles.image}>
-                            <img src={company8} alt="" />
-                        </div>
-                    </Marquee>
-                </div>
+  return (
+    <>
+      <div className={styles.container}>
+        <div className={styles.heading}>Our Investments</div>
+        <div className={styles.images}>
+          <img src={walmart} alt="" />
+          <img src={cisco} alt="" />
+          <img src={volvo} alt="" />
+          <img src={deloitte} alt="" />
+          <img src={okta} alt="" />
+        </div>
+        <div className={styles.content}>
+          <div className={styles.heading1}>We Invest</div>
+          <div className={styles.sub_heading}>
+            Extend the hand of investment, as our hands are extended to all
+            available opportunities.
+          </div>
+          <div className={styles.button}>
+            Know More
+            <div className={styles.arrow}>
+              <BsArrowRight />
             </div>
-        </>
-    )
-}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Trusted
+export default Trusted;

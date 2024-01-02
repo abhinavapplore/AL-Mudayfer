@@ -1,30 +1,39 @@
-import React from 'react'
-import styles from './ImageBox.module.css';
-import { Link } from 'react-router-dom'
+import React from "react";
+import styles from "./ImageBox.module.css";
+import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
-const ImageBoxRight = ({ imageSrc, heading, text, buttonText }) => {
-    return (
-        <>
-            <div className={styles.container}>
-
-                <div className={styles.right}>
-                    <div className={styles.right_heading}>
-                        {heading} 
-                        <div className={styles.right_line}></div>
-                    </div>
-                    <div className={styles.right_text}>{text}</div>
-                    <Link to='/contact'>
-                        <div className={styles.right_button}>{buttonText}</div>
-                    </Link>
-                </div>
-
-                <div className={styles.left}>
-                    {/* <img src='https://thumbs.dreamstime.com/b/bengal-tiger-tige-basking-sun-zoo-51748104.jpg' alt="" /> */}
-                    <img src={imageSrc} alt="" />
-                </div>
+const ImageBoxRight = ({
+  imageSrc,
+  heading,
+  description1,
+  description2,
+  button,
+}) => {
+  return (
+    <div className={[styles.container]}>
+      <div className={styles.content}>
+        <div className={styles.heading}>{heading}</div>
+        <div className={styles.sub_heading}>
+          {description1}
+          <br />
+          <br />
+          {description2}
+        </div>
+        <Link to="/contact">
+          <div className={styles.button}>
+            {button}
+            <div className={styles.arrow}>
+              <BsArrowRight />
             </div>
-        </>
-    )
-}
+          </div>
+        </Link>
+      </div>
+      <div className={styles.imageWrapper}>
+        <img src={imageSrc} />
+      </div>
+    </div>
+  );
+};
 
-export default ImageBoxRight
+export default ImageBoxRight;
