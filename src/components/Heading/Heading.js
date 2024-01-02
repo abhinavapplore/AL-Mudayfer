@@ -7,6 +7,7 @@ const Heading = ({
   description1,
   description2,
   description3,
+  description4,
 }) => {
   return (
     <>
@@ -15,17 +16,30 @@ const Heading = ({
           <h1>{heading1}</h1>
         </div>
         <div className={styles.heading2}>{heading2}</div>
-        {description1 && (
-          <div div className={styles.description}>
-            {description1}
-          </div>
-        )}
-        {description2 && (
-          <div className={styles.description}>{description2}</div>
-        )}
-        {description3 && (
-          <div className={styles.description}>{description3}</div>
-        )}
+        <p className={styles.description}>
+          {description1 && <>{description1}</>}
+          {description2 && (
+            <>
+              <br />
+              <br />
+              {description2}
+            </>
+          )}
+          {description3 && (
+            <>
+              <br />
+              <br />
+              {description3}
+            </>
+          )}
+          {description4 && (
+            <>
+              <br />
+              <br />
+              {description4}
+            </>
+          )}
+        </p>
       </div>
     </>
   );

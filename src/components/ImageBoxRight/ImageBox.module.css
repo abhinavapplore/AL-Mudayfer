@@ -1,4 +1,5 @@
-.container {
+.container,
+.containerActive {
   padding: 0px 20px 80px 20px;
   display: flex;
   flex-direction: column;
@@ -7,7 +8,8 @@
   background: #233e990a;
 }
 
-.container .content {
+.container .content,
+.containerActive .content {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -18,6 +20,7 @@
   color: #181b1f;
   font-weight: 500;
   line-height: 42.24px;
+  width: 509px;
 }
 
 .sub_heading {
@@ -74,11 +77,35 @@
   margin-top: 58px;
 }
 
+.subheading {
+  font-size: 14px;
+  color: #2a4074;
+  padding-left: 70px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.subheading::before {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  height: 1px;
+  content: "";
+  width: 64px;
+  transform: translateY(-50%);
+  background-color: #2a4074;
+}
+
+.containerActive {
+  background-color: #ffffff;
+}
+
 @media (min-width: 1024px) {
   .content {
     justify-content: center;
   }
-  .container {
+  .container,
+  .containerActive {
     padding: 0px 100px 100px 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;

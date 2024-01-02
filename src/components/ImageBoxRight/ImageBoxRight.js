@@ -5,14 +5,17 @@ import { Link } from "react-router-dom";
 
 const ImageBoxRight = ({
   imageSrc,
+  subheading,
   heading,
   description1,
   description2,
   button,
+  bacground,
 }) => {
   return (
-    <div className={[styles.container]}>
+    <div className={bacground ? styles.container : styles.containerActive}>
       <div className={styles.content}>
+        <span className={styles.subheading}>{subheading}</span>
         <div className={styles.heading}>{heading}</div>
         <div className={styles.sub_heading}>
           {description1}

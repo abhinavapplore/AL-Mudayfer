@@ -11,12 +11,19 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding: 0 20px;
 }
 
 .content {
   display: flex;
-  padding: 0 20px;
   flex-direction: column;
+}
+
+.subheadingSection {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: space-between;
 }
 
 .heading {
@@ -84,7 +91,6 @@
     flex-direction: row;
     align-items: center;
     gap: 124px;
-    padding: 0px 100px;
     justify-content: space-between;
   }
 
@@ -99,9 +105,9 @@
 
   .background_image {
     gap: 40px;
+    padding: 0px 100px;
   }
   .imageWrapper {
     height: 658px;
-    padding-left: 100px;
   }
 }

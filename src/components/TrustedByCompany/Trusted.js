@@ -7,11 +7,13 @@ import deloitte from "../../images/investment/deloitte.png";
 import okta from "../../images/investment/okta.png";
 import { BsArrowRight } from "react-icons/bs";
 
-const Trusted = () => {
+const Trusted = ({ notRequired, heading }) => {
   return (
     <>
       <div className={styles.container}>
-        <div className={styles.heading}>Our Investments</div>
+        <div className={styles.heading}>
+          {heading ? heading : "Our Investments"}
+        </div>
         <div className={styles.images}>
           <img src={walmart} alt="" />
           <img src={cisco} alt="" />
@@ -19,19 +21,21 @@ const Trusted = () => {
           <img src={deloitte} alt="" />
           <img src={okta} alt="" />
         </div>
-        <div className={styles.content}>
-          <div className={styles.heading1}>We Invest</div>
-          <div className={styles.sub_heading}>
-            Extend the hand of investment, as our hands are extended to all
-            available opportunities.
-          </div>
-          <div className={styles.button}>
-            Know More
-            <div className={styles.arrow}>
-              <BsArrowRight />
+        {!notRequired && (
+          <div className={styles.content}>
+            <div className={styles.heading1}>We Invest</div>
+            <div className={styles.sub_heading}>
+              Extend the hand of investment, as our hands are extended to all
+              available opportunities.
+            </div>
+            <div className={styles.button}>
+              Know More
+              <div className={styles.arrow}>
+                <BsArrowRight />
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </>
   );

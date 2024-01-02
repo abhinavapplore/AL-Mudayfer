@@ -115,6 +115,7 @@
   font-weight: 600;
   font-size: 16px;
   color: #181b1f;
+  text-transform: uppercase;
   gap: 14px;
   white-space: nowrap;
 }

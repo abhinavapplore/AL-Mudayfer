@@ -1,0 +1,47 @@
+.container {
+  padding: 80px 20px 120px 20px;
+}
+
+.container ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  overflow-x: auto;
+  padding-top: 40px;
+  border-top: 1px solid #e4e5e8;
+}
+
+.container ul li {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.container ul li span {
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #2a4074;
+  font-weight: 600;
+}
+
+.container ul li b {
+  color: #181b1f;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.container ul li p {
+  color: #5b5d60;
+  font-size: 14px;
+  line-height: 21.12px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    padding: 80px 100px 120px 100px;
+  }
+}

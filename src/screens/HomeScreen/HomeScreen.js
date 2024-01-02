@@ -31,7 +31,7 @@ const HomeScreen = () => {
       />
       <Heading
         heading1="Partner with AL-MUDAYFER"
-        heading2="The BUILDING & CONSTRUCTION EXPERT"
+        heading2="The Building & Construction Experts"
         description1="TAl-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion."
         description2="So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years."
         description3="Trust our project management experts at Al-Mudafir Holdings from Design to Completion!"
