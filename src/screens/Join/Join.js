@@ -296,6 +296,7 @@ const Join = () => {
       </div>
 
       <Investment
+        tag="PRESS RELEASE"
         heading1="Investment Opportunities"
         sub_heading="The name that has been associated with building and construction works for development monuments over generations from the Kingdom of Saudi Arabia and to the Middle East"
         button="Know More"

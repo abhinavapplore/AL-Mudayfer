@@ -5,6 +5,7 @@ import styles from "./Investment.module.css";
 
 const Investment = ({
   backgroundImage,
+  tag,
   heading1,
   heading2,
   sub_heading,
@@ -17,17 +18,24 @@ const Investment = ({
         <div className={styles.background_image}>
           <div className={styles.content}>
             <div className={styles.heading}>
+              {tag && <span className={styles.tag}>{tag}</span>}
               {heading1}
               <br />
               {heading2}
             </div>
-            <div className={styles.sub_heading}>{sub_heading}</div>
-            <div className={styles.button}>
-              {button}
-              <div className={styles.arrow}>
-                <BsArrowRight />
-              </div>
+            <div
+              className={join ? styles.join_sub_heading : styles.sub_heading}
+            >
+              {sub_heading}
             </div>
+            {button && (
+              <div className={styles.button}>
+                {button}
+                <div className={styles.arrow}>
+                  <BsArrowRight />
+                </div>
+              </div>
+            )}
           </div>
           {backgroundImage && (
             <div className={styles.imageWrapper}>

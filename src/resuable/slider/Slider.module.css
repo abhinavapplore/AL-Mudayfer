@@ -5,6 +5,12 @@
   overflow: hidden;
 }
 
+.date {
+  font-size: 16px;
+  color: #72cdf4;
+  font-weight: 600;
+}
+
 .slider_container {
   position: relative;
   /* border: 2px solid red; */

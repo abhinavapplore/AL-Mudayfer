@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d161014.css",
-    "main.js": "/static/js/main.cdfc660e.js",
+    "main.css": "/static/css/main.8a57e7fe.css",
+    "main.js": "/static/js/main.bc1148bd.js",
     "static/js/787.a03d1148.chunk.js": "/static/js/787.a03d1148.chunk.js",
     "static/media/pavers.png": "/static/media/pavers.ed7b4d23a9c1fcc59d6f.png",
     "static/media/gravel.png": "/static/media/gravel.572a0db9e9ad6d6346a0.png",
@@ -23,13 +23,14 @@
     "static/media/kitchen.jpg": "/static/media/kitchen.26bf5cd22310718d062e.jpg",
     "static/media/contactscreen.jpg": "/static/media/contactscreen.164d45476735f6caef09.jpg",
     "static/media/receptionUnit.jpg": "/static/media/receptionUnit.a6bdd5168a2fb1adad2d.jpg",
+    "static/media/media1.png": "/static/media/media1.9751e8766e75853247ab.png",
     "static/media/stone1.jpg": "/static/media/stone1.6a46992f6c96296eea18.jpg",
+    "static/media/media2.png": "/static/media/media2.7d9daf8c62468771ae22.png",
     "static/media/skirting.jpg": "/static/media/skirting.1cef27d5cbc86091f8bc.jpg",
     "static/media/blo.jpg": "/static/media/blo.5e06c7ebd74891e5f934.jpg",
     "static/media/sSteel.jpg": "/static/media/sSteel.d90e5ec2bb4be642a5ac.jpg",
     "static/media/cabinets.jpg": "/static/media/cabinets.bb5f808026e44c133551.jpg",
     "static/media/ourvalue.jpg": "/static/media/ourvalue.1cb5db132a794d665df9.jpg",
-    "static/media/mediascreen.jpg": "/static/media/mediascreen.95fddea4ccecbdce3e27.jpg",
     "static/media/castIron.jpg": "/static/media/castIron.b25535132b4380152fb0.jpg",
     "static/media/buildings.jpg": "/static/media/buildings.bb1f0cc0914ef0884520.jpg",
     "static/media/wallPanel.jpg": "/static/media/wallPanel.894d40b6c84f0230103c.jpg",
@@ -83,12 +84,12 @@
     "static/media/location.svg": "/static/media/location.2f363feff4014eb0de3ffcfe085d7583.svg",
     "static/media/message.svg": "/static/media/message.fa13e0128b6cd62b505c8a54e114b7b4.svg",
     "index.html": "/index.html",
-    "main.4d161014.css.map": "/static/css/main.4d161014.css.map",
-    "main.cdfc660e.js.map": "/static/js/main.cdfc660e.js.map",
+    "main.8a57e7fe.css.map": "/static/css/main.8a57e7fe.css.map",
+    "main.bc1148bd.js.map": "/static/js/main.bc1148bd.js.map",
     "787.a03d1148.chunk.js.map": "/static/js/787.a03d1148.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d161014.css",
-    "static/js/main.cdfc660e.js"
+    "static/css/main.8a57e7fe.css",
+    "static/js/main.bc1148bd.js"
   ]
 }

@@ -3,7 +3,7 @@ import styles from "./Slider.module.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
 
-const Card = ({ image, badge, heading, subHeading, buttonText }) => (
+const Card = ({ image, badge, heading, subHeading, buttonText, date }) => (
   <div className={styles.card_container}>
     <div className={styles.image}>
       <div className={styles.badge}>{badge}</div>
@@ -11,6 +11,7 @@ const Card = ({ image, badge, heading, subHeading, buttonText }) => (
     </div>
     <div className={styles.content}>
       <div className={styles.heading}>{heading}</div>
+      {date && <span className={styles.date}>{date}</span>}
       <div className={styles.sub_heading}>{subHeading}</div>
       <div className={styles.buttonArrow}>
         {buttonText}
@@ -36,7 +37,6 @@ const Slider = ({ cards }) => {
           : slides.scrollLeft + width;
     }
   };
-
   return (
     <div className={styles.slider_container}>
       <div className={styles.buttons}>
