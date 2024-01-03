@@ -24,13 +24,13 @@ const HomeScreen = () => {
     <div className="page">
       <Investment
         backgroundImage={homescreen}
-        heading1="AL-MUDAYFER"
-        heading2="HOLDING"
+        heading1="Al-Mudayfer"
+        heading2="Holding"
         sub_heading="The name that has been associated with building and construction works for development monuments over generations from the Kingdom of Saudi Arabia and to the Middle East."
         button="Know More "
       />
       <Heading
-        heading1="Partner with AL-MUDAYFER"
+        heading1="Partner with Al-Mudayfer"
         heading2="The Building & Construction Experts"
         description1="TAl-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion."
         description2="So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years."

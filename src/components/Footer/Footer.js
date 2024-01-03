@@ -52,7 +52,7 @@ const Footer = () => {
               <div className={styles.right_company}>
                 <div className={styles.right_company_heading}>Company</div>
                 <div className={styles.right_company_content}>
-                  <Link to="/about">About AL-MUDAYFER</Link>
+                  <Link to="/about">About Al-Mudayfer</Link>
                 </div>
                 <div className={styles.right_company_content}>
                   <Link to="/about">Vision and Mission</Link>

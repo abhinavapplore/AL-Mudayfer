@@ -6,12 +6,12 @@ const ConsHeading = () => {
     <>
       <div className={styles.container}>
         <div className={styles.heading}>
-          <h1>with AL-MUDAYFER</h1>
+          <h1>with Al-Mudayfer</h1>
         </div>
         <div className={styles.sub_heading}>
-          CONSCIOUS LEADERSHIP
+          Conscios Leadership
           <br />
-          WELCOMES YOU
+          Welcomes You
         </div>
       </div>
     </>

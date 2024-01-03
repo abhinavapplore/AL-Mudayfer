@@ -27,7 +27,7 @@ const Investment = () => {
     <div className={styles.page}>
       <Investments backgroundImage={investscreen} heading="Our Investments" />
       {/* <Heading
-        heading1="Partner with AL-MUDAYFER"
+        heading1="Partner with Al-Mudayfer"
         heading2="our companies"
         description1="
         As an investor or entrepreneur with creative and distinct ideas, we integrate with you
@@ -413,7 +413,7 @@ const Investment = () => {
               </p>
               <p>
                 We invested in building a nation, and in developing a human
-                being, so the products of Saleh Al-MUDAYFER Sons Holding Company
+                being, so the products of Saleh Al-Mudayfer Sons Holding Company
                 became an essential pillar in the construction and finishing
                 work of various development projects in the Kingdom of Saudi
                 Arabia, as the company’s investments were built on the legacy of

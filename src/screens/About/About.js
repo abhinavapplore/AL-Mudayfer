@@ -35,7 +35,7 @@ const About = () => {
         button="Get started "
       />
       <Heading
-        heading1="Partner with AL-MUDAYFER"
+        heading1="Partner with Al-Mudayfer"
         heading2="The Building & Construction Experts"
         description1="In the sixties, the Saleh Almudayfer Sons Holding Group embarked on its investment journey by establishing the Omrania Materials Materials Company for building materials. This marked the splendid beginning of an investment history filled with achievements and uniqueness. Since then, the group has preserved its strong legacy and prosperity over the decades, achieving remarkable success in various economic fields."
         description2="Today, the group is recognized as a leading force in the investment sector, characterized by innovation and excellence. Its ambitious investment vision is distinguished by the ability to make smart decisions and foster innovation, making it a key player in a pioneering alliance of the region's foremost investment companies."
@@ -61,7 +61,7 @@ const About = () => {
 
       <Trusted notRequired={true} heading="Trusted By 45M+ Users" />
       <Heading
-        heading1="Partner with AL-MUDAYFER"
+        heading1="Partner with Al-Mudayfer"
         heading2="The Building & Construction Experts"
         description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion."
         description2="So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
@@ -81,7 +81,7 @@ const About = () => {
       <Triplet />
 
       {/* <Heading
-        heading1="Partner with AL-MUDAYFER"
+        heading1="Partner with Al-Mudayfer"
         heading2="Testimonials"
         description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
       />

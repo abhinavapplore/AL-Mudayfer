@@ -75,7 +75,7 @@ const Media = () => {
         media={true}
       />
       <Heading
-        // heading1="Partner with AL-MUDAYFER"
+        // heading1="Partner with Al-Mudayfer"
         heading2="News"
         description1="The most important developments about and about the group."
       />
