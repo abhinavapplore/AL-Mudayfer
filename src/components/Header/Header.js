@@ -1,147 +1,178 @@
-import Hamburger from "hamburger-react";
-import { Link, NavLink } from "react-router-dom";
-import React, { useState, useEffect } from "react";
-import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
-import { FaGlobe } from "react-icons/fa";
-import { FaBars } from "react-icons/fa6";
-import { IoMdClose } from "react-icons/io";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FaChevronDown } from "react-icons/fa6";
 import logo from "../../images/logo.png";
-import styles from "./Header.module.css";
+import "./header.css";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 
-const Header = () => {
-  const [open, setOpen] = useState(false);
-  const location = useLocation();
-  const [isDropdownOpen, setDropdownOpen] = useState(false);
+const Header = ({}) => {
+  const [language, setLanguage] = useState("EN");
+  const [openedDropdown, setOpenedDropdown] = useState([]);
 
-  console.log(window.location.pathname);
-  let path = window.location.pathname;
+  const path = useLocation().pathname;
+  const sidebarRef = useRef(null);
+  const hamburgerRef = useRef(null);
+  const [openSidebar, setOpenSidebar] = useState(false);
+  useEffect(() => {
+    const navbarElement = document.getElementById("navbar");
+    const linkTags = navbarElement.getElementsByClassName("nav-links");
+    document.addEventListener("click", (event) => {
+      if (
+        sidebarRef?.current?.contains(event.target) ||
+        hamburgerRef?.current?.contains(event.target)
+      ) {
+        let isNavlinkClick = false;
+        for (let i = 0; i < linkTags.length; i++) {
+          if (linkTags[i].contains(event.target)) {
+            isNavlinkClick = true;
+            break;
+          }
+        }
+        if (isNavlinkClick) {
+          setOpenSidebar(false);
+          setOpenedDropdown([]);
+        } else {
+          setOpenSidebar(true);
+        }
+      } else {
+        setOpenSidebar(false);
+        setOpenedDropdown([]);
+      }
+    });
+    return document.removeEventListener("click", () => {});
+  }, [sidebarRef, hamburgerRef]);
 
-  const handleMouseEnter = () => {
-    setDropdownOpen(true);
-  };
-
-  const handleMouseLeave = () => {
-    setDropdownOpen(false);
-  };
+  const languageHandler = useCallback((language) => {
+    setLanguage(language);
+    setOpenedDropdown([]);
+  }, []);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
-
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
-  const LinkWithScrollToTop = ({ to, children }) => (
-    <Link to={to} onClick={scrollToTop}>
-      {children}
-    </Link>
+    const navbarElement = document.getElementById("navbar");
+    const heroElement = document.getElementById("hero");
+    document.addEventListener("scroll", (event) => {
+      if (path === "/" && heroElement) {
+        const { height } = heroElement.getBoundingClientRect;
+        if (window.pageYOffset > height) {
+          navbarElement.classList = "navbar";
+        } else {
+          navbarElement.classList = "navbar active";
+        }
+      } else {
+        navbarElement.classList = "navbar";
+      }
+    });
+    return () => document.removeEventListener("click", () => {});
+  }, [path]);
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    setOpenSidebar(false);
+  }, [path]);
+  const openedDropdownhandler = useCallback(
+    (value) => {
+      const temp = [...openedDropdown];
+      const index = temp.indexOf(value);
+      if (index === -1) {
+        temp.push(value);
+      } else {
+        temp.splice(index, 1);
+      }
+      setOpenedDropdown([...temp]);
+    },
+    [openedDropdown]
   );
-  const toggleMobileMenu = () => {
-    setOpen(!open);
-  };
 
   return (
-    <>
-      <div className={styles.container}>
-        <div className={styles.logo}>
-          <LinkWithScrollToTop to="/">
-            <img src={logo} alt="" />
-          </LinkWithScrollToTop>
+    <div id="navbar" className={path === "/" ? "navbar active" : "navbar"}>
+      <div className="container-wrapper">
+        <div className="hamburger">
+          <button ref={hamburgerRef}>
+            <GiHamburgerMenu size={18} />
+          </button>
         </div>
-
-        <div className={styles.links}>
-          <LinkWithScrollToTop to="/">
-            <div className={styles.link}>Home</div>
-          </LinkWithScrollToTop>
-          <LinkWithScrollToTop to="/about">
-            <div className={styles.link}>About</div>
-          </LinkWithScrollToTop>
-
-          <LinkWithScrollToTop to="/investment">
-            <div className={styles.link}>our investments</div>
-          </LinkWithScrollToTop>
-
-          <LinkWithScrollToTop to="/join">
-            <div className={styles.link}>Join us</div>
-          </LinkWithScrollToTop>
-
-          <LinkWithScrollToTop to="/media">
-            <div className={styles.link}>media</div>
-          </LinkWithScrollToTop>
-
-          <div
-            className={styles.dropdownContainer}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-          >
-            <div className={styles.link}>
-              <FaGlobe />{" "}
-              {isDropdownOpen ? <AiFillCaretUp /> : <AiFillCaretDown />}
+        <div className="logo">
+          <Link to="/">
+            <img className="image-dark" src={logo} alt="logo" />
+          </Link>
+          <img className="image" src="/assets/images/logo.png" alt="logo" />
+        </div>
+        <ul
+          className={openSidebar ? "sidebar active" : "sidebar"}
+          ref={sidebarRef}
+        >
+          <li>
+            <Link className="nav-links" to="/">
+              <span className={path === "/" ? "active" : ""}>Home</span>
+            </Link>
+          </li>
+          <li>
+            <Link className="nav-links" to="/about">
+              <span className={path === "/about" ? "active" : ""}>About</span>
+            </Link>
+          </li>
+          <li>
+            <Link className="nav-links" to="/investment">
+              <span className={path.includes("/investment") ? "active" : ""}>
+                Our Investments
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link className="nav-links" to="/join">
+              <span className={path === "/join" ? "active" : ""}>Join Us</span>
+            </Link>
+          </li>
+          <li>
+            <Link className="nav-links" to="/media">
+              <span className={path === "/media" ? "active" : ""}>Media</span>
+            </Link>
+          </li>
+          <li className="language">
+            <span
+              onClick={() => openedDropdownhandler("language")}
+              className="f-14 bold"
+            >
+              {language}
+              <FaChevronDown size={14} />
+            </span>
+            <div
+              className={
+                openedDropdown.indexOf("language") !== -1
+                  ? "dropdown active"
+                  : "dropdown"
+              }
+            >
+              <span
+                className={language !== "EN" ? "selected" : ""}
+                onClick={() => languageHandler("اردو")}
+              >
+                اردو
+              </span>
+              <span
+                className={language === "EN" ? "selected" : ""}
+                onClick={() => languageHandler("EN")}
+              >
+                EN
+              </span>
             </div>
-            {isDropdownOpen && (
-              <div className={styles.dropdownContent}>
-                <div className={styles.dropdown_link}>اردو</div>
-                <div className={styles.dropdown_link}>English</div>
-              </div>
-            )}
-          </div>
+          </li>
+          <li className="contact-button">
+            <Link className="nav-links" to="/contact">
+              <button>
+                <span>Contact Us</span>
+              </button>
+            </Link>
+          </li>
+        </ul>
+        <div className="mobile-contacts">
+          <BsFillTelephoneFill size={16} />
+          <MdEmail size={20} />
         </div>
-
-        <LinkWithScrollToTop to="/contact">
-          <div className={styles.button}>contact us</div>
-        </LinkWithScrollToTop>
       </div>
-
-      {/* mobile view */}
-      <div className={styles.mobile_container}>
-        <div className={styles.top}>
-          <div className={styles.right_mobile}>
-            {/* {open ? <IoMdClose /> : <FaBars />} */}
-            <Hamburger
-              size={18}
-              rounded
-              toggled={open}
-              toggle={setOpen}
-              hideOutline={false}
-            />
-          </div>
-          <div className={styles.left_mobile}>
-            <a href="/">
-              <img src={logo} alt="" />
-            </a>
-          </div>
-          {/* <button onClick={toggleMobileMenu}> */}
-
-          {/* </button> */}
-        </div>
-        {open && (
-          <>
-            <div div className={styles.bottom} onClick={toggleMobileMenu}>
-              <a href="/">
-                <div className={styles.mobile_link}>Home</div>
-              </a>
-              <a href="/about">
-                <div className={styles.mobile_link}>About</div>
-              </a>
-              <a href="/investment">
-                <div className={styles.mobile_link}>our investment</div>
-              </a>
-              <a href="/join">
-                <div className={styles.mobile_link}>join us</div>
-              </a>
-              <a href="/media">
-                <div className={styles.mobile_link}>media</div>
-              </a>
-              <a href="/contact">
-                <div className={styles.mobile_link}>Contact Us</div>
-              </a>
-            </div>
-          </>
-        )}
-      </div>
-    </>
+    </div>
   );
 };
 

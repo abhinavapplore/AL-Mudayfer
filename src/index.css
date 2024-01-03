@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@500&display=swap");
 
 * {
   margin: 0;
@@ -6,15 +6,25 @@
   box-sizing: border-box;
   text-decoration: none;
   color: inherit;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth !important;
   user-select: none;
   transition: 100ms ease-in-out;
 }
 
 :root {
-  --blue: #2A4074;
-  --skyblue: #72CDF4;
-  --grey: #63666A;
-  --darkgrey: #291A13;
+  --blue: #2a4074;
+  --skyblue: #72cdf4;
+  --grey: #63666a;
+  --darkgrey: #291a13;
+}
+
+.page {
+  padding-top: 70px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .page {
+    padding-top: 110px;
+  }
 }

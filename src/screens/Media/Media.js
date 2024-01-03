@@ -67,13 +67,12 @@ const Media = () => {
     },
   ];
   return (
-    <>
+    <div className={styles.page}>
       <Investment
         backgroundImage={investscreen}
         heading1="Media Center"
-        // heading2="contact us"
         sub_heading="Always be close to us and part of our journey and get what you want from it’s source."
-        // button="get started"
+        media={true}
       />
       <Heading
         // heading1="Partner with AL-MUDAYFER"
@@ -131,7 +130,7 @@ const Media = () => {
         sub_heading="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudaifer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         join={true}
       />
-    </>
+    </div>
   );
 };
 

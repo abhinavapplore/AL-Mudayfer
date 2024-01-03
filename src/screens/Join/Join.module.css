@@ -5,6 +5,10 @@
   gap: 40px 24px;
 }
 
+.page {
+  padding-top: 70px;
+}
+
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -61,18 +65,20 @@
   margin-bottom: 0px;
 }
 
-input::placeholder {
+.right input::placeholder {
   color: #181b1f;
 }
 
 .left .heading {
   font-size: 14px;
   text-transform: uppercase;
+  letter-spacing: 2px;
   display: flex;
   align-items: center;
   color: #2a4074;
   white-space: nowrap;
   position: relative;
+  letter-spacing: 2px;
   padding-left: 70px;
 }
 
@@ -137,6 +143,9 @@ input::placeholder {
 }
 
 @media only screen and (min-width: 1024px) {
+  .page {
+    padding-top: 110px;
+  }
   .container {
     grid-template-columns: 1fr 1fr;
   }

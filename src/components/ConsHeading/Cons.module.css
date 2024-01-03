@@ -16,6 +16,7 @@
 
 .heading h1 {
   text-transform: uppercase;
+  letter-spacing: 2px;
   font-size: 14px;
   color: var(--grey);
   font-weight: 400;

@@ -8,6 +8,7 @@
   color: #2a4074;
   padding-left: 70px;
   position: relative;
+  letter-spacing: 2px;
 }
 
 .container .section1 span::before {

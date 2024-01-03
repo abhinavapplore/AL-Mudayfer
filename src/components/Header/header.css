@@ -1,0 +1,253 @@
+.navbar {
+  box-sizing: border-box;
+  background: #ffffff;
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+  z-index: 555;
+  padding: 0px 20px;
+  transition: 0.1s all ease-in;
+  overflow: hidden;
+  border-bottom: 1px solid #e4e5e8;
+}
+
+ul,
+li {
+  list-style: none;
+  position: relative;
+}
+
+.navbar .image {
+  display: none;
+}
+
+.navbar .image-dark {
+  display: block;
+}
+
+.navbar .container-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 32px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.navbar .sidebar {
+  position: fixed !important;
+  transition: 0.1s all linear;
+  top: 0px;
+  left: -300px;
+  width: 300px;
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 20px 20px 0px;
+  padding: 100px 40px;
+  z-index: 999;
+  gap: 40px;
+  position: relative;
+  background-color: #f6f8f9;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.09);
+}
+
+.navbar .sidebar span {
+  font-size: 14px;
+  color: #181b1f;
+  font-weight: 400;
+}
+
+.navbar .sidebar span.active {
+  font-weight: 700;
+}
+
+.mobile-contacts {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.mobile-contacts svg {
+  color: #2a4074;
+}
+
+.navbar .sidebar.active {
+  left: 0px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navbar .hamburger button {
+  background-color: transparent;
+  border: 0px;
+}
+
+.navbar .hamburger svg {
+  color: #181b1f;
+}
+
+.navbar .sidebar span {
+  color: #181b1f;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+}
+
+.navbar .sidebar li a span::before,
+.navbar .sidebar li span::before {
+  content: "";
+  width: 0px;
+  height: 1px;
+  background-color: #181b1f;
+  top: calc(100% + 3px);
+  left: 0;
+  position: absolute;
+}
+
+.navbar .sidebar svg {
+  color: #181b1f;
+}
+
+.navbar .sidebar button {
+  padding: 14px 40px;
+  background-color: #2a4074;
+  border: 0px;
+}
+
+.navbar .sidebar button span {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar .sidebar .dropdown {
+  margin-top: 20px;
+  display: none;
+  flex-direction: column;
+  transition: 0.1s all linear;
+}
+
+.navbar .sidebar .dropdown.active {
+  display: flex;
+}
+
+.navbar .sidebar .dropdown span {
+  padding: 8px;
+}
+
+.navbar .sidebar .dropdown span.selected {
+  background-color: #2a4074;
+  color: #ffffff;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.language svg {
+  color: #181b1f;
+  margin-top: -3px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar {
+    padding: 0px 100px;
+    gap: 10px 32px;
+    height: 110px;
+    overflow: visible;
+  }
+
+  .language {
+    padding-left: 62.5px;
+  }
+
+  .contact-button {
+    margin-left: -43px;
+  }
+
+  .logo img {
+    height: 62px;
+  }
+
+  .navbar .container-wrapper {
+    overflow: visible;
+    justify-content: space-between;
+  }
+
+  .mobile-contacts {
+    display: none;
+  }
+
+  .navbar .sidebar {
+    padding: 0px;
+    width: max-content;
+    height: max-content !important;
+    overflow: visible;
+    background-color: transparent;
+    box-shadow: none;
+    flex-direction: row;
+    position: unset !important;
+    z-index: 0;
+    align-items: center;
+    gap: 10px 67px;
+  }
+
+  .navbar .sidebar span {
+    cursor: pointer;
+  }
+
+  .navbar .hamburger {
+    display: none;
+  }
+
+  .navbar .sidebar .dropdown {
+    display: none;
+    margin-top: 0px;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 20px);
+    left: 50%;
+    overflow: hidden;
+    min-width: 100px;
+    z-index: 10000;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+    transition: 0.5s all ease-in;
+  }
+
+  /* .navbar .sidebar .dropdown.active {
+    display: none;
+  }
+
+  .navbar .sidebar span:hover + .dropdown,
+  .navbar .sidebar .dropdown:hover {
+    display: flex;
+  } */
+
+  .navbar .sidebar .dropdown span {
+    display: block;
+    color: #181b1f;
+    padding: 18px 14px;
+    font-weight: 500;
+    font-size: 14px !important;
+  }
+
+  .navbar .sidebar .dropdown span:hover {
+    background-color: #f6f8f9;
+    color: #181b1f;
+  }
+
+  .navbar .sidebar .dropdown span.selected,
+  .navbar .sidebar .dropdown span.selected.hover {
+    background-color: #2a4074;
+    color: #ffffff;
+  }
+}

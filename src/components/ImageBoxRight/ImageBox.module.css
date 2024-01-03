@@ -87,6 +87,7 @@
   padding-left: 70px;
   position: relative;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .subheading::before {

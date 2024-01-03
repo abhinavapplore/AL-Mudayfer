@@ -11,10 +11,19 @@ const Investment = ({
   sub_heading,
   button,
   join,
+  media,
 }) => {
   return (
     <>
-      <div className={join ? styles.joinContainer : styles.container}>
+      <div
+        className={
+          join
+            ? styles.joinContainer
+            : media
+            ? styles.mediaContainer
+            : styles.container
+        }
+      >
         <div className={styles.background_image}>
           <div className={styles.content}>
             <div className={styles.heading}>

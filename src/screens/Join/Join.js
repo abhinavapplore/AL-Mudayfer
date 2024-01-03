@@ -107,12 +107,12 @@ const Join = () => {
   ];
 
   return (
-    <>
+    <div className={styles.page}>
       <Investment
         backgroundImage={aboutscreen}
-        heading1="join us"
+        heading1="Join Us"
         sub_heading="Always be close to us and part of our journey and get what you want from it’s source."
-        button="get started"
+        button="Get Started"
       />
       <Heading
         heading2="Explore Jobs"
@@ -155,8 +155,6 @@ const Join = () => {
                 <input
                   type="text"
                   placeholder="First Name"
-                  onChange={handleChange}
-                  value={formData.firstName}
                   name="firstName"
                   required
                 />
@@ -164,8 +162,6 @@ const Join = () => {
                   type="text"
                   placeholder="Last Name"
                   name="lastName"
-                  value={formData.lastName}
-                  onChange={handleChange}
                   required
                 />
               </div>
@@ -174,8 +170,6 @@ const Join = () => {
                   type="email"
                   pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$"
                   placeholder="Email"
-                  onChange={handleChange}
-                  value={formData.email}
                   name="email"
                   required
                 />
@@ -184,20 +178,18 @@ const Join = () => {
                   pattern="^\d{7}$|^\d{10}$"
                   placeholder="Telephone"
                   title="Please Enter The Mobile Number"
-                  value={formData.phone}
-                  onChange={handleChange}
                   name="phone"
                   required
                 />
               </div>
               <div className={styles.left_form_container}>
                 <select placeholder="Choose Industry">
-                  <option>Farm</option>
-                  <option>Steel</option>
+                  <option>Choose Industry</option>
+                  <option>Choose Package</option>
                 </select>
                 <select placeholder="Choose Package">
-                  <option>Farm</option>
-                  <option>Steel</option>
+                  <option>Choose Industry</option>
+                  <option>Choose Package</option>
                 </select>
               </div>
               <div className={styles.button_and_textarea}>
@@ -223,8 +215,6 @@ const Join = () => {
                 <input
                   type="text"
                   placeholder="First Name"
-                  onChange={handleChange}
-                  value={formData.firstName}
                   name="firstName"
                   required
                 />
@@ -232,8 +222,6 @@ const Join = () => {
                   type="text"
                   placeholder="Last Name"
                   name="lastName"
-                  value={formData.lastName}
-                  onChange={handleChange}
                   required
                 />
               </div>
@@ -242,8 +230,6 @@ const Join = () => {
                   type="email"
                   pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$"
                   placeholder="Email"
-                  onChange={handleChange}
-                  value={formData.email}
                   name="email"
                   required
                 />
@@ -252,20 +238,18 @@ const Join = () => {
                   pattern="^\d{7}$|^\d{10}$"
                   placeholder="Telephone"
                   title="Please Enter The Mobile Number"
-                  value={formData.phone}
-                  onChange={handleChange}
                   name="phone"
                   required
                 />
               </div>
               <div className={styles.left_form_container}>
                 <select placeholder="Choose Industry">
-                  <option>Farm</option>
-                  <option>Steel</option>
+                  <option>Choose Industry</option>
+                  <option>Choose Package</option>
                 </select>
                 <select placeholder="Choose Package">
-                  <option>Farm</option>
-                  <option>Steel</option>
+                  <option>Choose Industry</option>
+                  <option>Choose Package</option>
                 </select>
               </div>
               <div className={styles.button_and_textarea}>
@@ -302,7 +286,7 @@ const Join = () => {
         button="Know More"
         join={true}
       />
-    </>
+    </div>
   );
 };
 

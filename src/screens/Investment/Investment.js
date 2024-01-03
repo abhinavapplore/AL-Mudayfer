@@ -24,8 +24,8 @@ const Investment = () => {
   const [selected, setSelected] = useState(1);
 
   return (
-    <>
-      <Investments backgroundImage={investscreen} heading="our investments" />
+    <div className={styles.page}>
+      <Investments backgroundImage={investscreen} heading="Our Investments" />
       {/* <Heading
         heading1="Partner with AL-MUDAYFER"
         heading2="our companies"
@@ -61,7 +61,7 @@ const Investment = () => {
               className={`${selected === 2 ? styles.active : ""}`}
               onClick={() => setSelected(2)}
             >
-              <div className={styles.builder_names}>Omrania for concrate</div>
+              <div className={styles.builder_names}>Omrania for concrete</div>
             </a>
             <a
               href="#section3"
@@ -122,14 +122,16 @@ const Investment = () => {
           <div className={styles.company} id="section1">
             <div className={styles.wrapper}>
               <div className={styles.logo}>
-                <img src={company7} alt="" />
+                <img src={company4} alt="" />
               </div>
-              <div className={styles.button}>
-                Read More
-                <div className={styles.arrow}>
-                  <BsArrowRight />
+              <Link to="/investment/omrania_material">
+                <div className={styles.button}>
+                  Read More
+                  <div className={styles.arrow}>
+                    <BsArrowRight />
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className={styles.gridWrapper}>
               <p>
@@ -180,12 +182,14 @@ const Investment = () => {
               <div className={styles.logo}>
                 <img src={company2} alt="" />
               </div>
-              <div className={styles.button}>
-                Read More
-                <div className={styles.arrow}>
-                  <BsArrowRight />
+              <Link to="/investment/omrania_concrete">
+                <div className={styles.button}>
+                  Read More
+                  <div className={styles.arrow}>
+                    <BsArrowRight />
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className={styles.gridWrapper}>
               <p>
@@ -231,14 +235,16 @@ const Investment = () => {
           <div className={styles.company} id="section3">
             <div className={styles.wrapper}>
               <div className={styles.logo}>
-                <img src={company4} alt="" />
+                <img src={company3} alt="" />
               </div>
-              <div className={styles.button}>
-                Read More
-                <div className={styles.arrow}>
-                  <BsArrowRight />
+              <Link to="/investment/omrania_wood_products">
+                <div className={styles.button}>
+                  Read More
+                  <div className={styles.arrow}>
+                    <BsArrowRight />
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className={styles.gridWrapper}>
               <p>
@@ -282,12 +288,14 @@ const Investment = () => {
               <div className={styles.logo}>
                 <img src={company5} alt="" />
               </div>
-              <div className={styles.button}>
-                Read More
-                <div className={styles.arrow}>
-                  <BsArrowRight />
+              <Link to="/investment/omrania_metal_power">
+                <div className={styles.button}>
+                  Read More
+                  <div className={styles.arrow}>
+                    <BsArrowRight />
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className={styles.gridWrapper}>
               <p>
@@ -332,14 +340,16 @@ const Investment = () => {
           <div className={styles.company} id="section5">
             <div className={styles.wrapper}>
               <div className={styles.logo}>
-                <img src={company3} alt="" />
+                <img src={company1} alt="" />
               </div>
-              <div className={styles.button}>
-                Read More
-                <div className={styles.arrow}>
-                  <BsArrowRight />
+              <Link to="/investment/SaudiPlayer_polishing_materials">
+                <div className={styles.button}>
+                  Read More
+                  <div className={styles.arrow}>
+                    <BsArrowRight />
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className={styles.gridWrapper}>
               <p>
@@ -384,14 +394,16 @@ const Investment = () => {
           <div className={styles.company} id="section6">
             <div className={styles.wrapper}>
               <div className={styles.logo}>
-                <img src={company1} alt="" />
+                <img src={company8} alt="" />
               </div>
-              <div className={styles.button}>
-                Read More
-                <div className={styles.arrow}>
-                  <BsArrowRight />
+              <Link to="/investment/omrania_land_transport">
+                <div className={styles.button}>
+                  Read More
+                  <div className={styles.arrow}>
+                    <BsArrowRight />
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className={styles.gridWrapper}>
               <p>
@@ -434,14 +446,16 @@ const Investment = () => {
           <div className={styles.company} id="section7">
             <div className={styles.wrapper}>
               <div className={styles.logo}>
-                <img src={company8} alt="" />
+                <img src={company6} alt="" />
               </div>
-              <div className={styles.button}>
-                Read More
-                <div className={styles.arrow}>
-                  <BsArrowRight />
+              <Link to="/investment/omrania_logistic_support">
+                <div className={styles.button}>
+                  Read More
+                  <div className={styles.arrow}>
+                    <BsArrowRight />
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className={styles.gridWrapper}>
               <p>
@@ -486,14 +500,16 @@ const Investment = () => {
           <div className={styles.company} id="section8">
             <div className={styles.wrapper}>
               <div className={styles.logo}>
-                <img src={company6} alt="" />
+                <img src={company7} alt="" />
               </div>
-              <div className={styles.button}>
-                Read More
-                <div className={styles.arrow}>
-                  <BsArrowRight />
+              <Link to="/investment/omrania_crusher">
+                <div className={styles.button}>
+                  Read More
+                  <div className={styles.arrow}>
+                    <BsArrowRight />
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className={styles.gridWrapper}>
               <p>
@@ -535,7 +551,7 @@ const Investment = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -21,7 +21,7 @@ import invest from "../../images/home/ourvalue.jpg";
 
 const HomeScreen = () => {
   return (
-    <>
+    <div className="page">
       <Investment
         backgroundImage={homescreen}
         heading1="AL-MUDAYFER"
@@ -73,7 +73,7 @@ const HomeScreen = () => {
       />
       <Timeline /> */}
       <NewsHealdine />
-    </>
+    </div>
   );
 };
 

@@ -19,7 +19,7 @@ const Triplet = ({ img1, img2, img3, heading1, description1, button }) => {
             social responsibility, believing that it is from this country and to
             it and part of its interconnected society.
           </p>
-          <Link to="/contact">
+          <Link to="/investment/social_responsibility">
             <div className={styles.button}>
               Learn More
               <div className={styles.arrow}>
@@ -36,7 +36,7 @@ const Triplet = ({ img1, img2, img3, heading1, description1, button }) => {
             social responsibility, believing that it is from this country and to
             it and part of its interconnected society.
           </p>
-          <Link to="/contact">
+          <Link to="/investment/national_responsibility">
             <div className={styles.button}>
               Learn More
               <div className={styles.arrow}>
@@ -53,7 +53,7 @@ const Triplet = ({ img1, img2, img3, heading1, description1, button }) => {
             social responsibility, believing that it is from this country and to
             it and part of its interconnected society.
           </p>
-          <Link to="/contact">
+          <Link to="/investment/environmental_responsibility">
             <div className={styles.button}>
               Learn More
               <div className={styles.arrow}>
