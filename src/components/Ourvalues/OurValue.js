@@ -25,7 +25,7 @@ const OurValues = () => {
 
           </ul>
         </div>
-        <div className={styles.card}>
+        <div className={styles.card} style={{height:'430px'}}>
           <h2> {t('home.ourValues.ourVision')}</h2>
           
           <ul>
