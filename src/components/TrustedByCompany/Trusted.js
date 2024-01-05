@@ -28,7 +28,6 @@ const Trusted = ({ notRequired, heading, trusted, page }) => {
     <>
       <div className={styles.container}>
         <div className={styles.heading}>
-         
           {t(`${page}.homeTrusted`)}
         </div>
         {mobile?

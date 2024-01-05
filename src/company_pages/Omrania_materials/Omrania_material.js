@@ -124,6 +124,15 @@ const Omrania_material = () => {
         page="Omrania_material_ImageBoxRight2"
       />
 
+
+<Heading
+        heading1="Partner with OMRANIA CRUSHER"
+        heading2="PRODUCTS WE WERE PART OF "
+        page="Omrania_material_heading6"
+      />
+      
+
+      <CompanySlider items={sliderItems} />
       <Heading
         heading1="Partner with OMRANIA CRUSHER"
         heading2="PRODUCTS WE WERE PART OF"

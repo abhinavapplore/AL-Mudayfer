@@ -117,6 +117,12 @@ const SaudiPlayer_polishingMaterials = () => {
         page="SaudiPlayer_polishingMaterials_ImageBoxRight2"
       />
 
+<Heading
+        heading1="Partner with OMRANIA CRUSHER"
+        heading2="PRODUCTS WE WERE PART OF"
+        page="SaudiPlayer_polishingMaterials_heading3"
+      />
+ <CompanySlider items={sliderItems} />
       <Heading
         heading1="Partner with OMRANIA CRUSHER"
         heading2="PRODUCTS WE WERE PART OF"

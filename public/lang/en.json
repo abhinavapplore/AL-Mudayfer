@@ -813,6 +813,12 @@
       "description1": "Our quarries have been selected based on geological factors and meticulous planning. The extraction of materials (gravel, stone, and rock) from the earth is carried out using the best methods, tools, and techniques to ensure the production of a high-quality final product."
     }
   },
+  "omraniaCrusher_heading1": {
+    "partner": {
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "our Products pulse to"
+    }
+  },
   "omraniaCrusher_heading2": {
     "partner": {
       "heading1": "Partner with OMRANIA CRUSHER",
@@ -1006,6 +1012,12 @@
     "partner": {
       "heading1": "Partner with OMRANIA MATERIAL",
       "heading2": "PROJECTS WE WERE PART OF"
+    }
+  },
+  "Omrania_material_heading6": {
+    "partner": {
+      "heading1": "Partner with OMRANIA MATERIAL",
+      "heading2": "PRODUCTS WE WERE PART OF"
     }
   },
   "Omrania_metalPower": {
