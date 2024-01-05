@@ -48,7 +48,7 @@ const Investment = ({
              {t(`${page}.investment.sub_heading`)}
             </div>
             {button && (
-              page == "home" || page == "home"  ? 
+              page == "home" || page == "about" || page == "invest"  || page == "media"   ? 
               <div className={styles.button} onClick={handleHomeClick}>
               {t(`${page}.investment.button`)}
                <div className={styles.arrow} >

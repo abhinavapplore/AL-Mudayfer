@@ -6,7 +6,10 @@
       "ourInvestments": "Our Investments",
       "joinUs": "Join Us",
       "media": "Media",
-      "contactUs": "Contact Us"
+      "contactUs": "Contact Us",
+      "employee": "Employee",
+      "supplier": "Supplier",
+      "investor": "Investor"
     },
     "languageDropdown": {
       "globeIcon": "🌐",

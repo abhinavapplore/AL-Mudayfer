@@ -27,12 +27,12 @@ const Footer = () => {
               </div>
               <div className={styles.left_box}>
                 <div className={styles.tag_line}>   {t(`footer.alwaysBeWithUs`)}</div>
-                <div className={styles.phone}>
+                <a href="skype:footer.phone?call"><div className={styles.phone}>
                   <BsFillTelephoneFill size={12} />  {t(`footer.phone`)}
-                </div>
-                <div className={styles.phone}>
+                </div></a>
+                <a href="mailto:Email : info@segalebros.com"><div className={styles.phone}>
                   <MdEmail size={14} /> {t(`footer.email`)}
-                </div>
+                </div></a>
               </div>
 
               <div className={styles.icons}>

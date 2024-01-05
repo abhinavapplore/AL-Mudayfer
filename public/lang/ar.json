@@ -6,7 +6,10 @@
       "ourInvestments": "استثماراتنا",
       "joinUs": "انضم إلينا",
       "media": "وسائل الإعلام",
-      "contactUs": "اتصل بنا"
+      "contactUs": "اتصل بنا",
+      "employee": "موظف",
+      "supplier": "مورد",
+      "investor": "مستثمر"
     },
     "languageDropdown": {
       "globeIcon": "🌐",

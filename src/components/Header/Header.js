@@ -172,13 +172,13 @@ const Header = ({}) => {
               }
             >
                <Link to="/join/employee" >
-             <span >  Employee</span>
+             <span >  {t('header.links.employee')}</span>
              </Link>
              <Link to="/join/supplier" >
-             <span >  Supplier</span>
+             <span >  {t('header.links.supplier')}</span>
              </Link>
              <Link to="/join/investor" >
-             <span >  Investor</span>
+             <span >  {t('header.links.investor')}</span>
              </Link>
             
             </div>
