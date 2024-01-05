@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Heading.module.css";
+import { useTranslation } from 'react-i18next';
 
 const Heading = ({
   heading1,
@@ -8,35 +9,38 @@ const Heading = ({
   description2,
   description3,
   description4,
+  page
 }) => {
+  const { t } = useTranslation();
+
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="employeesection">
         <div className={styles.heading1}>
-          <h1>{heading1}</h1>
+          {heading1 && <h1>{t(`${page}.partner.heading1`)}</h1>}
         </div>
-        <div className={styles.heading2}>{heading2}</div>
+        <div className={styles.heading2}>{t(`${page}.partner.heading2`)}</div>
         <p className={styles.description}>
-          {description1 && <>{description1}</>}
+          {description1 && <>{t(`${page}.partner.description1`)}</>}
           {description2 && (
             <>
               <br />
               <br />
-              {description2}
+              {t(`${page}.partner.description2`)}
             </>
           )}
           {description3 && (
             <>
               <br />
               <br />
-              {description3}
+              {t(`${page}.partner.description3`)}
             </>
           )}
           {description4 && (
             <>
               <br />
               <br />
-              {description4}
+              {t(`${page}.partner.description4`)}
             </>
           )}
         </p>

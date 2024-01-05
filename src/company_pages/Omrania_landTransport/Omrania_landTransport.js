@@ -55,6 +55,7 @@ const Omrania_landTransport = () => {
         heading1="Al-Omrania Materials Company for Land Transport"
         sub_heading="Integrated and innovative solutions specialized in land transportation with the latest technologies. We have provided a ground transportation fleet with the highest standards of safety and security to ensure the preservation of products."
         button="Get started "
+        page="Omrania_landTransport"
       />
       <Heading
         heading1="about omrania materials"
@@ -66,7 +67,8 @@ const Omrania_landTransport = () => {
                 • We strive to achieve leadership in all aspects of our business by following an approach of innovation, creativity, and future thinking.
                 • We adhere to the highest standards of behavior and ethical practices at all levels of the company's operations.
                 • We take pride in the high professional conduct and the contribution to the development of the land transportation industry."
-      />
+    page="Omrania_landTransport"
+    />
 
       <Card
         image1={vision_big}
@@ -81,19 +83,22 @@ const Omrania_landTransport = () => {
         icon3={vision}
         heading3="QUALITY & SAFETY"
         subHeading3="Our advanced transportation fleet, equipped with the latest technologies, ensures quality and safety. Our dedicated team prioritizes a secure working environment, regularly inspecting vehicles and adhering to strict safety standards, delivering efficient land transportation services."
+       page="Omrania_landTransport"
       />
 
       <Heading
         heading2="Al-Omrania Materials Company for Land Transport"
         description1="Freight transport by trucks includes the movement of raw materials and products within and outside the Kingdom."
+        page="Omrania_landTransport_heading2"
       />
 
       {/* <Trusted /> */}
       <ImageBoxLeft
         imageSrc={landTransportationByTruck}
         heading="Land transportation via trucks"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
+        description1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="Omrania_landTransport"
       />
       {/* <ImageBoxRight
                 imageSrc={block}
@@ -117,18 +122,22 @@ const Omrania_landTransport = () => {
       <Heading
         heading1="Partner with OMRANIA CRUSHER"
         heading2="PRODUCTS WE WERE PART OF"
+        page="Omrania_landTransport_heading3"
       />
 
       <CompanySlider items={sliderItems} />
 
       <Heading
+      page="Omrania_landTransport_heading4"
         heading1="Partner with OMRANIA for concrete"
         heading2="Testimonials"
         description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
       />
 
-      <Testimonial />
-      <Helper_numbers />
+<br/>
+<br/>
+      <Testimonial page="Omrania_landTransport" />
+      <Helper_numbers page="Omrania_material"  />
     </div>
   );
 };

@@ -55,8 +55,10 @@ const Omrania_material = () => {
         heading1="Al-Omrania Materials Company"
         sub_heading="Al-Omrania Building Materials Company is a pioneer in the production and manufacturing of essential construction materials in the Kingdom of Saudi Arabia."
         button="Get started "
+        page="Omrania_material"
       />
       <Heading
+      page="Omrania_material"
         heading1="about omrania materials"
         heading2="Saudi Building Icon: Al-Omrania Materials Company"
         description1="Established in 1972, Omrania Materials Company has since secured a leading position in the production of essential building materials in the Kingdom of Saudi Arabia. Our vision is to continuously meet the market's needs by delivering high-quality and efficient products for various construction projects. With a distinguished history spanning over half a century, we commit to providing reliable solutions in the construction sector, including tiles, blocks, interlock pavers, and pavements. Our company has become a preferred choice for both government and private projects within the Kingdom. We adhere to the highest standards of quality and safety, leveraging modern technology and a spirit of innovation to offer products distinguished by efficiency and durability. Our factories showcase a strong commitment to quality through the establishment of advanced laboratories for monitoring and confirming quality, based on both international and local technical specifications."
@@ -71,6 +73,7 @@ const Omrania_material = () => {
       />
 
       <Card
+      page="Omrania_material"
         image1={vision_big}
         icon1={vision}
         heading1="Our Vision"
@@ -88,6 +91,7 @@ const Omrania_material = () => {
       <Heading
         heading2="omrania materials company"
         description1="A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications."
+       page="Omrania_material_heading2"
       />
 
       {/* <Trusted /> */}
@@ -96,29 +100,34 @@ const Omrania_material = () => {
         heading="Terrazzo Tiles"
         text="A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications."
         buttonText="read more"
+        page="Omrania_material"
       />
       <ImageBoxRight
         imageSrc={block}
         heading="Block"
         text="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudayfer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         buttonText="read more"
+        page="Omrania_material"
       />
       <ImageBoxLeft
         imageSrc={interlocks}
         heading="interlock"
         text="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudayfer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         buttonText="read more"
+        page="Omrania_material_ImageBoxLeft2"
       />
       <ImageBoxRight
         imageSrc={pavers}
         heading="pavers"
         text="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudayfer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         buttonText="read more"
+        page="Omrania_material_ImageBoxRight2"
       />
 
       <Heading
         heading1="Partner with OMRANIA CRUSHER"
         heading2="PRODUCTS WE WERE PART OF"
+        page="Omrania_material_heading3"
       />
 
       <CompanySlider items={sliderItems} />
@@ -127,10 +136,12 @@ const Omrania_material = () => {
         heading1="Partner with OMRANIA for concrete"
         heading2="Testimonials"
         description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
+      page="Omrania_material_heading4"
       />
+      <br/>
 
-      <Testimonial />
-      <Helper_numbers />
+      <Testimonial  page="Omrania_material"/>
+      <Helper_numbers page="Omrania_material" />
     </div>
   );
 };

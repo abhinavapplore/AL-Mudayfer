@@ -1,37 +1,38 @@
 import React from "react";
 import "./timelines.css";
+import { useTranslation } from 'react-i18next';
 
-const Timelines = () => {
+const Timelines = ({page}) => {
+
+  const { t } = useTranslation();
+
   return (
     <div className="container">
       <ul>
         <li>
-          <span>STAGE 1</span>
-          <b>2005</b>
-          <p>Founded as Floorhomes Pvt Ltd</p>
+          <span> {t(`${page}.timeline.stages1.title`)}</span>
+          <b>{t(`${page}.timeline.stages1.year`)}</b>
+          <p>{t(`${page}.timeline.stages1.description`)}</p>
         </li>
         <li>
-          <span>STAGE 2</span>
-          <b>2011</b>
-          <p>Completed 1 L Sqft etc</p>
+        <span> {t(`${page}.timeline.stages2.title`)}</span>
+          <b>{t(`${page}.timeline.stages2.year`)}</b>
+          <p>{t(`${page}.timeline.stages2.description`)}</p>
         </li>
         <li>
-          <span>STAGE 3</span>
-          <b>2015</b>
-          <p>ReBranded as Aume</p>
+        <span> {t(`${page}.timeline.stages3.title`)}</span>
+          <b>{t(`${page}.timeline.stages3.year`)}</b>
+          <p>{t(`${page}.timeline.stages3.description`)}</p>
         </li>
         <li>
-          <span>STAGE 4</span>
-          <b>Build</b>
-          <p>It is a long established fact that a reader will be distracted</p>
+        <span> {t(`${page}.timeline.stages4.title`)}</span>
+          <b>{t(`${page}.timeline.stages4.year`)}</b>
+          <p>{t(`${page}.timeline.stages4.description`)}</p>
         </li>
         <li>
-          <span>STAGE 5</span>
-          <b>Present</b>
-          <p>
-            Launched Multiple Services for to make process easy for users to
-            find all services at one place
-          </p>
+        <span> {t(`${page}.timeline.stages5.title`)}</span>
+          <b>{t(`${page}.timeline.stages5.year`)}</b>
+          <p>{t(`${page}.timeline.stages5.description`)}</p>
         </li>
       </ul>
     </div>

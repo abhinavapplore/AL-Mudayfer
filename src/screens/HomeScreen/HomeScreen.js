@@ -18,8 +18,12 @@ import homeExperts1 from "../../images/home/home-experts1.png";
 import homeExperts2 from "../../images/home/home-experts2.png";
 import board from "../../images/home/board.png";
 import invest from "../../images/home/ourvalue.jpg";
+import { useTranslation } from "react-i18next";
 
 const HomeScreen = () => {
+
+  const {t} = useTranslation()
+
   return (
     <div className="page">
       <Investment
@@ -28,13 +32,15 @@ const HomeScreen = () => {
         heading2="Holding"
         sub_heading="The name that has been associated with building and construction works for development monuments over generations from the Kingdom of Saudi Arabia and to the Middle East."
         button="Know More "
+        page="home"
       />
       <Heading
         heading1="Partner with Al-Mudayfer"
         heading2="The Building & Construction Experts"
         description1="TAl-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion."
         description2="So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years."
-        description3="Trust our project management experts at Al-Mudafir Holdings from Design to Completion!"
+        // description3="Trust our project management experts at Al-Mudafir Holdings from Design to Completion!"
+        page="home"
       />
       <Milestone />
       <Experience62
@@ -44,9 +50,10 @@ const HomeScreen = () => {
         description1="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudaifer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia"
         description2="As the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         button="Learn More "
+        page="home"
       />
 
-      <Trusted />
+      <Trusted trusted={true} page="home"/>
       <OurValues />
       <ConsHeading />
 
@@ -56,6 +63,7 @@ const HomeScreen = () => {
         description1="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudaifer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia"
         description2="As the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         button="Learn More"
+        page="home"
       />
       <ImageBoxLeft
         imageSrc={employment}
@@ -63,6 +71,7 @@ const HomeScreen = () => {
         description1="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudaifer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia"
         description2="As the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         button="know more"
+        page="home"
       />
       {/* <Company
         backgroundImage={invest}

@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown } from "react-icons/fa6";
@@ -7,15 +7,29 @@ import logo from "../../images/logo.png";
 import "./header.css";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import i18next from "i18next";
+import { useTranslation } from 'react-i18next';
 
 const Header = ({}) => {
+  const { t } = useTranslation();
+  const {id} = useParams()
   const [language, setLanguage] = useState("EN");
   const [openedDropdown, setOpenedDropdown] = useState([]);
-
+  const [isjoinDropdownOpen, setjoinDropdownOpen] = useState(true);
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
   const path = useLocation().pathname;
   const sidebarRef = useRef(null);
   const hamburgerRef = useRef(null);
   const [openSidebar, setOpenSidebar] = useState(false);
+
+  const handlejoinMouseEnter = () => {
+    setjoinDropdownOpen(true);
+  };
+
+  const handlejoinMouseLeave = () => {
+    setjoinDropdownOpen(false);
+  };
+
   useEffect(() => {
     const navbarElement = document.getElementById("navbar");
     const linkTags = navbarElement.getElementsByClassName("nav-links");
@@ -49,6 +63,22 @@ const Header = ({}) => {
     setLanguage(language);
     setOpenedDropdown([]);
   }, []);
+
+  useEffect(()=>{
+    const storedLanguage = localStorage.getItem('i18nextLng');
+    document.body.dir = storedLanguage === 'ar' ? 'rtl' : '';
+    setLanguage( storedLanguage === 'ar' ? 'AR' : 'EN')
+  },[localStorage.getItem('i18nextLng')])
+
+  
+
+  const handleLanguageChange = (language) => {
+
+    setDropdownOpen(false);
+    document.body.dir = language === "ar" ? "rtl" : "";
+    i18next.changeLanguage(language === "ar" ? "ar" : "en");
+  };
+
 
   useEffect(() => {
     const navbarElement = document.getElementById("navbar");
@@ -85,6 +115,11 @@ const Header = ({}) => {
     [openedDropdown]
   );
 
+
+  
+
+ 
+
   return (
     <div id="navbar" className={path === "/" ? "navbar active" : "navbar"}>
       <div className="container-wrapper">
@@ -105,29 +140,52 @@ const Header = ({}) => {
         >
           <li>
             <Link className="nav-links" to="/">
-              <span className={path === "/" ? "active" : ""}>Home</span>
+              <span className={path === "/" ? "active" : ""}> {t(`header.links.home`)}</span>
             </Link>
           </li>
           <li>
             <Link className="nav-links" to="/about">
-              <span className={path === "/about" ? "active" : ""}>About</span>
+              <span className={path === "/about" ? "active" : ""}>{t(`header.links.about`)}</span>
             </Link>
           </li>
           <li>
             <Link className="nav-links" to="/investment">
               <span className={path.includes("/investment") ? "active" : ""}>
-                Our Investments
+              {t(`header.links.ourInvestments`)}
               </span>
             </Link>
           </li>
-          <li>
-            <Link className="nav-links" to="/join">
-              <span className={path === "/join" ? "active" : ""}>Join Us</span>
-            </Link>
+         
+          <li className="joinus">
+            <span
+              onClick={() => openedDropdownhandler("joinus")}
+              className="f-14 bold"
+            >
+             Join Us 
+              <FaChevronDown size={14} />
+            </span>
+            <div
+              className={
+                openedDropdown.indexOf("joinus") !== -1
+                  ? "dropdown active"
+                  : "dropdown"
+              }
+            >
+               <Link to="/join/employee" >
+             <span >  Employee</span>
+             </Link>
+             <Link to="/join/supplier" >
+             <span >  Supplier</span>
+             </Link>
+             <Link to="/join/investor" >
+             <span >  Investor</span>
+             </Link>
+            
+            </div>
           </li>
           <li>
             <Link className="nav-links" to="/media">
-              <span className={path === "/media" ? "active" : ""}>Media</span>
+              <span className={path === "/media" ? "active" : ""}>{t(`header.links.media`)}</span>
             </Link>
           </li>
           <li className="language">
@@ -147,13 +205,13 @@ const Header = ({}) => {
             >
               <span
                 className={language !== "EN" ? "selected" : ""}
-                onClick={() => languageHandler("اردو")}
+                onClick={()=>handleLanguageChange("ar")}
               >
                 اردو
               </span>
               <span
                 className={language === "EN" ? "selected" : ""}
-                onClick={() => languageHandler("EN")}
+                onClick={()=>handleLanguageChange("en")}
               >
                 EN
               </span>
@@ -162,7 +220,7 @@ const Header = ({}) => {
           <li className="contact-button">
             <Link className="nav-links" to="/contact">
               <button>
-                <span>Contact Us</span>
+                <span>{t(`header.links.contactUs`)}</span>
               </button>
             </Link>
           </li>

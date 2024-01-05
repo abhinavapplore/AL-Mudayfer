@@ -6,13 +6,18 @@ import volvo from "../../images/investment/volvo.png";
 import deloitte from "../../images/investment/deloitte.png";
 import okta from "../../images/investment/okta.png";
 import { BsArrowRight } from "react-icons/bs";
+import { useTranslation } from "react-i18next";
 
-const Trusted = ({ notRequired, heading }) => {
+
+const Trusted = ({ notRequired, heading ,trusted , page}) => {
+
+  const {t} = useTranslation()
+
   return (
     <>
       <div className={styles.container}>
         <div className={styles.heading}>
-          {heading ? heading : "Our Investments"}
+          { t(`${page}.homeTrusted`)}
         </div>
         <div className={styles.images}>
           <img src={walmart} alt="" />
@@ -23,13 +28,12 @@ const Trusted = ({ notRequired, heading }) => {
         </div>
         {!notRequired && (
           <div className={styles.content}>
-            <div className={styles.heading1}>We Invest</div>
+            <div className={styles.heading1}> {t(`${page}.trusted.content.heading1`)}</div>
             <div className={styles.sub_heading}>
-              Extend the hand of investment, as our hands are extended to all
-              available opportunities.
+            {t(`${page}.trusted.content.sub_heading`)}
             </div>
             <div className={styles.button}>
-              Know More
+            {t(`${page}.trusted.content.button_text`)}
               <div className={styles.arrow}>
                 <BsArrowRight />
               </div>

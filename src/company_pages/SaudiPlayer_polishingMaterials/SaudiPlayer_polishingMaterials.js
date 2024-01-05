@@ -55,13 +55,15 @@ const SaudiPlayer_polishingMaterials = () => {
         heading1="Saudi Factory for Grinding and Polishing Materials Company"
         sub_heading="A leader in the field of manufacturing building materials and the first specialized Saudi factory in the production of gears and cutting cylinders in various sizes and for various purposes."
         button="Get started "
+        page="SaudiPlayer_polishingMaterials"
       />
       <Heading
         heading1="about omrania materials"
         heading2="Saudi Factory for Grinding and Polishing Materials Company"
         description1="One of the leading companies in the field of manufacturing building materials and the first specialized Saudi factory in the production of gears and cutting cylinders in various sizes and for various purposes. Some are used for cutting iron, others for cutting and breaking stones and tiles, as well as manufacturing grinding stones commonly used in tile polishing of various types. The idea of establishing a factory dedicated to producing these materials emerged from the founder Saleh Al-Madaifer's keenness to provide complementary materials for the production of tile industry instead of importing them. It is known that the tile industry, in its various types, requires, in its final stage, grinding the product to remove impurities, making it ready for installation. In addition, cutting cylinders are also used in tiling. This factory now meets the needs of the group's affiliated factories and similar factories. Besides, cylinders and gears are used for other purposes in light and heavy iron industries, supplying the local market with them."
         description2="The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
-      />
+        page="SaudiPlayer_polishingMaterials"
+     />
 
       <Card
         image1={vision_big}
@@ -76,11 +78,13 @@ const SaudiPlayer_polishingMaterials = () => {
         icon3={vision}
         heading3="QUALITY & SAFETY"
         subHeading3="The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
-      />
+        page="SaudiPlayer_polishingMaterials"
+     />
 
       <Heading
         heading2="omrania materials company"
         description1="A group of cutting, grinding and polishing gears such as:"
+        page="SaudiPlayer_polishingMaterials_heading2"
       />
 
       {/* <Trusted /> */}
@@ -89,29 +93,34 @@ const SaudiPlayer_polishingMaterials = () => {
         heading="STONE"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="SaudiPlayer_polishingMaterials"
       />
       <ImageBoxRight
         imageSrc={castIron}
         heading="CAST IRON"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="SaudiPlayer_polishingMaterials"
       />
       <ImageBoxLeft
         imageSrc={metal}
         heading="METAL"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="SaudiPlayer_polishingMaterials_ImageBoxLeft2"
       />
       <ImageBoxRight
         imageSrc={sSteel}
         heading="S.STEEL"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="SaudiPlayer_polishingMaterials_ImageBoxRight2"
       />
 
       <Heading
         heading1="Partner with OMRANIA CRUSHER"
         heading2="PRODUCTS WE WERE PART OF"
+        page="SaudiPlayer_polishingMaterials_heading3"
       />
 
       <CompanySlider items={sliderItems} />
@@ -120,10 +129,12 @@ const SaudiPlayer_polishingMaterials = () => {
         heading1="Partner with OMRANIA for concrete"
         heading2="Testimonials"
         description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
+     page="SaudiPlayer_polishingMaterials_heading4"
       />
-
-      <Testimonial />
-      <Helper_numbers />
+<br/>
+<br/>
+      <Testimonial   page="SaudiPlayer_polishingMaterials" />
+      <Helper_numbers   page="Omrania_material" />
     </div>
   );
 };

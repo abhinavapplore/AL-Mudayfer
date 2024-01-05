@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./experience62.module.css";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
+import { useTranslation } from 'react-i18next';
 
 const Experience62 = ({
   image1,
@@ -10,20 +11,24 @@ const Experience62 = ({
   description1,
   description2,
   button,
+  page
 }) => {
+
+  const { t } = useTranslation();
+  
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <div className={styles.heading}>{heading}</div>
+        <div className={styles.heading}> {t(`${page}.experience62.heading`)}</div>
         <div className={styles.sub_heading}>
-          {description1}
+        {t(`${page}.experience62.text`)}
           <br />
           <br />
-          {description2}
+          {/* {description2} */}
         </div>
         <Link to="/contact">
           <div className={styles.button}>
-            {button}
+          {t(`${page}.experience62.buttonText`)}
             <div className={styles.arrow}>
               <BsArrowRight />
             </div>

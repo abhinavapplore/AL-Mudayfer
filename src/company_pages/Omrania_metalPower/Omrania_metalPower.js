@@ -48,6 +48,8 @@ const Omrania_metalPower = () => {
     },
   ];
 
+
+
   return (
     <div className="page">
       <Investment
@@ -55,11 +57,13 @@ const Omrania_metalPower = () => {
         heading1="Al-Omrania Materials Company for Metal Forming"
         sub_heading="Al-Omrania Materials Metal Forming Company is a leader in the field of metal forming, providing modern and contemporary engineering solutions that meet the needs of various metal forming domains."
         button="Get started "
+        page="Omrania_metalPower"
       />
       <Heading
         heading1="about AL-Omrania materials"
         heading2="Al-Omrania Materials Company for Metal Forming"
         description1="Al-Omrania Metal Forming Company was established in 2018. It is a specialized company in metal forming, providing modern and contemporary engineering solutions in all fields of metal forming. The company boasts a technical team with the highest qualifications and experiences, utilizing the latest advanced technologies and adhering to industrial methods with the highest standards."
+      page="Omrania_metalPower"
       />
 
       <Card
@@ -75,6 +79,7 @@ const Omrania_metalPower = () => {
         icon3={vision}
         heading3="QUALITY & SAFETY"
         subHeading3="Precision in executing work with the finest global machinery and the most advanced technology, providing the customer with an exceptional view of both the work and the product."
+      page="Omrania_metalPower"
       />
 
       <Heading
@@ -85,6 +90,7 @@ const Omrania_metalPower = () => {
                 2. Punching
                 3. Forming various metal materials
                 4. Welding of metal materials"
+                page="Omrania_metalPower_heading2"
       />
 
       {/* <Trusted /> */}
@@ -93,29 +99,34 @@ const Omrania_metalPower = () => {
         heading="Electrostatic"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="Omrania_metalPower"
       />
       <ImageBoxRight
         imageSrc={punching}
         heading="Punching"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="Omrania_metalPower"
       />
       <ImageBoxLeft
         imageSrc={formingMetals}
         heading="Forming various metals"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="Omrania_metalPower_ImageBoxLeft2"
       />
       <ImageBoxRight
         imageSrc={weldingMaterials}
         heading="Welding of metal materials"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="Omrania_metalPower_ImageBoxRight2"
       />
 
       <Heading
         heading1="Welding equipment for the Al-Omrania Crusher Company"
         heading2="PRODUCTS WE WERE PART OF"
+        page="Omrania_metalPower_heading3"
       />
 
       <CompanySlider items={sliderItems} />
@@ -124,10 +135,12 @@ const Omrania_metalPower = () => {
         heading1="Partner with OMRANIA for concrete"
         heading2="Testimonials"
         description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
+       page="Omrania_metalPower_heading4"
       />
-
-      <Testimonial />
-      <Helper_numbers />
+<br/>
+<br/>
+      <Testimonial page="Omrania_metalPower"/>
+      <Helper_numbers page="Omrania_material" />
     </div>
   );
 };

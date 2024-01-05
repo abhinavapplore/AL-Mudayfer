@@ -17,8 +17,10 @@ const Social_Responsibility = () => {
         heading2="Responsibility"
         sub_heading="Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks and balustrades for more than 50 years in the middle east."
         button="get started"
+        page="socialResponsibility"
       />
       <Heading
+      page="socialResponsibility"
         heading1="About Al-Mudayfer"
         heading2="Social Responsibility"
         description1="Saleh Al-Mudaifer Sons Holding Group carries in its genes the love of doing good for others, working for everyone, and the culture of social responsibility, believing that it is from this country and to it and part of its interconnected society. For this reason, Al-Mudaifer Holding has presented many community initiatives with different ideas that included direct support with materials and products from its factories, Training programs for university students and graduates have supported many charitable associations and institutions in their work."
@@ -29,18 +31,21 @@ const Social_Responsibility = () => {
         heading="Experience 62+ Years"
         text="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudayfer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         buttonText="Learn More"
+        page="socialResponsibility"
       />
       <Experience62Left
         imageSrc={exp}
         heading="Experience 62+ Years"
         text="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudayfer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         buttonText="Learn More"
+        page="socialResponsibility"
       />
       <Experience62
         imageSrc={exp}
         heading="Experience 62+ Years"
         text="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudayfer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         buttonText="Learn More"
+        page="socialResponsibility"
       />
     </div>
   );

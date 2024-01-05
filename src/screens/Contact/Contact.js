@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useTransition } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
-
+import { useTranslation } from 'react-i18next';
 import styles from "./Contact.module.css";
 import Heading from "../../components/Heading/Heading";
 import location from "../../images/contact/location.svg";
@@ -15,6 +15,7 @@ import whatsapp from "../../images/contact/whatsapp.svg";
 const Contact = () => {
   const url = process.env.REACT_APP_BACKEND_URL + "/create";
 
+  const {t} = useTranslation()
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -65,24 +66,28 @@ const Contact = () => {
         sub_heading="New Industrial City - Al-Musafa
         District - Street 194 Riyadh - Kingdom of Saudi Arabia"
         button="Know More "
+        page="contact"
       />
       <div className={styles.blue_heading}>
-        <div className={styles.blue_line}></div> stay in touch
+        <div className={styles.blue_line}></div>{t('contact.touch')}
       </div>
       <Heading
+      page="contact"
         heading2="LET’S GET IN TOUCH WITH OUR PROFESSIONALS TEAM WORKING"
         description1="Integration in the commercial market is an important requirement, especially between the producer and the investor who wants to benefit from his experience and work in marketing products by obtaining an important role as a wholesale and retail trader.20 We at Saleh Al-Mudaifer Sons Holding Group seek to maximize the benefits of our commercial activity to include different segments of society and we welcome partnerships of this kind with all companies affiliated with the group.
         "
       />
+      <br/>
+      <br/>
 
       <div className={styles.container_box}>
         <div className={styles.box}>
           <div className={styles.icon}>
             <img src={location} alt="" />
           </div>
-          <div className={styles.heading}>office location</div>
+          <div className={styles.heading}>{t('contact.contactInfo.officeLocation.heading')}</div>
           <div className={styles.sub_heading}>
-            New Industrial City - Al-Musafa
+          {t('contact.contactInfo.officeLocation.subHeading')}
           </div>
         </div>
 
@@ -90,24 +95,24 @@ const Contact = () => {
           <div className={styles.icon}>
             <img src={email} alt="" />
           </div>
-          <div className={styles.heading}>Email</div>
-          <div className={styles.sub_heading}>info@smsh.com.sa</div>
+          <div className={styles.heading}>{t('contact.contactInfo.email.heading')}</div>
+          <div className={styles.sub_heading}>{t('contact.contactInfo.email.subHeading')}</div>
         </div>
 
         <div className={styles.box}>
           <div className={styles.icon}>
             <img src={phone} alt="" />
           </div>
-          <div className={styles.heading}>Phone</div>
-          <div className={styles.sub_heading}>920000116</div>
+          <div className={styles.heading}>{t('contact.contactInfo.phone.heading')}</div>
+          <div className={styles.sub_heading}>{t('contact.contactInfo.phone.subHeading')}</div>
         </div>
 
         <div className={styles.box}>
           <div className={styles.icon}>
             <img src={whatsapp} alt="" />
           </div>
-          <div className={styles.heading}>Whatsapp</div>
-          <div className={styles.sub_heading}>966501906677</div>
+          <div className={styles.heading}>{t('contact.contactInfo.whatsapp.heading')}</div>
+          <div className={styles.sub_heading}>{t('contact.contactInfo.whatsapp.subHeading')}</div>
         </div>
       </div>
 
@@ -126,16 +131,16 @@ const Contact = () => {
 
         <div className={styles.form}>
           <div className={styles.form_top}>
-            <div className={styles.form_heading}>Keep in touch</div>
+            <div className={styles.form_heading}>{t('contact.form.formHeading')}</div>
             <div className={styles.form_sub_heading}>
-              please let us know how can we help you
+            {t('contact.form.formSubHeading')}
             </div>
           </div>
 
           <form onSubmit={handleSubmit}>
             <div className={styles.main_form_container}>
               <div className={styles.left_form_container}>
-                <div className={styles.label_name}>First name</div>
+                <div className={styles.label_name}>  {t('contact.form.label.firstName')}</div>
                 <input
                   type="text"
                   placeholder="Ex. Aamir"
@@ -144,7 +149,7 @@ const Contact = () => {
                   name="firstName"
                   required
                 />
-                <div className={styles.label_name}>Email</div>
+                <div className={styles.label_name}> {t('contact.form.label.email')}</div>
                 <input
                   type="email"
                   pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$"
@@ -156,7 +161,7 @@ const Contact = () => {
                 />
               </div>
               <div className={styles.left_form_container}>
-                <div className={styles.label_name}>Last name</div>
+                <div className={styles.label_name}>{t('contact.form.label.lastName')}</div>
                 <input
                   type="text"
                   placeholder="Ex. Doe"
@@ -165,7 +170,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                 />
-                <div className={styles.label_name}>Telephone</div>
+                <div className={styles.label_name}>{t('contact.form.label.phone')}</div>
                 <input
                   type="text"
                   pattern="^\d{7}$|^\d{10}$"
@@ -179,7 +184,7 @@ const Contact = () => {
               </div>
             </div>
             <div className={styles.button_and_textarea}>
-              <div className={styles.label_name}>Message</div>
+              <div className={styles.label_name}>{t('contact.form.label.message')}</div>
               <input
                 type="textarea"
                 placeholder="Write Message"
@@ -189,7 +194,7 @@ const Contact = () => {
                 required
               />
               <div className={styles.send_button}>
-                <button>SEND MESSAGE</button>
+                <button>{t('contact.form.button')}</button>
               </div>
             </div>
             {/* <div className={styles.right_form_container}></div> */}

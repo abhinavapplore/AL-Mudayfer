@@ -56,11 +56,13 @@ const Omrania_woodProducts = () => {
         heading1="Al-Omrania Company for Wooden Products"
         sub_heading="A leading Saudi company in manufacturing high-quality furniture and producing custom-made furniture"
         button="Get started "
+        page="Omrania_woodProducts"
       />
       <Heading
         heading1="about omrania materials"
         heading2="Al-Omrania Company for Wooden Products"
         description1="It is a leading Saudi company in the manufacturing of high-quality furniture, producing custom-made furniture such as reception units, cabinets, kitchens, wall panels, doors, ceilings, and bespoke solutions. They utilize the latest technologies to manufacture furniture that meets the highest international standards. Al-Omrania for Wood Products is one of the investments of the Sons of Saleh Al-Mudayfer Holding Company, established in 1996. They have significant commercial interests in a wide range of activities across the Kingdom. Al-Mudayfer Company aims to form an integrated industrial group serving urban areas, corporate affairs, and individuals. From this vision, the idea of establishing Al-Umrania for Wood Products emerged. The wood products factory is an integral service component, in addition to other services provided by the holding group."
+        page="Omrania_woodProducts"
       />
 
       <Card
@@ -76,42 +78,49 @@ const Omrania_woodProducts = () => {
         icon3={vision}
         heading3="QUALITY & SAFETY"
         subHeading3="Wide-ranging expertise and established partnerships with effective companies have shaped our work in local and global joint ventures, recognized as leaders. This contributes to achieving excellence and mastering partnerships with high efficiency, all to maintain the company's vision characterized by sincerity and trust."
+        page="Omrania_woodProducts"
       />
 
       <Heading
         heading2="Al-Omrania Company for Wooden Products"
         description1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
+        page="Omrania_woodProducts_heading2"
       />
 
       {/* <Trusted /> */}
       <ImageBoxLeft
         imageSrc={receptionUnit}
         heading="Reception Units"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
+        description1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="Omrania_woodProducts"
       />
       <ImageBoxRight
         imageSrc={cabinets}
         heading="Cabinets"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="Omrania_woodProducts"
       />
       <ImageBoxLeft
         imageSrc={kitchen}
         heading="Kitchens"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="Omrania_woodProducts_ImageBoxLeft2"
       />
       <ImageBoxRight
         imageSrc={wallPanel}
         heading="Wall Panels"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="Omrania_woodProducts_ImageBoxRight2"
       />
 
       <Heading
         heading1="Partner with OMRANIA CRUSHER"
         heading2="PRODUCTS WE WERE PART OF"
+        page="Omrania_woodProducts_heading3"
       />
 
       <CompanySlider items={sliderItems} />
@@ -120,10 +129,12 @@ const Omrania_woodProducts = () => {
         heading1="Partner with OMRANIA for concrete"
         heading2="Testimonials"
         description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
-      />
-
-      <Testimonial />
-      <Helper_numbers />
+        page="Omrania_woodProducts_heading4"
+     />
+<br/>
+<br/>
+      <Testimonial page="Omrania_woodProducts"  />
+      <Helper_numbers page="Omrania_material" />
     </div>
   );
 };

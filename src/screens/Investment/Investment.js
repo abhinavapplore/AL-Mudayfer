@@ -19,13 +19,16 @@ import img1 from "../../images/investment/img1.png";
 import img2 from "../../images/investment/img2.png";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
+import { useTranslation } from 'react-i18next';
 
-const Investment = () => {
+const Investment = ({page}) => {
   const [selected, setSelected] = useState(1);
+
+const {t} = useTranslation()
 
   return (
     <div className={styles.page}>
-      <Investments backgroundImage={investscreen} heading="Our Investments" />
+      <Investments backgroundImage={investscreen} heading="Our Investments" page="invest" />
       {/* <Heading
         heading1="Partner with Al-Mudayfer"
         heading2="our companies"
@@ -54,28 +57,28 @@ const Investment = () => {
               className={`${selected === 1 ? styles.active : ""}`}
               onClick={() => setSelected(1)}
             >
-              <div className={styles.builder_names}>Omrania materials</div>
+              <div className={styles.builder_names}>{t(`invest.companies.1`)}</div>
             </a>
             <a
               href="#section2"
               className={`${selected === 2 ? styles.active : ""}`}
               onClick={() => setSelected(2)}
             >
-              <div className={styles.builder_names}>Omrania for concrete</div>
+              <div className={styles.builder_names}>{t(`invest.companies.2`)}</div>
             </a>
             <a
               href="#section3"
               className={`${selected === 3 ? styles.active : ""}`}
               onClick={() => setSelected(3)}
             >
-              <div className={styles.builder_names}>Omrania wood</div>
+              <div className={styles.builder_names}>{t(`invest.companies.3`)}</div>
             </a>
             <a
               href="#section4"
               className={`${selected === 4 ? styles.active : ""}`}
               onClick={() => setSelected(4)}
             >
-              <div className={styles.builder_names}> Omrania Metal Power</div>
+              <div className={styles.builder_names}>{t(`invest.companies.4`)}</div>
             </a>
 
             <a
@@ -84,7 +87,7 @@ const Investment = () => {
               onClick={() => setSelected(5)}
             >
               <div className={styles.builder_names}>
-                Saudi Player for polishing
+              {t(`invest.companies.5`)}
               </div>
             </a>
 
@@ -94,7 +97,7 @@ const Investment = () => {
               onClick={() => setSelected(6)}
             >
               <div className={styles.builder_names}>
-                Omrania for road transport
+              {t(`invest.companies.6`)}
               </div>
             </a>
             <a
@@ -103,7 +106,7 @@ const Investment = () => {
               onClick={() => setSelected(7)}
             >
               <div className={styles.builder_names}>
-                Omrania Logistic Support
+              {t(`invest.companies.7`)}
               </div>
             </a>
             <a
@@ -111,7 +114,7 @@ const Investment = () => {
               className={`${selected === 8 ? styles.active : ""}`}
               onClick={() => setSelected(8)}
             >
-              <div className={styles.builder_names}>Omrania Crusher</div>
+              <div className={styles.builder_names}> {t(`invest.companies.8`)}</div>
             </a>
           </div>
         </div>
@@ -126,7 +129,7 @@ const Investment = () => {
               </div>
               <Link to="/investment/omrania_material">
                 <div className={styles.button}>
-                  Read More
+                {t(`invest.companyDetails.readMore`)}
                   <div className={styles.arrow}>
                     <BsArrowRight />
                   </div>
@@ -135,37 +138,24 @@ const Investment = () => {
             </div>
             <div className={styles.gridWrapper}>
               <p>
-                We invested in Omrania Crusher to make it our journey in the
-                production of construction materials with high reliability.
+              {t(`invest.companyDetails.1.description1`)}
               </p>
               <p>
-                From the land of Saudi Arabia... Omrania Crusher. Because raw
-                materials are a priority for the success of the industry, we
-                invested in establishing Omrania Crusher in 2004. This
-                investment marks our journey in producing construction materials
-                with high reliability, meeting the highest specifications, and
-                ensuring sustainability. We supply the local market with the
-                finest types of gravel in various sizes, which are used in many
-                different cement industries. These materials play a crucial role
-                in development and progress. Omrania Crusher has contributed to
-                the execution of numerous distinguished projects within the
-                Kingdom. Our product quality sets the foundation for the overall
-                quality of the factories, starting with the quality of the
-                crusher materials.
+              {t(`invest.companyDetails.1.description2`)}
               </p>
             </div>
             <div className={styles.wrapper}>
               <div className={styles.info}>
-                <h2>2004</h2>
-                <span>DATE OF ESTABLISHMENT</span>
+                <h2> {t(`invest.companyDetails.1.detail.1.year`)}</h2>
+                <span>{t(`invest.companyDetails.1.detail.1.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>1979</h2>
-                <span>ADVANCED</span>
+                <h2>{t(`invest.companyDetails.1.detail.2.year`)}</h2>
+                <span>{t(`invest.companyDetails.1.detail.2.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>20M</h2>
-                <span>BRANCHES</span>
+              <h2>{t(`invest.companyDetails.1.detail.3.year`)}</h2>
+                <span>{t(`invest.companyDetails.1.detail.3.label`)}</span>
               </div>
             </div>
             <div className={styles.gridWrapper}>
@@ -184,7 +174,7 @@ const Investment = () => {
               </div>
               <Link to="/investment/omrania_concrete">
                 <div className={styles.button}>
-                  Read More
+               {t(`invest.companyDetails.readMore`)}
                   <div className={styles.arrow}>
                     <BsArrowRight />
                   </div>
@@ -192,35 +182,25 @@ const Investment = () => {
               </Link>
             </div>
             <div className={styles.gridWrapper}>
-              <p>
-                We strive diligently to provide confidence and certainty to all
-                stakeholders through our innovative and sustainable approach.
-                Our aim is to assist them in delivering high-quality
-                construction materials and products, along with providing
-                reliable services to customers and local communities.
+            <p>
+              {t(`invest.companyDetails.2.description1`)}
               </p>
               <p>
-                At Al-Omrania Ready Mix Concrete, we strongly believe that
-                business and environmental preservation should go hand in hand.
-                This is achieved by promoting local culture and traditions and
-                integrating the company's strategies regarding industrial
-                efficiency and innovation with climate protection, reducing
-                reliance on natural resources, and minimizing harmful air
-                emissions.
+              {t(`invest.companyDetails.2.description2`)}
               </p>
             </div>
             <div className={styles.wrapper}>
               <div className={styles.info}>
-                <h2>2003</h2>
-                <span>DATE OF ESTABLISHMENT</span>
+              <h2> {t(`invest.companyDetails.2.detail.1.year`)}</h2>
+                <span>{t(`invest.companyDetails.2.detail.1.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>1979</h2>
-                <span>ADVANCED</span>
+              <h2> {t(`invest.companyDetails.2.detail.2.year`)}</h2>
+                <span>{t(`invest.companyDetails.2.detail.2.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>20M</h2>
-                <span>BRANCHES</span>
+              <h2> {t(`invest.companyDetails.2.detail.3.year`)}</h2>
+                <span>{t(`invest.companyDetails.2.detail.3.label`)}</span>
               </div>
             </div>
             <div className={styles.gridWrapper}>
@@ -239,7 +219,7 @@ const Investment = () => {
               </div>
               <Link to="/investment/omrania_wood_products">
                 <div className={styles.button}>
-                  Read More
+               {t(`invest.companyDetails.readMore`)}
                   <div className={styles.arrow}>
                     <BsArrowRight />
                   </div>
@@ -248,30 +228,24 @@ const Investment = () => {
             </div>
             <div className={styles.gridWrapper}>
               <p>
-                Al-Omrania Building Materials Company is a pioneer in the
-                production and manufacturing of essential construction materials
-                in the Kingdom of Saudi Arabia.
+              {t(`invest.companyDetails.3.description1`)}
               </p>
               <p>
-                The company's product range includes tiles, blocks, interlock
-                pavers, and paving slabs. With a history spanning over half a
-                century, the company has become a symbol of innovation and
-                leadership in the construction sector, extending its influence
-                across the Middle East.
+              {t(`invest.companyDetails.3.description2`)}
               </p>
             </div>
             <div className={styles.wrapper}>
               <div className={styles.info}>
-                <h2>1972</h2>
-                <span>DATE OF ESTABLISHMENT</span>
+              <h2> {t(`invest.companyDetails.3.detail.1.year`)}</h2>
+                <span>{t(`invest.companyDetails.3.detail.1.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>1979</h2>
-                <span>ADVANCED</span>
+              <h2> {t(`invest.companyDetails.3.detail.2.year`)}</h2>
+                <span>{t(`invest.companyDetails.3.detail.2.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>20M</h2>
-                <span>BRANCHES</span>
+              <h2> {t(`invest.companyDetails.3.detail.3.year`)}</h2>
+                <span>{t(`invest.companyDetails.3.detail.3.label`)}</span>
               </div>
             </div>
             <div className={styles.gridWrapper}>
@@ -290,7 +264,7 @@ const Investment = () => {
               </div>
               <Link to="/investment/omrania_metal_power">
                 <div className={styles.button}>
-                  Read More
+               {t(`invest.companyDetails.readMore`)}
                   <div className={styles.arrow}>
                     <BsArrowRight />
                   </div>
@@ -298,34 +272,21 @@ const Investment = () => {
               </Link>
             </div>
             <div className={styles.gridWrapper}>
-              <p>
-                Al-Omrania Materials Metal Forming Company is a leader in the
-                field of metal forming, providing modern and contemporary
-                engineering solutions that meet the needs of various metal
-                forming domains.
-              </p>
-              <p>
-                Al-Omrania Metal Forming Company was established in 2018. It is
-                a specialized company in metal forming, providing modern and
-                contemporary engineering solutions in all fields of metal
-                forming. The company boasts a technical team with the highest
-                qualifications and experiences, utilizing the latest advanced
-                technologies and adhering to industrial methods with the highest
-                standards.
-              </p>
+              <p>  {t(`invest.companyDetails.4.description1`)}</p>
+              <p>  {t(`invest.companyDetails.4.description2`)}</p>
             </div>
             <div className={styles.wrapper}>
               <div className={styles.info}>
-                <h2>2018</h2>
-                <span>DATE OF ESTABLISHMENT</span>
+              <h2> {t(`invest.companyDetails.4.detail.1.year`)}</h2>
+                <span>{t(`invest.companyDetails.4.detail.1.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>1979</h2>
-                <span>ADVANCED</span>
+              <h2> {t(`invest.companyDetails.4.detail.2.year`)}</h2>
+                <span>{t(`invest.companyDetails.4.detail.2.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>20M</h2>
-                <span>BRANCHES</span>
+              <h2> {t(`invest.companyDetails.4.detail.3.year`)}</h2>
+                <span>{t(`invest.companyDetails.4.detail.3.label`)}</span>
               </div>
             </div>
             <div className={styles.gridWrapper}>
@@ -344,7 +305,7 @@ const Investment = () => {
               </div>
               <Link to="/investment/SaudiPlayer_polishing_materials">
                 <div className={styles.button}>
-                  Read More
+               {t(`invest.companyDetails.readMore`)}
                   <div className={styles.arrow}>
                     <BsArrowRight />
                   </div>
@@ -352,34 +313,21 @@ const Investment = () => {
               </Link>
             </div>
             <div className={styles.gridWrapper}>
-              <p>
-                A leading Saudi company in manufacturing high-quality furniture
-                and producing custom-made furniture.
-              </p>
-              <p>
-                It is a leading Saudi company in the manufacturing of
-                high-quality furniture, producing custom-made furniture such as
-                reception units, cabinets, kitchens, wall panels, doors,
-                ceilings, and bespoke solutions. They utilize the latest
-                technologies to manufacture furniture that meets the highest
-                international standards. Al-Omrania for Wood Products is one of
-                the investments of the Sons of Saleh Al-Mudayfer Holding
-                Company, established in 1996. They have significant commercial
-                interests in a wide range of activities across the Kingdom.
-              </p>
+            <p>  {t(`invest.companyDetails.5.description1`)}</p>
+              <p>  {t(`invest.companyDetails.5.description2`)}</p>
             </div>
             <div className={styles.wrapper}>
               <div className={styles.info}>
-                <h2>1996</h2>
-                <span>DATE OF ESTABLISHMENT</span>
+              <h2> {t(`invest.companyDetails.5.detail.1.year`)}</h2>
+                <span>{t(`invest.companyDetails.5.detail.1.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>1979</h2>
-                <span>ADVANCED</span>
+              <h2> {t(`invest.companyDetails.5.detail.2.year`)}</h2>
+                <span>{t(`invest.companyDetails.5.detail.2.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>20M</h2>
-                <span>BRANCHES</span>
+              <h2> {t(`invest.companyDetails.5.detail.3.year`)}</h2>
+                <span>{t(`invest.companyDetails.5.detail.3.label`)}</span>
               </div>
             </div>
             <div className={styles.gridWrapper}>
@@ -398,7 +346,7 @@ const Investment = () => {
               </div>
               <Link to="/investment/omrania_land_transport">
                 <div className={styles.button}>
-                  Read More
+               {t(`invest.companyDetails.readMore`)}
                   <div className={styles.arrow}>
                     <BsArrowRight />
                   </div>
@@ -406,32 +354,21 @@ const Investment = () => {
               </Link>
             </div>
             <div className={styles.gridWrapper}>
-              <p>
-                A leader in the field of manufacturing building materials and
-                the first specialized Saudi factory in the production of gears
-                and cutting cylinders in various sizes and for various purposes.
-              </p>
-              <p>
-                We invested in building a nation, and in developing a human
-                being, so the products of Saleh Al-Mudayfer Sons Holding Company
-                became an essential pillar in the construction and finishing
-                work of various development projects in the Kingdom of Saudi
-                Arabia, as the company’s investments were built on the legacy of
-                the founding father and specialization in its supply chains.
-              </p>
+            <p>  {t(`invest.companyDetails.6.description1`)}</p>
+              <p>  {t(`invest.companyDetails.6.description2`)}</p>
             </div>
             <div className={styles.wrapper}>
               <div className={styles.info}>
-                <h2>2003</h2>
-                <span>DATE OF ESTABLISHMENT</span>
+              <h2> {t(`invest.companyDetails.6.detail.1.year`)}</h2>
+                <span>{t(`invest.companyDetails.6.detail.1.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>1979</h2>
-                <span>ADVANCED</span>
+              <h2> {t(`invest.companyDetails.6.detail.2.year`)}</h2>
+                <span>{t(`invest.companyDetails.6.detail.2.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>20M</h2>
-                <span>BRANCHES</span>
+              <h2> {t(`invest.companyDetails.6.detail.3.year`)}</h2>
+                <span>{t(`invest.companyDetails.6.detail.3.label`)}</span>
               </div>
             </div>
             <div className={styles.gridWrapper}>
@@ -450,7 +387,7 @@ const Investment = () => {
               </div>
               <Link to="/investment/omrania_logistic_support">
                 <div className={styles.button}>
-                  Read More
+               {t(`invest.companyDetails.readMore`)}
                   <div className={styles.arrow}>
                     <BsArrowRight />
                   </div>
@@ -458,34 +395,21 @@ const Investment = () => {
               </Link>
             </div>
             <div className={styles.gridWrapper}>
-              <p>
-                Integrated and innovative solutions specialized in land
-                transportation with the latest technologies. We have provided a
-                ground transportation fleet with the highest standards of safety
-                and security to ensure the preservation of products.
-              </p>
-              <p>
-                Due to the significant and continuous economic
-                development,Al-Omrania Land Transportation Company was
-                established to keep pace with progress and provide integrated
-                and innovative solutions specialized in land transportation with
-                the latest technologies. We have introduced a ground
-                transportation fleet with the highest standards of safety and
-                security to ensure the preservation of products.
-              </p>
+            <p>  {t(`invest.companyDetails.7.description1`)}</p>
+              <p>  {t(`invest.companyDetails.7.description2`)}</p>
             </div>
             <div className={styles.wrapper}>
               <div className={styles.info}>
-                <h2>2003</h2>
-                <span>DATE OF ESTABLISHMENT</span>
+              <h2> {t(`invest.companyDetails.7.detail.1.year`)}</h2>
+                <span>{t(`invest.companyDetails.7.detail.1.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>1979</h2>
-                <span>ADVANCED</span>
+              <h2> {t(`invest.companyDetails.7.detail.2.year`)}</h2>
+                <span>{t(`invest.companyDetails.7.detail.2.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>20M</h2>
-                <span>BRANCHES</span>
+              <h2> {t(`invest.companyDetails.7.detail.3.year`)}</h2>
+                <span>{t(`invest.companyDetails.7.detail.3.label`)}</span>
               </div>
             </div>
             <div className={styles.gridWrapper}>
@@ -504,7 +428,7 @@ const Investment = () => {
               </div>
               <Link to="/investment/omrania_crusher">
                 <div className={styles.button}>
-                  Read More
+               {t(`invest.companyDetails.readMore`)}
                   <div className={styles.arrow}>
                     <BsArrowRight />
                   </div>
@@ -512,32 +436,21 @@ const Investment = () => {
               </Link>
             </div>
             <div className={styles.gridWrapper}>
-              <p>
-                The Al-Omrania Materials for Logistics Support company is based
-                on core values that it adheres to and contributes to its
-                business growth. These values include integrity, quality, and
-                excellence.
-              </p>
-              <p>
-                Established in 2019 as part of the Sons of Saleh Al-Mudayfer
-                Holding Company to keep pace with developments in the logistics
-                sector, especially with the focus on the Kingdom's Vision 2030
-                and the establishment of a national strategy for transportation
-                and logistics.
-              </p>
+            <p>  {t(`invest.companyDetails.8.description1`)}</p>
+              <p>  {t(`invest.companyDetails.8.description2`)}</p>
             </div>
             <div className={styles.wrapper}>
               <div className={styles.info}>
-                <h2>2019</h2>
-                <span>DATE OF ESTABLISHMENT</span>
+              <h2> {t(`invest.companyDetails.8.detail.1.year`)}</h2>
+                <span>{t(`invest.companyDetails.8.detail.1.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>1979</h2>
-                <span>ADVANCED</span>
+              <h2> {t(`invest.companyDetails.8.detail.2.year`)}</h2>
+                <span>{t(`invest.companyDetails.8.detail.2.label`)}</span>
               </div>
               <div className={styles.info}>
-                <h2>20M</h2>
-                <span>BRANCHES</span>
+              <h2> {t(`invest.companyDetails.8.detail.3.year`)}</h2>
+                <span>{t(`invest.companyDetails.8.detail.3.label`)}</span>
               </div>
             </div>
             <div className={styles.gridWrapper}>

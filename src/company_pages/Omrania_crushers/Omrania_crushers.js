@@ -55,8 +55,10 @@ const Omrania_crushers = () => {
         heading1="Omrania Crusher"
         sub_heading="Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks and balustrades for more than 50 years in the middle east."
         button="Get started "
+        page="omraniaCrusher"
       />
       <Heading
+      page="omraniaCrusher"
         heading1="about omrania crusher"
         heading2="from the land of saudi arabia"
         description1="From the land of Saudi Arabia... Omrania Crusher.
@@ -65,6 +67,7 @@ const Omrania_crushers = () => {
       />
 
       <Card
+      page="omraniaCrusher"
         image1={vision_big}
         icon1={vision}
         heading1="Our Vision"
@@ -80,6 +83,7 @@ const Omrania_crushers = () => {
       />
 
       <Heading
+      page="omraniaCrusher_heading2"
         heading2="OMRANIA CRUSHER COMPANY PRODUCTS"
         description1="Our quarries have been selected based on geological factors and meticulous planning. The extraction of materials (gravel, stone, and rock) from the earth is carried out using the best methods, tools, and techniques to ensure the production of a high-quality final product."
       />
@@ -89,18 +93,21 @@ const Omrania_crushers = () => {
         heading="GRAVEL"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="omraniaCrusher"
       />
       <ImageBoxRight
         imageSrc={stone}
         heading="STONE"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="omraniaCrusher"
       />
       <ImageBoxLeft
         imageSrc={rock}
         heading="ROCK"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit consectetur corporis eaque, saepe porro earum beatae? Sunt odit asperiores repellat officia consectetur ab adipisci quia nisi qui, recusandae atque!"
         buttonText="read more"
+        page="omraniaCrusherleftBox2"
       />
       {/* <ImageBoxRight
                 imageSrc={tiles}
@@ -112,18 +119,20 @@ const Omrania_crushers = () => {
       <Heading
         heading1="Partner with OMRANIA CRUSHER"
         heading2="our products pulse to"
+        page="omraniaCrusher_heading2"
       />
 
-      <CompanySlider items={sliderItems} />
+      <CompanySlider items={sliderItems}  />
 
       <Heading
+      page="omraniaCrusher_heading3"
         heading1="Partner with OMRANIA CRUSHER"
         heading2="Testimonials"
         description1="Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
       />
-
-      <Testimonial />
-      <Helper_numbers />
+<br/>
+      <Testimonial  page="Omrania_landTransport" />
+      <Helper_numbers page="Omrania_material"  />
     </div>
   );
 };

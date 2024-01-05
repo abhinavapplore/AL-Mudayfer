@@ -4,26 +4,29 @@ import styles from './Helper.module.css';
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { RiWhatsappFill } from "react-icons/ri";
+import { useTranslation } from 'react-i18next';
 
 
+const Helper_numbers = ({page}) => {
 
-const Helper_numbers = () => {
+    const {t} = useTranslation()
+
     return (
         <>
             <div className={styles.helper__container}>
                 <div className={styles.helper__heading}>
-                    WE ARE HAPPY TO 
+                {t(`${page}.helper_section.heading1`)}
                     <br />
-                    COMMUNICATE WITH YOU
+                    {t(`${page}.helper_section.heading2`)}
                 </div>
                 <div className={styles.tab}>
-                    <FaPhoneAlt /> &nbsp; Phone : 920000116
+                    <FaPhoneAlt /> &nbsp;   {t(`${page}.helper_section.tab1.content`)}
                 </div>
                 <div className={styles.tab}>
-                    <MdEmail /> &nbsp; Email: Info@smsh.com.sa
+                    <MdEmail /> &nbsp; {t(`${page}.helper_section.tab2.content`)}
                 </div>
                 <div className={styles.tab}>
-                    <RiWhatsappFill /> &nbsp;  Whatsapp: 966501906677
+                    <RiWhatsappFill /> &nbsp;  {t(`${page}.helper_section.tab3.content`)}
                 </div>
             </div>
         </>
