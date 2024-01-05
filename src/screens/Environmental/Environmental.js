@@ -28,12 +28,13 @@ const Environmental = () => {
       />
       <Experience62
        page="environmental"
-        imageSrc={exp}
+        image1={exp}
+        image2={exp}
         heading="Experience 62+ Years"
         text="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudayfer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         buttonText="Learn More"
       />
-      <Experience62Left
+      {/* <Experience62Left
         imageSrc={exp}
         heading="Experience 62+ Years"
         text="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudayfer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
@@ -46,7 +47,7 @@ const Environmental = () => {
         text="We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudayfer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains."
         buttonText="Learn More"
         page="environmental"
-      />
+      /> */}
     </div>
   );
 };

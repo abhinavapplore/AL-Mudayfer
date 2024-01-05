@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Heading from "../../components/Heading/Heading";
-import Investments from "../../components/InvestmentOpp/Investments";
+import Investments from "../../components/InvestmentOpp/Investment";
 import aboutscreen from "../../images/about/aboutscreen.jpg";
 
 import styles from "./Investment.module.css";
@@ -14,7 +14,7 @@ import company5 from "../../images/investment/company5.svg";
 import company6 from "../../images/investment/company6.svg";
 import company7 from "../../images/investment/company7.svg";
 import company8 from "../../images/investment/company8.svg";
-import investscreen from "../../images/investment/investmentsscreen.png";
+import investscreen from "../../images/investment/investmentscreen.jpg";
 import img1 from "../../images/investment/img1.png";
 import img2 from "../../images/investment/img2.png";
 import { Link } from "react-router-dom";
@@ -28,8 +28,11 @@ const {t} = useTranslation()
 
   return (
     <div className={styles.page}>
-      <Investments backgroundImage={investscreen} heading="Our Investments" page="invest" />
-      {/* <Heading
+      <Investments backgroundImage={investscreen} heading="Our Investments" page="invest" button={true} />
+
+      
+      <Heading
+      page="invest"
         heading1="Partner with Al-Mudayfer"
         heading2="our companies"
         description1="
@@ -47,8 +50,9 @@ const {t} = useTranslation()
           enhancing local content, industrial growth, creating job opportunities and bridging the
           gap in the market. Locally and looking to expand externally.
           "
-      /> */}
-
+      />
+<br/>
+<br/>
       <div className={styles.container}>
         <div className={styles.left_container}>
           <div className={styles.sticky_container}>

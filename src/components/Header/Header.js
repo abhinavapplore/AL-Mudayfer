@@ -67,7 +67,7 @@ const Header = ({}) => {
   useEffect(()=>{
     const storedLanguage = localStorage.getItem('i18nextLng');
     document.body.dir = storedLanguage === 'ar' ? 'rtl' : '';
-    setLanguage( storedLanguage === 'ar' ? 'AR' : 'EN')
+    setLanguage( storedLanguage === 'ar' ? 'اردو"' : 'EN')
   },[localStorage.getItem('i18nextLng')])
 
   
@@ -145,7 +145,7 @@ const Header = ({}) => {
           </li>
           <li>
             <Link className="nav-links" to="/about">
-              <span className={path === "/about" ? "active" : ""}>{t(`header.links.about`)}</span>
+              <span className={path.includes('/about') ? "active" : ""}>{t(`header.links.about`)}</span>
             </Link>
           </li>
           <li>
@@ -161,7 +161,7 @@ const Header = ({}) => {
               onClick={() => openedDropdownhandler("joinus")}
               className="f-14 bold"
             >
-             Join Us 
+              {t(`header.links.joinUs`)}
               <FaChevronDown size={14} />
             </span>
             <div

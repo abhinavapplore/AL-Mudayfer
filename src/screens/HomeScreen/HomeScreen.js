@@ -12,11 +12,11 @@ import Milestone from "../../components/Milestone/Milestone";
 import OurValues from "../../components/Ourvalues/OurValue";
 import ConsHeading from "../../components/ConsHeading/ConsHeading";
 
-import homescreen from "../../images/home/homescreen.png";
-import employment from "../../images/home/employment.png";
-import homeExperts1 from "../../images/home/home-experts1.png";
+import homescreen from "../../images/home/homescreeHero.jpg";
+import employment from "../../images/home/employment.jpg";
+import homeExperts1 from "../../images/home/exp.jpg";
 import homeExperts2 from "../../images/home/home-experts2.png";
-import board from "../../images/home/board.png";
+import board from "../../images/home/board.jpg";
 import invest from "../../images/home/ourvalue.jpg";
 import { useTranslation } from "react-i18next";
 

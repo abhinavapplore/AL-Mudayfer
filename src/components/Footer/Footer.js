@@ -64,15 +64,15 @@ const Footer = () => {
                   <Link to="/about">{t(`footer.company.ourHistory`)}</Link>
                 </div>
                 <div className={styles.right_company_content}>
-                  <Link to="/social_responsibility">{t(`footer.company.socialResponsibility`)}</Link>
+                  <Link to="/about/social_responsibility">{t(`footer.company.socialResponsibility`)}</Link>
                 </div>
                 <div className={styles.right_company_content}>
-                  <Link to="/environmental_responsibility">
+                  <Link to="/about/environmental_responsibility">
                   {t(`footer.company.environmentalResponsibility`)}
                   </Link>
                 </div>
                 <div className={styles.right_company_content}>
-                  <Link to="/national_responsibility">
+                  <Link to="/about/national_responsibility">
                   {t(`footer.company.nationalResponsibility`)}
                   </Link>
                 </div>
@@ -93,7 +93,7 @@ const Footer = () => {
                   <Link to="/join">{t(`footer.investment.joinAsClient`)}</Link>
                 </div>
                 <div className={styles.right_company_content}>
-                  <Link to="/contact">{t(`footer.investment.joinAsEmployee`)}</Link>
+                  <Link to="/join">{t(`footer.investment.joinAsEmployee`)}</Link>
                 </div>
               </div>
             </div>

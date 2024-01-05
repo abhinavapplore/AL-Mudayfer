@@ -126,6 +126,13 @@ const Omrania_concrete = () => {
       />
 
       <CompanySlider items={sliderItems} />
+      <Heading
+        heading1="Partner with OMRANIA CRUSHER"
+        heading2="PRODUCTS WE WERE PART OF "
+        page="Omraniaheading5"
+      />
+
+      <CompanySlider items={sliderItems} />
 
       <Heading
         heading1="Partner with OMRANIA for concrete"

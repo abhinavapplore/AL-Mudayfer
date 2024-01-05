@@ -83,8 +83,8 @@ const Omrania_crushers = () => {
       />
 
       <Heading
-      page="omraniaCrusher_heading2"
-        heading2="OMRANIA CRUSHER COMPANY PRODUCTS"
+      page="omraniaCrusher_products"
+      heading2="OMRANIA CRUSHER COMPANY PRODUCTS"
         description1="Our quarries have been selected based on geological factors and meticulous planning. The extraction of materials (gravel, stone, and rock) from the earth is carried out using the best methods, tools, and techniques to ensure the production of a high-quality final product."
       />
 

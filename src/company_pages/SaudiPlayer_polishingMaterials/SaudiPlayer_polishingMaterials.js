@@ -120,7 +120,7 @@ const SaudiPlayer_polishingMaterials = () => {
       <Heading
         heading1="Partner with OMRANIA CRUSHER"
         heading2="PRODUCTS WE WERE PART OF"
-        page="SaudiPlayer_polishingMaterials_heading3"
+        page="SaudiPlayer_polishingMaterials_heading5"
       />
 
       <CompanySlider items={sliderItems} />

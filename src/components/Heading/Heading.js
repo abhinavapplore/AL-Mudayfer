@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Heading.module.css";
 import { useTranslation } from 'react-i18next';
 
-const Heading = ({
+const  Heading = ({
   heading1,
   heading2,
   description1,
@@ -19,7 +19,7 @@ const Heading = ({
         <div className={styles.heading1}>
           {heading1 && <h1>{t(`${page}.partner.heading1`)}</h1>}
         </div>
-        <div className={styles.heading2}>{t(`${page}.partner.heading2`)}</div>
+        <div className={styles.heading2} style={{textTransform:'capitalize'}}>{t(`${page}.partner.heading2`)}</div>
         <p className={styles.description}>
           {description1 && <>{t(`${page}.partner.description1`)}</>}
           {description2 && (

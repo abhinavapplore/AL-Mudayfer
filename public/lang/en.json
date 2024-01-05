@@ -252,6 +252,22 @@
       "description3": "Trust our project management experts at Al-Mudafir Holdings from Design to Completion!"
     }
   },
+  "abouttesti1":{
+    "partner":{
+      "heading1": "Partner with Al-Mudayfer",
+      "heading2": "Testimonials",
+      "description1": "Al-Mudayfer is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years."
+   
+    }
+   },
+   "abouttesti2": {
+    "partner":{
+      "heading1": "Partner with Al-Mudayfer",
+      "heading2": "Timeline",
+      "description1": "Al-Mudayfer is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management, and capital management for more than 25 years."
+
+    }
+  },
   "invest": {
     "investment": {
       "heading1": "Our Investments",
@@ -276,7 +292,7 @@
     },
     "gallery": "Gallery",
     "companyDetails": {
-      "1": {
+      "8": {
         "name": "Omrania Crusher",
         "description1": "We invested in Omrania Crusher to make it our journey in the production of construction materials with high reliability.",
         "description2": "From the land of Saudi Arabia... Omrania Crusher. Because raw materials are a priority for the success of the industry, we invested in establishing Omrania Crusher in 2004. This investment marks our journey in producing construction materials with high reliability, meeting the highest specifications, and ensuring sustainability. We supply the local market with the finest types of gravel in various sizes, which are used in many different cement industries. These materials play a crucial role in development and progress. Omrania Crusher has contributed to the execution of numerous distinguished projects within the Kingdom. Our product quality sets the foundation for the overall quality of the factories, starting with the quality of the crusher materials.",
@@ -314,7 +330,7 @@
           }
         }
       },
-      "3":{
+      "1":{
         "name": "Al-Omrania Building Materials Company",
         "description1": "Al-Omrania Building Materials Company is a pioneer in the production and manufacturing of essential construction materials in the Kingdom of Saudi Arabia.",
         "description2": "The company's product range includes tiles, blocks, interlock pavers, and paving slabs. With a history spanning over half a century, the company has become a symbol of innovation and leadership in the construction sector, extending its influence across the Middle East.",
@@ -352,7 +368,7 @@
           }
         }
       },
-      "5": {
+      "3": {
         "name": "Al-Omrania for Wood Products",
         "description1": "A leading Saudi company in manufacturing high-quality furniture and producing custom-made furniture.",
         "description2": "It is a leading Saudi company in the manufacturing of high-quality furniture, producing custom-made furniture such as reception units, cabinets, kitchens, wall panels, doors, ceilings, and bespoke solutions. They utilize the latest technologies to manufacture furniture that meets the highest international standards. Al-Omrania for Wood Products is one of the investments of the Sons of Saleh Al-Mudayfer Holding Company, established in 1996. They have significant commercial interests in a wide range of activities across the Kingdom.",
@@ -371,7 +387,7 @@
           }
         }
       },
-      "6":  {
+      "5":  {
         "name": "Saleh Al-Mudayfer Sons Holding Company",
         "description1": "A leader in the field of manufacturing building materials and the first specialized Saudi factory in the production of gears and cutting cylinders in various sizes and for various purposes.",
         "description2": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudayfer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
@@ -390,7 +406,7 @@
           }
         }
       },
-      "7":{
+      "6":{
         "name": "Al-Omrania Land Transportation Company",
         "description1": "Integrated and innovative solutions specialized in land transportation with the latest technologies. We have provided a ground transportation fleet with the highest standards of safety and security to ensure the preservation of products.",
         "description2": "Due to the significant and continuous economic development, Al-Omrania Land Transportation Company was established to keep pace with progress and provide integrated and innovative solutions specialized in land transportation with the latest technologies. We have introduced a ground transportation fleet with the highest standards of safety and security to ensure the preservation of products.",
@@ -409,7 +425,7 @@
           }
         }
       },
-      "8": {
+      "7": {
         "name": "Al-Omrania Materials for Logistics Support",
         "description1": "The Al-Omrania Materials for Logistics Support company is based on core values that it adheres to and contributes to its business growth. These values include integrity, quality, and excellence.",
         "description2": "Established in 2019 as part of the Sons of Saleh Al-Mudayfer Holding Company to keep pace with developments in the logistics sector, especially with the focus on the Kingdom's Vision 2030 and the establishment of a national strategy for transportation and logistics.",
@@ -560,6 +576,7 @@
       "right_heading": "Media Kit",
       "right_sub_heading1": "Management",
       "right_sub_heading2":  "Assets",
+      "right_sub_heading3":  "Logo",
       "description": "Lorem ipsum dolor sit amet consectetur. Vestibulum donec sapien sagittis auctor enim tincidunt nunc. Et in sed id varius viverra aliquam. Etiam elit massa faucibus risus sed purus malesuada.",
       "buttonArrow": {
         "text": "Open Media Kit",
@@ -568,7 +585,7 @@
     },
     "media_relationship": {
       "right_heading": "Media Relationship",
-      "description": "Lorem ipsum dolor sit amet consectetur. Vestibulum donec sapien sagittis auctor enim tincidunt nunc. Et in sed id varius viverra aliquam. Etiam elit massa faucibus risus sed purus malesuada.",
+      "description": "You can be assured of reliable sources from the Al-Mudayfer group by contacting us.",
       "buttonArrow": {
         "text": "Contact",
         "arrow": "BsArrowRight"
@@ -795,8 +812,8 @@
   },
   "omraniaCrusher_heading2": {
     "partner": {
-      "heading2": "Partner with OMRANIA CRUSHER",
-      "description1": "our Projects pulse to"
+      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading2": "our Projects pulse to"
     }
   },
   "omraniaCrusher_heading3": {
@@ -860,7 +877,7 @@
   },
   "Omraniaheading3": {
     "partner": {
-      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading1": "Partner with OMRANIA CONCRETE",
       "heading2": "PRODUCTS WE WERE PART OF"
     }
   },
@@ -873,7 +890,7 @@
   },
   "Omraniaheading5": {
     "partner": {
-      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading1": "Partner with OMRANIA CONCRETE",
       "heading2": "PROJECTS WE WERE PART OF"
     }
   },
@@ -971,7 +988,7 @@
   },
   "Omrania_material_heading3": {
     "partner": {
-      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading1": "Partner with OMRANIA MATERIAL",
       "heading2": "PRODUCTS WE WERE PART OF"
     }
   },
@@ -984,7 +1001,7 @@
   },
   "Omrania_material_heading5": {
     "partner": {
-      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading1": "Partner with OMRANIA MATERIAL",
       "heading2": "PROJECTS WE WERE PART OF"
     }
   },
@@ -1063,7 +1080,7 @@
   },
   "Omrania_metalPower_heading3": {
     "partner": {
-      "heading1": "Welding equipment for the Al-Omrania Crusher Company",
+      "heading1": "Welding equipment for the Al-Omrania Metal Power",
       "heading2": "PRODUCTS WE WERE PART OF"
     }
   },
@@ -1149,7 +1166,7 @@
   },
   "Omrania_woodProducts_heading3": {
     "partner": {
-      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading1": "Partner with OMRANIA WOOD",
       "heading2": "PRODUCTS WE WERE PART OF"
     }
   },
@@ -1244,7 +1261,7 @@
   },
   "SaudiPlayer_polishingMaterials_heading5": {
     "partner": {
-      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading1": "Partner with OMRANIA POLISHING MATERIAL",
       "heading2": "PROJECTS WE WERE PART OF"
     }
   },
@@ -1297,7 +1314,7 @@
   },
   "Omrania_landTransport_heading3": {
     "partner": {
-      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading1": "Partner with OMRANIA LAND TRANSPORT",
       "heading2": "PRODUCTS WE WERE PART OF.",
       "imageSrc": "/path/to/image"
     }
@@ -1364,14 +1381,14 @@
   },
   "Omrania_logisticSupport_heading3": {
     "partner": {
-      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading1": "Partner with OMRANIA LOGISTIC SUPPORT",
       "heading2": "PRODUCTS WE WERE PART OF.",
       "imageSrc": "/path/to/image"
     }
   },
   "Omrania_logisticSupport_heading5": {
     "partner": {
-      "heading1": "Partner with OMRANIA CRUSHER",
+      "heading1": "Partner with OMRANIA LOGISTIC SUPPORT",
       "heading2": "PROJECT WE WERE PART OF.",
       "imageSrc": "/path/to/image"
     }

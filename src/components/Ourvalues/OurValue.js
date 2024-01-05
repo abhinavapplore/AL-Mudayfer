@@ -17,7 +17,7 @@ const OurValues = () => {
       <div className={styles.container}>
         <div className={styles.card}>
           <h2>  {t('home.ourValues.OurVal')}</h2>
-          <p>{t(`loremIpsum`)} </p>
+          <p> {t('home.ourValues.selectDescription')}</p>
           <ul>
             <li>{t(`home.ourValues.selectHeading1`)}</li>
             <li>{t(`home.ourValues.selectHeading2`)}</li>
@@ -27,16 +27,14 @@ const OurValues = () => {
         </div>
         <div className={styles.card}>
           <h2> {t('home.ourValues.ourVision')}</h2>
-          <p>{loremIpsum.slice(0, 50)} </p>
+          
           <ul>
             <li>
-              {loremIpsum.slice(0, 70)}
+            {t('home.ourValues.otherHeading')}
             </li>
-            <li>{loremIpsum.slice(0, 80)} </li>
-            <li>
-              {loremIpsum.slice(0, 60)}
-            </li>
+           
           </ul>
+          <p> {t('home.ourValues.otherDescription')}</p>
         </div>
       </div>
     </>

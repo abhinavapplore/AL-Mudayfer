@@ -20,7 +20,7 @@ const Triplet = ({ img1, img2, img3, heading1, description1, button,page }) => {
           <p className={styles.description}>
           {t(`${page}.triplets.1.description`)}
           </p>
-          <Link to="/investment/social_responsibility">
+          <Link to="/about/social_responsibility">
             <div className={styles.button}>
             {t(`${page}.triplets.1.link.text`)}
               <div className={styles.arrow}>
@@ -34,7 +34,7 @@ const Triplet = ({ img1, img2, img3, heading1, description1, button,page }) => {
           <p className={styles.description}>
           {t(`${page}.triplets.2.description`)}
           </p>
-          <Link to="/investment/national_responsibility">
+          <Link to="/about/national_responsibility">
             <div className={styles.button}>
             {t(`${page}.triplets.2.link.text`)}
               <div className={styles.arrow}>
@@ -48,7 +48,7 @@ const Triplet = ({ img1, img2, img3, heading1, description1, button,page }) => {
           <p className={styles.description}>
           {t(`${page}.triplets.3.description`)}
           </p>
-          <Link to="/investment/environmental_responsibility">
+          <Link to="/about/environmental_responsibility">
             <div className={styles.button}>
               {t(`${page}.triplets.3.link.text`)}
               <div className={styles.arrow}>

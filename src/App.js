@@ -40,15 +40,15 @@ const App = () => {
         />
         <Route path="/contact" element={<Contact />} />
         <Route
-          path="/investment/national_responsibility"
+          path="/about/national_responsibility"
           element={<National />}
         />
         <Route
-          path="/investment/environmental_responsibility"
+          path="/about/environmental_responsibility"
           element={<Environmental />}
         />
         <Route
-          path="/investment/social_responsibility"
+          path="/about/social_responsibility"
           element={<Social_Responsibility />}
         />
         <Route

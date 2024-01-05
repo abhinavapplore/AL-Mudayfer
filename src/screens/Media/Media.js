@@ -8,7 +8,7 @@ import Testimonial from "../../resuable/testimonials/Testimonial";
 import ImageBoxRight from "../../components/ImageBoxRight/ImageBoxRight";
 import board from "../../images/home/board.jpg";
 import { Link } from "react-router-dom";
-import investscreen from "../../images/investment/investmentsscreen.png";
+import investscreen from "../../images/media/mediascreen.jpg";
 import Slider from "../../resuable/slider/Slider";
 import worker1 from "../../images/join/worker1.png";
 import worker2 from "../../images/join/worker2.png";
@@ -19,10 +19,10 @@ import { useTranslation } from 'react-i18next';
 
 const Media = () => {
 
-  const [slider,setslider] = useState([])
+  const [slider, setslider] = useState([])
   const { t } = useTranslation()
 
-  const EnSlider =  [
+  const EnSlider = [
     {
       "image": worker1,
       "heading": "Material Dealer",
@@ -66,7 +66,7 @@ const Media = () => {
       "date": "October 2, 2023"
     }
   ]
-  const ArSlider =  [
+  const ArSlider = [
     {
       "image": worker1,
       "heading": "تاجر المواد",
@@ -111,11 +111,11 @@ const Media = () => {
     }
   ]
 
- 
-  useEffect(()=>{
+
+  useEffect(() => {
     const storedLanguage = localStorage.getItem('i18nextLng');
     setslider(storedLanguage === 'ar' ? ArSlider : EnSlider)
-  },[localStorage.getItem('i18nextLng')])
+  }, [localStorage.getItem('i18nextLng')])
 
 
   return (
@@ -126,6 +126,7 @@ const Media = () => {
         sub_heading="Always be close to us and part of our journey and get what you want from it’s source."
         media={true}
         page="media"
+        button={true}
       />
       <Heading
         // heading1="Partner with Al-Mudayfer"
@@ -141,11 +142,12 @@ const Media = () => {
             <div className={styles.right_heading}>{t(`media.media_kit1.right_heading`)}</div>
             <div className={styles.right_sub_heading}>{t(`media.media_kit1.right_sub_heading1`)}</div>
             <div className={styles.right_sub_heading}>{t(`media.media_kit1.right_sub_heading2`)}</div>
-            <p className={styles.description}>
+            <div className={styles.right_sub_heading}>{t(`media.media_kit1.right_sub_heading3`)}</div>
+            {/* <p className={styles.description}>
             {t(`media.media_kit1.description`)}
-            </p>
+            </p> */}
             <div className={styles.buttonArrow}>
-            {t(`media.media_kit1.buttonArrow.text`)}
+              {t(`media.media_kit1.buttonArrow.text`)}
               <div className={styles.arrow}>
                 <BsArrowRight />
               </div>
@@ -162,13 +164,15 @@ const Media = () => {
           <div className={styles.right}>
             <div className={styles.right_heading}> {t(`media.media_relationship.right_heading`)}</div>
             <p className={styles.description}>
-            {t(`media.media_relationship.description`)}
+              {t(`media.media_relationship.description`)}
             </p>
             <div className={styles.buttonArrow}>
-            {t(`media.media_relationship.buttonArrow.text`)}
-              <div className={styles.arrow}>
-                <BsArrowRight />
-              </div>
+              {t(`media.media_relationship.buttonArrow.text`)}
+              <Link to="/contact">
+                <div className={styles.arrow}>
+                  <BsArrowRight />
+                </div>
+                </Link>
             </div>
           </div>
         </div>

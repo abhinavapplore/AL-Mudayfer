@@ -18,6 +18,10 @@ const Investment = ({
 
   const { t } = useTranslation();
 
+  const handleHomeClick =()=>{
+    window.location.href ="#employeesection"
+  }
+
   return (
     <>
       <div
@@ -25,7 +29,7 @@ const Investment = ({
           join
             ? styles.joinContainer
             : media
-            ? styles.mediaContainer
+            ? styles.joinContainer
             : styles.container
         }
       >
@@ -44,15 +48,13 @@ const Investment = ({
              {t(`${page}.investment.sub_heading`)}
             </div>
             {button && (
-              page == "home" ? 
-             <Link to="/about" >
-              <div className={styles.button}>
-               {t(`${page}.investment.button`)}
-                <div className={styles.arrow} >
-                  <BsArrowRight />
-                </div>
-              </div>
-             </Link>
+              page == "home" || page == "home"  ? 
+              <div className={styles.button} onClick={handleHomeClick}>
+              {t(`${page}.investment.button`)}
+               <div className={styles.arrow} >
+                 <BsArrowRight />
+               </div>
+             </div>
               :
               <div className={styles.button}>
                {t(`${page}.investment.button`)}

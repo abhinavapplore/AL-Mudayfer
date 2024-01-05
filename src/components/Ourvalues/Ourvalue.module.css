@@ -47,7 +47,7 @@
   }
 
   .card {
-    height: 364px;
+    /* height: 364px; */
     padding: 40px;
     gap: 40px;
   }

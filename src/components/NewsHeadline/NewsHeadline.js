@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./NewsHealdine.module.css";
 import news1 from "../../images/home/news1.png";
-import news2 from "../../images/home/news2.png";
+import news2 from "../../images/home/truck.jpg";
 import news3 from "../../images/home/news3.png";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
