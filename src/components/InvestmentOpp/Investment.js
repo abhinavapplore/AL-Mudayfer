@@ -35,9 +35,9 @@ const Investment = ({
       >
         <div className={styles.background_image}>
           <div className={styles.content}>
-            <div className={styles.heading}>
+            <div className={styles.heading} style={{textTransform:'capitalize'}}>
               {tag && <span className={styles.tag}>{tag}</span>}
-               {t(`${page}.investment.heading1`)}
+                {t(`${page}.investment.heading1`)}
               <br />
               
               { heading2&&t(`${page}.investment.heading2`)}

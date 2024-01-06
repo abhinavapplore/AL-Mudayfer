@@ -29,8 +29,8 @@
   },
   "home": {
     "investment": {
-      "heading1": "AL-MUDAYFER",
-      "heading2": "HOLDING",
+      "heading1": "Al- Mudayfer",
+      "heading2": "Holding",
       "sub_heading": "The name that has been associated with building and construction works for development monuments over generations from the Kingdom of Saudi Arabia and to the Middle East.",
       "button": "Know More"
     },
@@ -58,8 +58,8 @@
       }
     },
     "ourValues": {
-      "OurVal": "our values",
-      "ourVision": "our vision",
+      "OurVal": "Our Values",
+      "ourVision": "Our Vision",
       "selectHeading1": "Excellence",
       "selectHeading2": " Innovation",
       "selectHeading3": " Integrity",
@@ -171,15 +171,15 @@
       "social": {
         "heading": "SOCIAL RESPONSIBILITY",
         "sub_heading": "Saleh Al-Mudaifer Sons Holding Group carries in its genes the love of doing good for others, working for everyone, and the culture of social responsibility, believing that it is from this country and to it and part of its interconnected society.",
-        "button": "Learn More"
+        "button": "Read More"
       },
       "national": {
         "heading": "NATIONAL RESPONSIBILITY",
-        "button": "Learn More"
+        "button": "Read More"
       },
       "environmental": {
         "heading": "ENVIRONMENTAL RESPONSIBILITY",
-        "button": "Learn More"
+        "button": "Read More"
       }
     },
     "testimonial": {
@@ -220,7 +220,7 @@
       "heading": "Social, National, Environmental",
       "description1": "Our responsibility extends beyond business success to encompass a commitment to societal and environmental well-being. We believe in contributing positively to the communities in which we operate, minimizing our environmental footprint, and promoting ethical and sustainable practices.",
       "description2": "Our responsibility is to serve as a catalyst for positive change, fostering social development, and environmental stewardship. Through transparent and accountable actions, we aim to inspire others and be recognized as a responsible corporate citizen dedicated to making a meaningful impact on the world.",
-      "buttonText": "Apply Now"
+      "buttonText": "Read More"
     },
     "triplets": {
       "1": {
@@ -228,7 +228,7 @@
         "description": "In the sixties, the Saleh Almudayfer Sons Holding Group embarked on its investment journey by establishing the Omrania Materials Company for building materials. This marked the splendid beginning of an investment history filled with achievements and uniqueness. Since then, the group has preserved its strong legacy and prosperity over the decades, achieving remarkable success in various economic fields.",
         "link": {
           "to": "/investment/social_responsibility",
-          "text": "Learn More"
+          "text": "Read More"
         }
       },
       "2": {
@@ -236,14 +236,14 @@
         "description": "Today, the group is recognized as a leading force in the investment sector, characterized by innovation and excellence. Its ambitious investment vision is distinguished by the ability to make smart decisions and foster innovation, making it a key player in a pioneering alliance of the region's foremost investment companies..",
         "link": {
           "to": "/investment/national_responsibility",
-          "text": "Learn More"
+          "text": "Read More"
         }
       },
       "3": {
         "heading": "Environmental Responsibility",
         "description": "The group's investments span across various sectors, including building materials, concrete, and wooden products. These investments reflect a diverse and creative investment journey, contributing effectively to sustainable development. With pride in its long and inspiring history, the Sons of Saleh Al-Mudayfer Holding Group continues to elevate its vision and excel in all areas of its business.",        "link": {
           "to": "/investment/environmental_responsibility",
-          "text": "Learn More"
+          "text": "Read More"
         }
       }
     }
@@ -532,7 +532,7 @@
       "submitButton": "Contact Us"
     },
     "client": {
-      "heading": "Client",
+      "heading": "Investor",
       "mainHeading": "Discover the benefits of collaborating with us as a client.",
       "subHeading1": "Integration in the commercial market is an important requirement, especially between the producer and the investor who wants to benefit from his experience and work in marketing products by obtaining an important role as a wholesale and retail trader.",
       "subHeading2": "We at Saleh Al-Mudaifer Sons Holding Group seek to maximize the benefits of our commercial activity to include different segments of society, and we welcome partnerships of this kind with all companies affiliated with the group.",
@@ -935,7 +935,7 @@
       "values": {
         "image": "value_big",
         "icon": "vision",
-        "heading": "QUALITY & SAFETY",
+        "heading": "Quality & Safety",
         "subHeading": "The Omraniya factory was established on clear foundations and a comprehensive vision, so it adopted quality as a cornerstone. The management devoted its efforts and focused on quality to ensure obtaining an international Saudi product."
       }
     },
@@ -1051,7 +1051,7 @@
       "values": {
         "image": "value_big",
         "icon": "vision",
-        "heading": "QUALITY & SAFETY",
+        "heading": "Quality & Safety",
         "subHeading": "The Omraniya factory was established on clear foundations and a comprehensive vision, so it adopted quality as a cornerstone. The management devoted its efforts and focused on quality to ensure obtaining an international Saudi product."
       }
     },
@@ -1137,7 +1137,7 @@
       "values": {
         "image": "value_big",
         "icon": "vision",
-        "heading": "QUALITY & SAFETY",
+        "heading": "Quality & Safety",
         "subHeading": "Wide-ranging expertise and established partnerships with effective companies have shaped our work in local and global joint ventures, recognized as leaders. This contributes to achieving excellence and mastering partnerships with high efficiency, all to maintain the company's vision characterized by sincerity and trust."
       }
     },
@@ -1219,7 +1219,7 @@
         "subHeading": "Commitment to continuous investment in intensifying research and product development."
       },
       "values": {
-        "heading": "QUALITY & SAFETY",
+        "heading": "Quality & Safety",
         "subHeading": "The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
       }
     },
@@ -1305,7 +1305,7 @@
         "subHeading": "Commitment to continuous investment in intensifying research and product development."
       },
       "values": {
-        "heading": "QUALITY & SAFETY",
+        "heading": "Quality & Safety",
         "subHeading": "The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
       }
     },
@@ -1366,7 +1366,7 @@
         "subHeading": "Commitment to continuous investment in intensifying research and product development."
       },
       "values": {
-        "heading": "QUALITY & SAFETY",
+        "heading": "Quality & Safety",
         "subHeading": "The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
       }
     },

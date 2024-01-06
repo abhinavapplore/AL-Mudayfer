@@ -31,12 +31,7 @@ const OurValues = () => {
         <div className={styles.card} style={{height:'470px'}}>
           <h2> {t('home.ourValues.ourVision')}</h2>
           
-          <ul>
-            <li>
-            {t('home.ourValues.otherHeading')}
-            </li>
-           
-          </ul>
+         
           <p> {t('home.ourValues.otherDescription')}</p>
         </div>
       </div>

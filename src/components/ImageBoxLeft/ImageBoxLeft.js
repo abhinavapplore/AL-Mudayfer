@@ -28,7 +28,7 @@ const ImageBoxLeft = ({
           <br />
           {description2 && t(`${page}.imageBoxLeft.description2`)}
         </div>
-        <Link to="/contact">
+        <Link to={page =="home" ? `/join`:`/contact`}>
           <div className={styles.button}>
           {t(`${page}.imageBoxLeft.buttonText`)}
             <div className={styles.arrow}>

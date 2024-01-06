@@ -82,7 +82,7 @@ const About = () => {
         heading="Social, National, Environmental"
         description1="Our responsibility extends beyond business success to encompass a commitment to societal and environmental well-being. We believe in contributing positively to the communities in which we operate, minimizing our environmental footprint, and promoting ethical and sustainable practices."
         description2="Our responsibility is to serve as a catalyst for positive change, fostering social development, and environmental stewardship. Through transparent and accountable actions, we aim to inspire others and be recognized as a responsible corporate citizen dedicated to making a meaningful impact on the world."
-        button="Apply Now"
+        button="Read More"
         background={true}
         page="about"
       />

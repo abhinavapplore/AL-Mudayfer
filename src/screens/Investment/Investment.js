@@ -40,6 +40,7 @@ useEffect(() => {
   window.addEventListener('scroll', handleScroll);
   return () => {
     window.removeEventListener('scroll', handleScroll);
+    document.getElementById('navbar').style.opacity='1'
   };
 }, []);
 
