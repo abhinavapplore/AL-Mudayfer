@@ -124,9 +124,10 @@ const {t} = useTranslation()
         </div>
 
         {/* TESTING */}
-        <div className={styles.right_container}>
+        <div className={styles.right_container} >
           {/* COMPANY 1 */}
-          <div className={styles.company} id="section1">
+          <div className={styles.someheight} id="section1"></div>
+          <div className={styles.company} >
             <div className={styles.wrapper}>
               <div className={styles.logo}>
                 <img src={company4} alt="" />
@@ -171,7 +172,8 @@ const {t} = useTranslation()
               </div>
             </div>
           </div>
-          <div className={styles.company} id="section2">
+          <div className={styles.someheight} id="section2"></div>
+          <div className={styles.company} >
             <div className={styles.wrapper}>
               <div className={styles.logo}>
                 <img src={company2} alt="" />
@@ -216,7 +218,8 @@ const {t} = useTranslation()
               </div>
             </div>
           </div>
-          <div className={styles.company} id="section3">
+          <div className={styles.someheight} id="section3"></div>
+          <div className={styles.company} >
             <div className={styles.wrapper}>
               <div className={styles.logo}>
                 <img src={company3} alt="" />
@@ -261,7 +264,8 @@ const {t} = useTranslation()
               </div>
             </div>
           </div>
-          <div className={styles.company} id="section4">
+          <div className={styles.someheight} id="section4"></div>
+          <div className={styles.company} >
             <div className={styles.wrapper}>
               <div className={styles.logo}>
                 <img src={company5} alt="" />
@@ -302,7 +306,8 @@ const {t} = useTranslation()
               </div>
             </div>
           </div>
-          <div className={styles.company} id="section5">
+          <div className={styles.someheight} id="section5"></div>
+          <div className={styles.company} >
             <div className={styles.wrapper}>
               <div className={styles.logo}>
                 <img src={company1} alt="" />
@@ -343,7 +348,8 @@ const {t} = useTranslation()
               </div>
             </div>
           </div>
-          <div className={styles.company} id="section6">
+          <div className={styles.someheight} id="section6"></div>
+          <div className={styles.company} >
             <div className={styles.wrapper}>
               <div className={styles.logo}>
                 <img src={company8} alt="" />
@@ -384,7 +390,8 @@ const {t} = useTranslation()
               </div>
             </div>
           </div>
-          <div className={styles.company} id="section7">
+          <div className={styles.someheight} id="section7"></div>
+          <div className={styles.company} >
             <div className={styles.wrapper}>
               <div className={styles.logo}>
                 <img src={company6} alt="" />
@@ -425,7 +432,8 @@ const {t} = useTranslation()
               </div>
             </div>
           </div>
-          <div className={styles.company} id="section8">
+          <div className={styles.someheight} id="section8"></div>
+          <div className={styles.company} >
             <div className={styles.wrapper}>
               <div className={styles.logo}>
                 <img src={company7} alt="" />

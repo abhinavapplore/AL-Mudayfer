@@ -115,6 +115,7 @@ a .builder_names {
   display: flex;
   flex-direction: column;
   gap: 40px;
+ 
 }
 
 .wrapper {
@@ -168,7 +169,10 @@ a .builder_names {
 .right_container {
   display: flex;
   flex-direction: column;
-  gap: 120px;
+  gap: 20px;
+}
+.someheight{
+  height: 100px;
 }
 
 @media (min-width: 768px) {
