@@ -262,8 +262,8 @@ const Join = () => {
         </div>
 
         {/* client */}
-        <div className={styles.container} id="clientsection">
-          <div className={styles.right}>
+        <div className={styles.container} >
+          <div className={styles.right} id="clientsection">
             <div className={styles.form_heading}>
               {t(`join.client.formHeading`)}
             </div>

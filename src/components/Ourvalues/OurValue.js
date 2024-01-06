@@ -22,10 +22,13 @@ const OurValues = () => {
             <li>{t(`home.ourValues.selectHeading1`)}</li>
             <li>{t(`home.ourValues.selectHeading2`)}</li>
             <li>{t(`home.ourValues.selectHeading3`)}</li>
+            <li>{t(`home.ourValues.selectHeading4`)}</li>
+            <li>{t(`home.ourValues.selectHeading5`)}</li>
+            <li>{t(`home.ourValues.selectHeading6`)}</li>
 
           </ul>
         </div>
-        <div className={styles.card} style={{height:'430px'}}>
+        <div className={styles.card} style={{height:'470px'}}>
           <h2> {t('home.ourValues.ourVision')}</h2>
           
           <ul>

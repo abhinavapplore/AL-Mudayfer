@@ -60,10 +60,13 @@
     "ourValues": {
       "OurVal": "our values",
       "ourVision": "our vision",
-      "selectHeading1": "Quality",
-      "selectHeading2": " Reliability",
-      "selectHeading3": " Leadership",
-      "selectDescription": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
+      "selectHeading1": "Excellence",
+      "selectHeading2": " Innovation",
+      "selectHeading3": " Integrity",
+      "selectHeading4": " Sustainability",
+      "selectHeading5": " Customer Focus",
+      "selectHeading6": "Teamwork",
+      "selectDescription": "Our core values are the guiding principles that define our behavior, decisions, and interactions within our organization. They represent the fundamental beliefs and shared commitments that shape our culture. Here are our key values:",
       "otherHeading": "Vision",
       "otherDescription": "Striving for excellence in the world of investment and developing a global model for success, with a focus on continuous evolution and the enhancement of innovative values."
     },
@@ -222,7 +225,7 @@
     "triplets": {
       "1": {
         "heading": "Social Responsibility",
-        "description": "Saleh Al-Mudaifer Sons Holding Group carries in its genes the love of doing good for others, working for everyone, and the culture of social responsibility, believing that it is from this country and to it and part of its interconnected society.",
+        "description": "In the sixties, the Saleh Almudayfer Sons Holding Group embarked on its investment journey by establishing the Omrania Materials Company for building materials. This marked the splendid beginning of an investment history filled with achievements and uniqueness. Since then, the group has preserved its strong legacy and prosperity over the decades, achieving remarkable success in various economic fields.",
         "link": {
           "to": "/investment/social_responsibility",
           "text": "Learn More"
@@ -230,7 +233,7 @@
       },
       "2": {
         "heading": "National Responsibility",
-        "description": "Saleh Al-Mudaifer Sons Holding Group carries in its genes the love of doing good for others, working for everyone, and the culture of social responsibility, believing that it is from this country and to it and part of its interconnected society.",
+        "description": "Today, the group is recognized as a leading force in the investment sector, characterized by innovation and excellence. Its ambitious investment vision is distinguished by the ability to make smart decisions and foster innovation, making it a key player in a pioneering alliance of the region's foremost investment companies..",
         "link": {
           "to": "/investment/national_responsibility",
           "text": "Learn More"
@@ -238,8 +241,7 @@
       },
       "3": {
         "heading": "Environmental Responsibility",
-        "description": "Saleh Al-Mudaifer Sons Holding Group carries in its genes the love of doing good for others, working for everyone, and the culture of social responsibility, believing that it is from this country and to it and part of its interconnected society.",
-        "link": {
+        "description": "The group's investments span across various sectors, including building materials, concrete, and wooden products. These investments reflect a diverse and creative investment journey, contributing effectively to sustainable development. With pride in its long and inspiring history, the Sons of Saleh Al-Mudayfer Holding Group continues to elevate its vision and excel in all areas of its business.",        "link": {
           "to": "/investment/environmental_responsibility",
           "text": "Learn More"
         }
@@ -887,7 +889,7 @@
   "Omraniaheading3": {
     "partner": {
       "heading1": "Partner with OMRANIA CONCRETE",
-      "heading2": "PRODUCTS WE WERE PART OF"
+      "heading2": "Our Products we WERE PART OF"
     }
   },
   "Omraniaheading4": {
@@ -998,12 +1000,12 @@
   "Omrania_material_heading3": {
     "partner": {
       "heading1": "Partner with OMRANIA MATERIAL",
-      "heading2": "PRODUCTS WE WERE PART OF"
+      "heading2": "Our Products we WERE PART OF"
     }
   },
   "Omrania_material_heading4": {
     "partner": {
-      "heading1": "Partner with OMRANIA for concrete",
+      "heading1": "Partner with OMRANIA for MATERIAL",
       "heading2": "Testimonials",
       "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
     }
@@ -1017,7 +1019,7 @@
   "Omrania_material_heading6": {
     "partner": {
       "heading1": "Partner with OMRANIA MATERIAL",
-      "heading2": "PRODUCTS WE WERE PART OF"
+      "heading2": "Our Products we WERE PART OF"
     }
   },
   "Omrania_metalPower": {
@@ -1096,12 +1098,12 @@
   "Omrania_metalPower_heading3": {
     "partner": {
       "heading1": "Welding equipment for the Al-Omrania Metal Power",
-      "heading2": "PRODUCTS WE WERE PART OF"
+      "heading2": "Our Products we WERE PART OF"
     }
   },
   "Omrania_metalPower_heading4": {
     "partner": {
-      "heading1": "Partner with OMRANIA for concrete",
+      "heading1": "Partner with OMRANIA for Metal Power",
       "heading2": "Testimonials",
       "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
     }
@@ -1182,12 +1184,12 @@
   "Omrania_woodProducts_heading3": {
     "partner": {
       "heading1": "Partner with OMRANIA WOOD",
-      "heading2": "PRODUCTS WE WERE PART OF"
+      "heading2": "Our Products we WERE PART OF"
     }
   },
   "Omrania_woodProducts_heading4": {
     "partner": {
-      "heading1": "Partner with OMRANIA for concrete",
+      "heading1": "Partner with OMRANIA for Wooden Products",
       "heading2": "Testimonials",
       "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
     }
@@ -1202,7 +1204,7 @@
     },
     "partner": {
       "page": "SaudiPlayer_polishingMaterials",
-      "heading1": "about omrania materials",
+      "heading1": "about omrania Polishing materials company",
       "heading2": "Saudi Factory for Grinding and Polishing Materials Company",
       "description1": "One of the leading companies in the field of manufacturing building materials and the first specialized Saudi factory in the production of gears and cutting cylinders in various sizes and for various purposes. Some are used for cutting iron, others for cutting and breaking stones and tiles, as well as manufacturing grinding stones commonly used in tile polishing of various types. The idea of establishing a factory dedicated to producing these materials emerged from the founder Saleh Al-Madaifer's keenness to provide complementary materials for the production of tile industry instead of importing them. It is known that the tile industry, in its various types, requires, in its final stage, grinding the product to remove impurities, making it ready for installation. In addition, cutting cylinders are also used in tiling. This factory now meets the needs of the group's affiliated factories and similar factories. Besides, cylinders and gears are used for other purposes in light and heavy iron industries, supplying the local market with them.",
       "description2": "The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
@@ -1241,7 +1243,7 @@
   },
   "SaudiPlayer_polishingMaterials_heading2": {
     "partner": {
-      "heading2": "omrania materials company",
+      "heading2": "omrania Polishing materials company",
       "description1": "A group of cutting, grinding and polishing gears such as:"
     }
   },
@@ -1263,13 +1265,13 @@
   },
   "SaudiPlayer_polishingMaterials_heading3": {
     "partner": {
-      "heading1": "Partner with OMRANIA CRUSHER",
-      "heading2": "PRODUCTS WE WERE PART OF"
+      "heading1": "Partner with Omrania Polishing materials company",
+      "heading2": "Our Products we WERE PART OF"
     }
   },
   "SaudiPlayer_polishingMaterials_heading4": {
     "partner": {
-      "heading1": "Partner with OMRANIA for concrete",
+      "heading1": "Partner with Omrania Polishing materials company",
       "heading2": "Testimonials",
       "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
     }
@@ -1330,13 +1332,13 @@
   "Omrania_landTransport_heading3": {
     "partner": {
       "heading1": "Partner with OMRANIA LAND TRANSPORT",
-      "heading2": "PRODUCTS WE WERE PART OF.",
+      "heading2": "Our Products we WERE PART OF.",
       "imageSrc": "/path/to/image"
     }
   },
   "Omrania_landTransport_heading4": {
     "partner": {
-      "heading1": "Partner with OMRANIA for concrete",
+      "heading1": "Partner with OMRANIA for Land Transport",
       "heading2": "Testimonials",
       "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
     }
@@ -1397,7 +1399,7 @@
   "Omrania_logisticSupport_heading3": {
     "partner": {
       "heading1": "Partner with OMRANIA LOGISTIC SUPPORT",
-      "heading2": "PRODUCTS WE WERE PART OF.",
+      "heading2": "Our Products we WERE PART OF.",
       "imageSrc": "/path/to/image"
     }
   },
@@ -1410,7 +1412,7 @@
   },
   "Omrania_logisticSupport_heading4": {
     "partner": {
-      "heading1": "Partner with OMRANIA for concrete",
+      "heading1": "Partner with OMRANIA Logistics Support Company",
       "heading2": "Testimonials",
       "description1": "Al-Mudafir is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years. "
     }

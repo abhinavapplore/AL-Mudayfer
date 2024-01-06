@@ -1,116 +1,48 @@
 .container {
-  padding: 80px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  /* padding: 100px 0; */
+  text-align: center;
+  padding-top: 50px;
 }
 
 .heading {
-  font-size: 32px;
+  font-size: 18px;
   color: #181b1f;
-  font-weight: 500;
+  padding: 20px 0;
+  letter-spacing: 3px;
 }
 
 .images {
+  width: 85%;
+  margin: auto;
   display: flex;
-  flex-wrap: wrap;
-  gap: 40px 20px;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
 }
 
-.mobImg1{
-display: flex;
-justify-content: space-between;
-width: 100%;
-}
-.mobImg2{
-  display: flex;
-  justify-content: space-evenly;
+.image {
   width: 100%;
-  margin-left: -6rem;
-  }
-
-.heading1 {
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 42.24px;
-  color: #181b1f;
+  padding: 50px 0;
+  margin-right: 100px;
 }
 
-.sub_heading {
-  font-size: 20px;
-  line-height: 26.4px;
-  font-weight: 400;
-  color: #5b5d60;
+.image img {
+  width: 100px;
 }
 
-.button {
-  display: flex;
-  align-items: center;
-  font-weight: 600;
-  font-size: 16px;
-  color: #181b1f;
-  gap: 14px;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
 
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.arrow {
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #2a4074;
-  border-radius: 50%;
-  transform: rotateZ(-45deg);
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  width: 100%;
-  margin-top: 50px;
-}
-
-.arrow svg {
-  color: #2a4074;
-}
-
-@media (min-width: 1024px) {
-  .container {
-    padding: 120px 100px;
-  }
-
-  .content {
-    margin-top: 90px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
+@media (max-width: 600px) {
   .images {
-    gap: 80px 40px;
-  }
-  .heading {
-    font-size: 42px;
-  }
-  .heading1 {
-    font-size: 42px;
-    line-height: 55.48px;
+      width: 100%;
   }
 
-  .sub_heading {
-    width: 489px;
+  .image {
+      width: 100%;
+      padding: 50px 0;
+      margin-right: 20px;
+  }
+
+  .image img {
+      width: 80px;
   }
 }

@@ -45,9 +45,9 @@ const Footer = () => {
                 <div className={styles.icon}>
                   <BsInstagram />
                 </div>
-                <div className={styles.icon}>
+                {/* <div className={styles.icon}>
                   <AiFillGithub />
-                </div>
+                </div> */}
               </div>
             </div>
 
