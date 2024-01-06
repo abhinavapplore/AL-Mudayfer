@@ -16,15 +16,15 @@ const NewsHealdine = ({page}) => {
     <>
       <div className={styles.container}>
         <div className={styles.section1}>
-          <span>{t('newsDetails.news1.heading')}</span>
-          <h1>{t('newsDetails.news1.text')}</h1>
+        <span>{t('home.newsHeadline.lastNews')}</span>
+          <h1>{t('home.newsHeadline.newsHeadline')}</h1>
           <div className={styles.card}>
             <div className={styles.imageWrapper}>
               <img style={{objectFit:'fill'}} src={t('newsDetails.news1.img')} />
             </div>
-            <h3>{t('newsDetails.news2.heading')}</h3>
+            <h3>{t('newsDetails.news1.heading')}</h3>
             <p>
-            {t('newsDetails.news2.text')}
+            {t('newsDetails.news1.text')}
             </p>
           </div>
          <Link to="/media">

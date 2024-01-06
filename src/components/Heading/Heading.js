@@ -15,7 +15,7 @@ const  Heading = ({
 
   return (
     <>
-      <div className={styles.container} id="employeesection">
+      <div className={styles.container} >
         <div className={styles.heading1}>
           {heading1 && <h1>{t(`${page}.partner.heading1`)}</h1>}
         </div>
