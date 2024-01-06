@@ -26,6 +26,23 @@ const Investment = ({page}) => {
 
 const {t} = useTranslation()
 
+useEffect(() => {
+ 
+  const handleScroll = () => {
+    if (window.scrollY > 1400) {
+      document.getElementById('navbar').style.opacity='0'
+    }
+    else{
+      document.getElementById('navbar').style.opacity='1'
+
+    }
+  };
+  window.addEventListener('scroll', handleScroll);
+  return () => {
+    window.removeEventListener('scroll', handleScroll);
+  };
+}, []);
+
   return (
     <div className={styles.page}>
       <Investments backgroundImage={investscreen} heading="Our Investments" page="invest" button={true} />
@@ -124,7 +141,7 @@ const {t} = useTranslation()
         </div>
 
         {/* TESTING */}
-        <div className={styles.right_container} >
+        <div className={styles.right_container}  >
           {/* COMPANY 1 */}
           <div className={styles.someheight} id="section1"></div>
           <div className={styles.company} >
