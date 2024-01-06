@@ -86,7 +86,7 @@ const About = () => {
         background={true}
         page="about"
       />
-
+        <div id="social" style={{height:'2px'}}></div>
       <Triplet page="about" />
 
       <Heading

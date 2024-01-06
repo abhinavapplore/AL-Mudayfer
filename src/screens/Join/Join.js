@@ -6,7 +6,7 @@ import axios from "axios";
 import styles from "./Join.module.css";
 import Investment from "../../components/InvestmentOpp/Investment";
 import Heading from "../../components/Heading/Heading";
-import aboutscreen from "../../images/join/join.png";
+import aboutscreen from "../../images/join/aboutscreen.jpg";
 import Company from "../../components/Company/Company";
 import value from "../../images/home/ourvalue.jpg";
 import { AiOutlineLine } from "react-icons/ai";
@@ -260,10 +260,10 @@ const Join = () => {
             </form>
           </div>
         </div>
-
+<div style={{height:'40px'}} id="clientsection"></div>
         {/* client */}
         <div className={styles.container} >
-          <div className={styles.right} id="clientsection">
+          <div className={styles.right} >
             <div className={styles.form_heading}>
               {t(`join.client.formHeading`)}
             </div>

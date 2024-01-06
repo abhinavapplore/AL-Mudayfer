@@ -89,6 +89,7 @@ const Footer = () => {
                 <div className={styles.right_company_content}>
                   <Link to="/join">{t(`footer.investment.joinAsSupplier`)}</Link>
                 </div>
+                {/* <a href="#formSection"></a> */}
                 <div className={styles.right_company_content}>
                   <Link to="/join">{t(`footer.investment.joinAsClient`)}</Link>
                 </div>

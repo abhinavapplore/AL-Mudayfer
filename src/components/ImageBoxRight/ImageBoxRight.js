@@ -17,6 +17,7 @@ const ImageBoxRight = ({
 
   const {t} = useTranslation()
 
+
   return (
     <div className={bacground ? styles.containerActive : styles.container}>
       <div className={styles.content}>
@@ -28,6 +29,17 @@ const ImageBoxRight = ({
           <br />
           {description2 &&  t(`${page}.imageBoxRight.description2`)}
         </div>
+        {
+          page =="about"? 
+         <a href="#social" >
+          <div className={styles.button}>
+          {t(`${page}.imageBoxRight.buttonText`)}
+            <div className={styles.arrow}>
+              <BsArrowRight />
+            </div>
+          </div>
+         </a>
+        :
         <Link to="/contact">
           <div className={styles.button}>
           {t(`${page}.imageBoxRight.buttonText`)}
@@ -36,8 +48,10 @@ const ImageBoxRight = ({
             </div>
           </div>
         </Link>
+        }
+        
       </div>
-      <div className={styles.imageWrapper}>
+      <div className={styles.imageWrapper} id="">
         <img src={imageSrc} />
       </div>
     </div>
