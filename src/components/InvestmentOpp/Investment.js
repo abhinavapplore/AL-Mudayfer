@@ -66,7 +66,7 @@ const Investment = ({
           </div>
           {backgroundImage && (
             <div className={styles.imageWrapper}>
-              <img src={backgroundImage} />
+              <img src={page.includes('newsDetailpage') ? t(`${page}.investment.img`) : backgroundImage} />
             </div>
           )}
         </div>

@@ -23,6 +23,7 @@ import Omrania_landTransport from "./company_pages/Omrania_landTransport/Omrania
 import Omrania_woodProducts from "./company_pages/Omrania_woodProducts/Omrania_woodProducts";
 import SaudiPlayer_polishingMaterials from "./company_pages/SaudiPlayer_polishingMaterials/SaudiPlayer_polishingMaterials";
 import Omrania_logisticSupport from "./company_pages/Omrania_logisticSupport/Omrania_logisticSupport";
+import News from "./screens/Newsdetails/News";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/" element={<HomeScreen />} />
         <Route path="/about" element={<About />} />
         <Route path="/media" element={<Media />} />
+        <Route path="/media/:id" element={<News />} />
         <Route path="/investment" element={<Investment />} />
         <Route path="/join" element={<Join />}  />
         <Route

@@ -666,6 +666,27 @@
       "img": "https://almudayfer.com/wp-content/uploads/2022/03/%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9-2-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9.jpg"
     }
   },
+  "newsDetailpage1": {
+    "investment" : {
+      "heading1": "راعياً ذهبياً لمعرض البناء السعودي 2023",
+      "sub_heading": "شركة أبناء صالح المديفر القابضة راعياً ذهبياً لمعرض البناء السعودي 2023 المقام في تاريخ 06 إلى 09 نوفمبر 2023,",
+      "img": "https://almudayfer.com/wp-content/uploads/2023/10/%D8%B5%D9%88%D8%B1%D8%A9-%D9%85%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A-%D8%A8%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-1445-04-03-%D9%81%D9%8A-10.57.29.jpg"
+    }   
+  },
+  "newsDetailpage2": {
+    "investment" : {
+      "heading1": "Saleh Almudayfer Sons Holding company participated in the Saudi building and construction exhibition 2022",
+      "sub_heading": "In order to keep pace with the continuous development, and to promote the kingdom’s Vision 2030 to achieve a diversified and prosperous economy We continue to play an active role in development Our companies were present at the Saudi building and construction exhibition 2022 under the umbrella of the most prestigious brand in the construction world",
+      "img": "https://almudayfer.com/wp-content/uploads/2022/11/%D8%B5-2.jpg"
+    }   
+  },
+  "newsDetailpage3": {
+    "investment" : {
+      "heading1": "The Launch Of The New Logos",
+      "sub_heading": "The selection of the new logos of the Group’s companies reflects and enhances the confidence and reputation gained by our esteemed customers throughout our service to them for more than half a century throughout the Kingdom.",
+      "img": "https://almudayfer.com/wp-content/uploads/2022/03/%D8%A7%D9%84%D9%87%D9%88%D9%8A%D8%A9-2-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9.jpg"
+    }   
+  },
   "national": {
     "investment": {
       "backgroundImage": "/path/to/aboutscreen",
