@@ -58,7 +58,7 @@ const Footer = () => {
                   <Link to="/about">{t(`footer.company.about`)}</Link>
                 </div>
                 <div className={styles.right_company_content}>
-                  <Link to="/about">{t(`footer.company.visionMission`)}</Link>
+                  <a href="#ourVision">{t(`footer.company.visionMission`)}</a>
                 </div>
                 <div className={styles.right_company_content}>
                   <Link to="/about">{t(`footer.company.ourHistory`)}</Link>

@@ -26,7 +26,7 @@ const Card = ({
   const {t} = useTranslation()
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="ourVision">
       <div className={styles.section}>
         <div className={styles.card}>
           <div className={styles.heading}>{t(`home.ourValues.ourVision`)}</div>

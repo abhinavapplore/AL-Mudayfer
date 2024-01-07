@@ -14,7 +14,7 @@ const OurValues = () => {
 
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="ourVision">
         <div className={styles.card}>
           <h2>  {t('home.ourValues.OurVal')}</h2>
           <p> {t('home.ourValues.selectDescription')}</p>
