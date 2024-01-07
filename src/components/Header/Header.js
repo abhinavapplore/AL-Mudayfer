@@ -67,7 +67,7 @@ const Header = ({}) => {
   useEffect(()=>{
     const storedLanguage = localStorage.getItem('i18nextLng');
     document.body.dir = storedLanguage === 'ar' ? 'rtl' : '';
-    setLanguage( storedLanguage === 'ar' ? 'اردو"' : 'EN')
+    setLanguage( storedLanguage === 'ar' ? 'عربی' : 'EN')
   },[localStorage.getItem('i18nextLng')])
 
   
@@ -207,7 +207,7 @@ const Header = ({}) => {
                 className={language !== "EN" ? "selected" : ""}
                 onClick={()=>handleLanguageChange("ar")}
               >
-                اردو
+               عربی
               </span>
               <span
                 className={language === "EN" ? "selected" : ""}

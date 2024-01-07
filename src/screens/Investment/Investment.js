@@ -23,7 +23,7 @@ import { useTranslation } from 'react-i18next';
 
 const Investment = ({page}) => {
   const [selected, setSelected] = useState(1);
-
+const [defaulttop,sedefault] =useState('180px')
 const {t} = useTranslation()
 
 useEffect(() => {
@@ -31,16 +31,19 @@ useEffect(() => {
   const handleScroll = () => {
     if (window.scrollY > 1400) {
       document.getElementById('navbar').style.opacity='0'
+      sedefault('54px')
     }
     else{
       document.getElementById('navbar').style.opacity='1'
-
+      sedefault(defaulttop)
     }
   };
   window.addEventListener('scroll', handleScroll);
   return () => {
     window.removeEventListener('scroll', handleScroll);
     document.getElementById('navbar').style.opacity='1'
+    sedefault(defaulttop)
+
   };
 }, []);
 
@@ -72,8 +75,8 @@ useEffect(() => {
 <br/>
 <br/>
       <div className={styles.container}>
-        <div className={styles.left_container}>
-          <div className={styles.sticky_container}>
+        <div className={styles.left_container} >
+          <div className={styles.sticky_container} style={{top:defaulttop ,transition:'0.3s'}}>
             <a
               href="#section1"
               className={`${selected === 1 ? styles.active : ""}`}

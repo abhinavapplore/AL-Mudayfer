@@ -172,7 +172,7 @@ a .builder_names {
   gap: 20px;
 }
 .someheight{
-  height: 100px;
+  height: 10px;
 }
 
 @media (min-width: 768px) {

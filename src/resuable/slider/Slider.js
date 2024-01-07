@@ -10,9 +10,9 @@ const Card = ({ image, badge, heading, subHeading, buttonText, date }) => (
       <img src={image} alt="" />
     </div>
     <div className={styles.content}>
-      <div className={styles.heading}>{heading}</div>
+      <div className={styles.heading}>{heading.slice(0,30)}</div>
       {date && <span className={styles.date}>{date}</span>}
-      <div className={styles.sub_heading}>{subHeading}</div>
+      <div className={styles.sub_heading}>{subHeading.slice(0,180)}</div>
       <div className={styles.buttonArrow}>
         {buttonText}
         <div className={styles.arrow}>

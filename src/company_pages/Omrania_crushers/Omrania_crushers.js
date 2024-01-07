@@ -48,6 +48,45 @@ const Omrania_crushers = () => {
     },
   ];
 
+  const projects =[
+
+    {
+      image: img1,
+      heading: "Construction",
+      subHeading: "Supplying raw materials to Badr Al-Dosari Contracting Est  ",
+    },
+    {
+      image: img2,
+      heading: "Construction",
+      subHeading: "Supply of raw materials, Origins of Expertise Contracting Est",
+    },
+    {
+      image: img1,
+      heading: "Construction",
+      subHeading: "Sakhrat Al-Summan Contracting Est ",
+    },
+    {
+      image: img2,
+      heading: "Construction",
+      subHeading: "Shaghaf Altanmiah Contracting Est",
+    },
+    {
+      image: img1,
+      heading: "Construction",
+      subHeading: "Ghayoum Dammam Cement Products Company ",
+    },
+    {
+      image: img2,
+      heading: "Construction",
+      subHeading: "Konoz Alshra Contracting Est ",
+    },
+    {
+      image: img1,
+      heading: "Construction",
+      subHeading: " Gebal Althahab Contracting Est ",
+    },
+  ]
+
   return (
     <div className="page">
       <Investment
@@ -129,7 +168,7 @@ const Omrania_crushers = () => {
         page="omraniaCrusher_heading2"
       />
 
-      <CompanySlider items={sliderItems}  />
+      <CompanySlider items={projects}  />
 
       <Heading
       page="omraniaCrusher_heading3"

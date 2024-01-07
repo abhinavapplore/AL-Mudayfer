@@ -48,6 +48,35 @@ const SaudiPlayer_polishingMaterials = () => {
     },
   ];
 
+
+  const fsdf =[
+    {
+      image: img1,
+      heading: "Construction",
+      subHeading: "Supply to Olayan Descon Company",
+    },
+    {
+      image: img2,
+      heading: "Construction",
+      subHeading: "Supply to Manar Al Omran Company",
+    },
+    {
+      image: img1,
+      heading: "Construction",
+      subHeading: "Supply to Riyadh Foundry Company",
+    },
+    {
+      image: img2,
+      heading: "Construction",
+      subHeading: "Al-Rajhi Industry And Trade Endowment Company",
+    }, 
+    {
+      image: img2,
+      heading: "Construction",
+      subHeading: "  Othman Abdul Rahman Al-Osaimi and Partners Trading Company",
+    },
+  ]
+
   return (
     <div className="page">
       <Investment

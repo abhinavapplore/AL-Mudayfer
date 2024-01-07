@@ -29,22 +29,22 @@ const Omrania_material = () => {
     {
       image: img1,
       heading: "Construction",
-      subHeading: "Origins of Expertise Contracting Est",
+      subHeading: "King Khaled International Airport",
     },
     {
       image: img2,
       heading: "Construction",
-      subHeading: "Badr Al Dosari Contracting Est",
+      subHeading: "Medical City Project at the Ministry of Interior",
     },
     {
       image: img1,
       heading: "Construction",
-      subHeading: "Origins of Expertise Contracting Est",
+      subHeading: "King Salman Park",
     },
     {
       image: img2,
       heading: "Construction",
-      subHeading: "Badr Al Dosari Contracting Est",
+      subHeading: "Government departments complex in Riyadh",
     },
   ];
 

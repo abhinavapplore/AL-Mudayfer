@@ -15,7 +15,7 @@ const Trusted = () => {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.heading}>Trusted by 45M+ users</div>
+                <div className={styles.heading} style={{animationDelay:'0s'}}>Trusted by 45M+ users</div>
                 <div className={styles.images}>
                     <Marquee>
                         <div className={styles.image}>

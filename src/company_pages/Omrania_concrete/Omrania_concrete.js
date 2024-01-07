@@ -49,6 +49,34 @@ const Omrania_concrete = () => {
     },
   ];
 
+  const projectsslider = [
+    {
+      image: img1,
+      heading: "Construction",
+      subHeading: "Establishment of Dr. Sulaiman Al-Habib Hospital",
+    },
+    {
+      image: img2,
+      heading: "Construction",
+      subHeading: "Construction of 500 residential villas",
+    },
+    {
+      image: img1,
+      heading: "Construction",
+      subHeading: "Asas Makin residential projects",
+    },
+    {
+      image: img2,
+      heading: "Construction",
+      subHeading: "Increasing the efficiency of water plants",
+    },{
+      image: img1,
+      heading: "Construction",
+      subHeading: "Establishing educational schools and international schools - Science Oasis Schools     ",
+    },
+    ,
+  ]
+
   return (
     <div className="page">
       <Investment
@@ -132,7 +160,7 @@ const Omrania_concrete = () => {
         page="Omraniaheading5"
       />
 
-      <CompanySlider items={sliderItems} />
+      <CompanySlider items={projectsslider} />
 
       <Heading
         heading1="Partner with OMRANIA for concrete"
