@@ -188,7 +188,7 @@ const Join = () => {
         page="join"
       />
 
-      <Slider cards={slider} />
+      <Slider cards={slider} join={true} />
 
       <div className={styles.mainContainer} id='formSection'>
         {/* supplier */}

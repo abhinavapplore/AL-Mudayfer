@@ -3,7 +3,7 @@ import styles from "./Slider.module.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
 
-const Card = ({ image, badge, heading, subHeading, buttonText, date }) => (
+const Card = ({ image, badge, heading, subHeading, buttonText, date ,join }) => (
   <div className={styles.card_container}>
     <div className={styles.image}>
       <div className={styles.badge}>{badge}</div>
@@ -13,17 +13,17 @@ const Card = ({ image, badge, heading, subHeading, buttonText, date }) => (
       <div className={styles.heading}>{heading.slice(0,30)}</div>
       {date && <span className={styles.date}>{date}</span>}
       <div className={styles.sub_heading}>{subHeading.slice(0,180)}</div>
-      <div className={styles.buttonArrow}>
+      {!join && <div className={styles.buttonArrow}>
         {buttonText}
         <div className={styles.arrow}>
           <BsArrowRight />
         </div>
-      </div>
+      </div>}
     </div>
   </div>
 );
 
-const Slider = ({ cards }) => {
+const Slider = ({ cards ,join }) => {
   const sliderRef = useRef(null);
   const [state, setState] = useState(1);
 
@@ -59,7 +59,7 @@ const Slider = ({ cards }) => {
       </div>
       <div className={styles.container} ref={sliderRef}>
         {cards.map((card, index) => (
-          <Card key={index} {...card} />
+          <Card key={index} {...card} join={join}/>
         ))}
       </div>
     </div>

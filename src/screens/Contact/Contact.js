@@ -15,7 +15,7 @@ import whatsapp from "../../images/contact/whatsapp.svg";
 const Contact = () => {
   const url = process.env.REACT_APP_BACKEND_URL + "/create";
 
-  const {t} = useTranslation()
+  const { t } = useTranslation()
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -72,13 +72,13 @@ const Contact = () => {
         <div className={styles.blue_line}></div>{t('contact.touch')}
       </div>
       <Heading
-      page="contact"
+        page="contact"
         heading2="LET’S GET IN TOUCH WITH OUR PROFESSIONALS TEAM WORKING"
         description1="Integration in the commercial market is an important requirement, especially between the producer and the investor who wants to benefit from his experience and work in marketing products by obtaining an important role as a wholesale and retail trader.20 We at Saleh Al-Mudaifer Sons Holding Group seek to maximize the benefits of our commercial activity to include different segments of society and we welcome partnerships of this kind with all companies affiliated with the group.
         "
       />
-      <br/>
-      <br/>
+      <br />
+      <br />
 
       <div className={styles.container_box}>
         <div className={styles.box}>
@@ -87,7 +87,11 @@ const Contact = () => {
           </div>
           <div className={styles.heading}>{t('contact.contactInfo.officeLocation.heading')}</div>
           <div className={styles.sub_heading}>
+          <a href="https://www.google.com/maps/place/Al+Mudayfer+Investment+Group/@24.5510992,46.8926964,8z/data=!4m6!3m5!1s0x3e2fa19c19b9dc2f:0x7a97f6b0e808a934!8m2!3d24.5495681!4d46.8887784!16s%2Fg%2F11c5scplqw?hl=en&entry=ttu" target="_blank">
           {t('contact.contactInfo.officeLocation.subHeading')}
+
+          </a>
+         
           </div>
         </div>
 
@@ -96,7 +100,9 @@ const Contact = () => {
             <img src={email} alt="" />
           </div>
           <div className={styles.heading}>{t('contact.contactInfo.email.heading')}</div>
-          <div className={styles.sub_heading}>{t('contact.contactInfo.email.subHeading')}</div>
+          <a href="mailto:Email : info@segalebros.com">
+            <div className={styles.sub_heading}>{t('contact.contactInfo.email.subHeading')}</div>
+          </a>
         </div>
 
         <div className={styles.box}>
@@ -104,7 +110,10 @@ const Contact = () => {
             <img src={phone} alt="" />
           </div>
           <div className={styles.heading}>{t('contact.contactInfo.phone.heading')}</div>
+          <a href="skype:footer.phone?call">
           <div className={styles.sub_heading}>{t('contact.contactInfo.phone.subHeading')}</div>
+
+          </a>
         </div>
 
         <div className={styles.box}>
@@ -112,7 +121,11 @@ const Contact = () => {
             <img src={whatsapp} alt="" />
           </div>
           <div className={styles.heading}>{t('contact.contactInfo.whatsapp.heading')}</div>
+          <a href="https://wa.me/966501906677">
           <div className={styles.sub_heading}>{t('contact.contactInfo.whatsapp.subHeading')}</div>
+
+          </a>
+
         </div>
       </div>
 
@@ -133,7 +146,7 @@ const Contact = () => {
           <div className={styles.form_top}>
             <div className={styles.form_heading}>{t('contact.form.formHeading')}</div>
             <div className={styles.form_sub_heading}>
-            {t('contact.form.formSubHeading')}
+              {t('contact.form.formSubHeading')}
             </div>
           </div>
 

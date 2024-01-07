@@ -30,18 +30,18 @@ useEffect(() => {
  
   const handleScroll = () => {
     if (window.scrollY > 1400) {
-      document.getElementById('navbar').style.opacity='0'
+      document.getElementById('navbar').style.display='none'
       sedefault('54px')
     }
     else{
-      document.getElementById('navbar').style.opacity='1'
+      document.getElementById('navbar').style.display='block'
       sedefault(defaulttop)
     }
   };
   window.addEventListener('scroll', handleScroll);
   return () => {
     window.removeEventListener('scroll', handleScroll);
-    document.getElementById('navbar').style.opacity='1'
+    document.getElementById('navbar').style.display='block'
     sedefault(defaulttop)
 
   };

@@ -29,8 +29,8 @@ const Card = ({
     <div className={styles.container}>
       <div className={styles.section}>
         <div className={styles.card}>
-          <div className={styles.heading}>{t(`${page}.card.vision.heading`)}</div>
-          <div className={styles.sub_heading}>{t(`${page}.card.vision.subHeading`)}</div>
+          <div className={styles.heading}>{t(`home.ourValues.ourVision`)}</div>
+          <div className={styles.sub_heading}>{t(`home.ourValues.otherDescription`)}</div>
         </div>
         <div className={styles.card}>
           <div className={styles.heading}>{t(`${page}.card.mission.heading`)}</div>
@@ -39,8 +39,17 @@ const Card = ({
       </div>
       <div className={styles.section}>
         <div className={styles.card}>
-          <div className={styles.heading}>{t(`${page}.card.values.heading`)}</div>
-          <div className={styles.sub_heading}>{t(`${page}.card.values.subHeading`)}</div>
+          <div className={styles.heading}>{t(`home.ourValues.OurVal`)}</div>
+          <div className={styles.sub_heading}>{t(`home.ourValues.selectDescription`)}</div>
+          <ul>
+            <li>{t(`home.ourValues.selectHeading1`)}</li>
+            <li>{t(`home.ourValues.selectHeading2`)}</li>
+            <li>{t(`home.ourValues.selectHeading3`)}</li>
+            <li>{t(`home.ourValues.selectHeading4`)}</li>
+            <li>{t(`home.ourValues.selectHeading5`)}</li>
+            <li>{t(`home.ourValues.selectHeading6`)}</li>
+
+          </ul>
         </div>
       </div>
     </div>

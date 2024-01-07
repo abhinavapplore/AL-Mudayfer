@@ -21,8 +21,19 @@
   flex-direction: column;
   justify-content: center;
   gap: 14px;
-  text-align: center;
+  text-align: justify;
   height: 100%;
+}
+.card ul {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  gap: 14px;
+}
+.card ul li {
+  font-weight: 700;
+  font-size: 14px;
+  color: #181b1f;
 }
 
 .heading {

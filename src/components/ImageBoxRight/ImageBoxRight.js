@@ -51,7 +51,7 @@ const ImageBoxRight = ({
         }
         
       </div>
-      <div className={styles.imageWrapper} id="">
+      <div className={styles.imageWrapper} style={{height:'420px'}} id="">
         <img src={imageSrc} />
       </div>
     </div>
