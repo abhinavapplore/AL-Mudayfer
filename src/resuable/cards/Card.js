@@ -26,31 +26,25 @@ const Card = ({
   const {t} = useTranslation()
 
   return (
-    <div className={styles.container} id="ourVision">
+    <div className={styles.container}>
       <div className={styles.section}>
         <div className={styles.card}>
-          <div className={styles.heading}>{t(`home.ourValues.ourVision`)}</div>
-          <div className={styles.sub_heading}>{t(`home.ourValues.otherDescription`)}</div>
+          <div className={styles.heading}>{t(`${page}.card.vision.heading`)}</div>
+          <div className={styles.sub_heading}>{t(`${page}.card.vision.subHeading`)}</div>
         </div>
         <div className={styles.card}>
-          <div className={styles.heading}>{t(`${page}.card.mission.heading`)}</div>
-          <div className={styles.sub_heading}>{t(`${page}.card.mission.subHeading`)}</div>
+          <div className={styles.heading}>{t(`${page}.card.values.heading`)}</div>
+          <div className={styles.sub_heading}>{t(`${page}.card.values.subHeading`)}</div>
         </div>
       </div>
       <div className={styles.section}>
-        <div className={styles.card}>
-          <div className={styles.heading}>{t(`home.ourValues.OurVal`)}</div>
-          <div className={styles.sub_heading}>{t(`home.ourValues.selectDescription`)}</div>
-          <ul>
-            <li>{t(`home.ourValues.selectHeading1`)}</li>
-            <li>{t(`home.ourValues.selectHeading2`)}</li>
-            <li>{t(`home.ourValues.selectHeading3`)}</li>
-            <li>{t(`home.ourValues.selectHeading4`)}</li>
-            <li>{t(`home.ourValues.selectHeading5`)}</li>
-            <li>{t(`home.ourValues.selectHeading6`)}</li>
-
-          </ul>
+      <div className={styles.card}>
+          <div className={styles.heading}>{t(`${page}.card.mission.heading`)}</div>
+          <div className={styles.sub_heading}>{t(`${page}.card.mission.subHeading`)}</div>
+          <div className={styles.sub_heading}>{t(`${page}.card.mission.subHeading2`)}</div>
+          <div className={styles.sub_heading}>{t(`${page}.card.mission.subHeading3`)}</div>
         </div>
+        
       </div>
     </div>
   );

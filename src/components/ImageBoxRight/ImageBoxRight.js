@@ -21,7 +21,8 @@ const ImageBoxRight = ({
   return (
     <div className={bacground ? styles.containerActive : styles.container}>
       <div className={styles.content}>
-        <span className={styles.subheading}>{subheading}</span>
+        <br/>
+        <span className={styles.subheading}>{page=="about"?  t(`${page}.responsibility.heading`):null}</span>
         <div className={styles.heading}> {t(`${page}.imageBoxRight.heading`)}</div>
         <div className={styles.sub_heading}>
         {t(`${page}.imageBoxRight.description1`)}
@@ -51,8 +52,8 @@ const ImageBoxRight = ({
         }
         
       </div>
-      <div className={styles.imageWrapper} style={{height:'420px'}} id="">
-        <img src={imageSrc} />
+      <div className={styles.imageWrapper} style={{height:'600px'}} id="">
+        <img style={{height:''}} src={imageSrc} />
       </div>
     </div>
   );

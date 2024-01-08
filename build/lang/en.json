@@ -43,7 +43,7 @@
     "milestone": {},  
     "trust": "Our Investment",
     "experience62": {
-      "heading": "Experience 62+ Years",
+      "heading": "Experts 62+ Years",
       "text": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-MUDAYFER Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia, as the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
       "buttonText": "Learn More",
       "imageSrc": "/path/to/image"
@@ -163,10 +163,12 @@
       }
     },
     "homeTrusted":"Trusted By 45M+ Users",
+   
     "responsibility": {
       "heading": "Our Responsibility",
       "right_heading": "Social, National, Environmental",
-      "right_sub_heading": "Our responsibility extends beyond business success to encompass a commitment to societal and environmental well-being. We believe in contributing positively to the communities in which we operate, minimizing our environmental footprint, and promoting ethical and sustainable practices. Our responsibility is to serve as a catalyst for positive change, fostering social development, and environmental stewardship. Through transparent and accountable actions, we aim to inspire others and be recognized as a responsible corporate citizen dedicated to making a meaningful impact on the world."
+      "right_sub_heading": "The Vision 2030 of the Kingdom of Saudi Arabia represents a comprehensive revolution across all sectors, creating a clear impact on the Kingdom's economy by stimulating demand, encouraging and enhancing domestic supply. Saleh Al-Mudayfer Sons Holding Group has been one of the prominent beneficiaries of these ambitious national plans, facilitating a strategic expansion in industrial investment activities and enhancing the group's business integration through its subsidiaries. The dreams of the group's founder, may he rest in peace, have become tangible and economically viable, particularly in investing in the supply chain of construction materials and supporting contractors with high-quality Saudi products."
+    
     },
     "triplet": {
       "social": {
@@ -219,8 +221,8 @@
       "imageSrc": "board",
       "subheading": "our responsibility",
       "heading": "Social, National, Environmental",
-      "description1": "Our responsibility extends beyond business success to encompass a commitment to societal and environmental well-being. We believe in contributing positively to the communities in which we operate, minimizing our environmental footprint, and promoting ethical and sustainable practices.",
-      "description2": "Our responsibility is to serve as a catalyst for positive change, fostering social development, and environmental stewardship. Through transparent and accountable actions, we aim to inspire others and be recognized as a responsible corporate citizen dedicated to making a meaningful impact on the world.",
+      "description1":"The Vision 2030 of the Kingdom of Saudi Arabia represents a comprehensive revolution across all sectors, creating a clear impact on the Kingdom's economy by stimulating demand, encouraging and enhancing domestic supply. Saleh Al-Mudayfer Sons Holding Group has been one of the prominent beneficiaries of these ambitious national plans, facilitating a strategic expansion in industrial investment activities and enhancing the group's business integration through its subsidiaries. The dreams of the group's founder, may he rest in peace, have become tangible and economically viable, particularly in investing in the supply chain of construction materials and supporting contractors with high-quality Saudi products.",
+      "description2": "Today, the Al-Mudayfer Holding Group finds itself accelerating its pace to expand its operations to align with the gigantic projects introduced by Vision 2030. The group's products, known for their high reliability and the rich experience of a national company, intersect with the group's activities. The Al-Mudayfer Holding Group aspires to work diligently to strengthen its national presence, writing new chapters of success through its distinctive interaction with the comprehensive national vision. It aims to engage in more projects and investments that enhance its active presence on all fronts, including industrial localization, promoting local content, industrial growth, creating job opportunities, addressing gaps in the local market, and exploring opportunities for international expansion.",
       "buttonText": "Read More"
     },
     "triplets": {
@@ -249,6 +251,7 @@
       }
     }
   },
+  "responsebility":"Our Responsibility",
   "about_testi": {
     "partner": {
       "heading1": "Partner with Al-Mudayfer",
@@ -292,7 +295,7 @@
       "2": "Omrania for Concrete",
       "3": "Omrania Wood",
       "4": "Omrania Metal Power",
-      "5": "Saudi Player for Polishing",
+      "5": "Saudi Grinding & Polishing",
       "6": "Omrania for Road Transport",
       "7": "Omrania Logistic Support",
       "8": "Omrania Crusher"
@@ -953,7 +956,9 @@
         "image": "message_big",
         "icon": "message",
         "heading": "Our Message",
-        "subHeading": "At Al-Omrania, we go beyond expectations through uniqueness and innovation in the construction materials industry. Our mission propels us towards the future, where we commit to achieving excellence and supremacy in the construction sector."
+        "subHeading": "At Al-Omrania, we go beyond expectations through uniqueness and innovation in the construction materials industry. Our mission propels us towards the future, where we commit to achieving excellence and supremacy in the construction sector.",
+        "subHeading2": "At the core of our mission, we prioritize sustainability and high quality as the foundation for delivering unique and reliable products. We strive diligently for sustainable leadership, aspiring to be the leading company in meeting market needs and surpassing customer expectations.",
+        "subHeading3": "Our values are characterized by transparency, innovation, and commitment to the highest standards of quality and safety. We take pride in our role as a driving force for progress in the construction industry, committing to continuous improvement and innovation to contribute to the realization of our project ambitions and sustainable growth."
       },
       "values": {
         "image": "value_big",
@@ -980,8 +985,8 @@
       "read_more": "Read More"
     },
     "helper_section": {
-      "heading1": "WE ARE HAPPY",
-      "heading2": " TO COMMUNICATE WITH YOU",
+      "heading1": "Get In Touch With Us",
+      "heading2": "",
       "tab1":  {
           "icon": "FaPhoneAlt",
           "content": "Phone : 920000116"
@@ -1069,7 +1074,9 @@
         "image": "message_big",
         "icon": "message",
         "heading": "Our Message",
-        "subHeading": "At Al-Omrania, we go beyond expectations through uniqueness and innovation in the construction materials industry. Our mission propels us towards the future, where we commit to achieving excellence and supremacy in the construction sector."
+        "subHeading": "At Al-Omrania, we go beyond expectations through uniqueness and innovation in the construction materials industry. Our mission propels us towards the future, where we commit to achieving excellence and supremacy in the construction sector.",
+        "subHeading2": "At the core of our mission, we prioritize sustainability and high quality as the foundation for delivering unique and reliable products. We strive diligently for sustainable leadership, aspiring to be the leading company in meeting market needs and surpassing customer expectations.",
+        "subHeading3": "Our values are characterized by transparency, innovation, and commitment to the highest standards of quality and safety. We take pride in our role as a driving force for progress in the construction industry, committing to continuous improvement and innovation to contribute to the realization of our project ambitions and sustainable growth."
       },
       "values": {
         "image": "value_big",
@@ -1149,19 +1156,21 @@
         "image": "vision_big",
         "icon": "vision",
         "heading": "Our Vision",
-        "subHeading": "Project management is conducted in a timely manner with the required quality, and the values we achieve align with the Vision 2030 of the Kingdom of Saudi Arabia in industrial development, aiming to compete with global industries."
+        "subHeading": "We aim for sustainable leadership in the construction materials industry through continuous development. We exceed expectations by delivering distinguished products and consistently seek innovation."
       },
       "mission": {
         "image": "message_big",
         "icon": "message",
         "heading": "Our Message",
-        "subHeading": "Paying meticulous attention to details, uniqueness in creativity, and providing an exceptional experience of beauty and quality in the world of furniture, translating it from local to global."
+        "subHeading": "At Al-Omrania, we go beyond expectations through uniqueness and innovation in the construction materials industry. Our mission propels us towards the future, where we commit to achieving excellence and supremacy in the construction sector.",
+        "subHeading2": "At the core of our mission, we prioritize sustainability and high quality as the foundation for delivering unique and reliable products. We strive diligently for sustainable leadership, aspiring to be the leading company in meeting market needs and surpassing customer expectations.",
+        "subHeading3": "Our values are characterized by transparency, innovation, and commitment to the highest standards of quality and safety. We take pride in our role as a driving force for progress in the construction industry, committing to continuous improvement and innovation to contribute to the realization of our project ambitions and sustainable growth."
       },
       "values": {
         "image": "value_big",
         "icon": "vision",
         "heading": "Quality & Safety",
-        "subHeading": "Wide-ranging expertise and established partnerships with effective companies have shaped our work in local and global joint ventures, recognized as leaders. This contributes to achieving excellence and mastering partnerships with high efficiency, all to maintain the company's vision characterized by sincerity and trust."
+        "subHeading": "The Omraniya factory was established on clear foundations and a comprehensive vision, so it adopted quality as a cornerstone. The management devoted its efforts and focused on quality to ensure obtaining an international Saudi product."
       }
     },
     "imageBoxLeft": {
@@ -1234,16 +1243,24 @@
     },
     "card": {
       "vision": {
+        "image": "vision_big",
+        "icon": "vision",
         "heading": "Our Vision",
-        "subHeading": "Leadership and excellence in product diversity with the highest standards in the field of manufacturing grinding and polishing materials."
+        "subHeading": "We aim for sustainable leadership in the construction materials industry through continuous development. We exceed expectations by delivering distinguished products and consistently seek innovation."
       },
       "mission": {
+        "image": "message_big",
+        "icon": "message",
         "heading": "Our Message",
-        "subHeading": "Commitment to continuous investment in intensifying research and product development."
+        "subHeading": "At Al-Omrania, we go beyond expectations through uniqueness and innovation in the construction materials industry. Our mission propels us towards the future, where we commit to achieving excellence and supremacy in the construction sector.",
+        "subHeading2": "At the core of our mission, we prioritize sustainability and high quality as the foundation for delivering unique and reliable products. We strive diligently for sustainable leadership, aspiring to be the leading company in meeting market needs and surpassing customer expectations.",
+        "subHeading3": "Our values are characterized by transparency, innovation, and commitment to the highest standards of quality and safety. We take pride in our role as a driving force for progress in the construction industry, committing to continuous improvement and innovation to contribute to the realization of our project ambitions and sustainable growth."
       },
       "values": {
+        "image": "value_big",
+        "icon": "vision",
         "heading": "Quality & Safety",
-        "subHeading": "The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
+        "subHeading": "The Omraniya factory was established on clear foundations and a comprehensive vision, so it adopted quality as a cornerstone. The management devoted its efforts and focused on quality to ensure obtaining an international Saudi product."
       }
     },
     "imageBoxLeft": {
@@ -1320,16 +1337,24 @@
     },
     "card": {
       "vision": {
+        "image": "vision_big",
+        "icon": "vision",
         "heading": "Our Vision",
-        "subHeading": "Leadership and excellence in product diversity with the highest standards in the field of manufacturing grinding and polishing materials."
+        "subHeading": "We aim for sustainable leadership in the construction materials industry through continuous development. We exceed expectations by delivering distinguished products and consistently seek innovation."
       },
       "mission": {
+        "image": "message_big",
+        "icon": "message",
         "heading": "Our Message",
-        "subHeading": "Commitment to continuous investment in intensifying research and product development."
+        "subHeading": "At Al-Omrania, we go beyond expectations through uniqueness and innovation in the construction materials industry. Our mission propels us towards the future, where we commit to achieving excellence and supremacy in the construction sector.",
+        "subHeading2": "At the core of our mission, we prioritize sustainability and high quality as the foundation for delivering unique and reliable products. We strive diligently for sustainable leadership, aspiring to be the leading company in meeting market needs and surpassing customer expectations.",
+        "subHeading3": "Our values are characterized by transparency, innovation, and commitment to the highest standards of quality and safety. We take pride in our role as a driving force for progress in the construction industry, committing to continuous improvement and innovation to contribute to the realization of our project ambitions and sustainable growth."
       },
       "values": {
+        "image": "value_big",
+        "icon": "vision",
         "heading": "Quality & Safety",
-        "subHeading": "The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
+        "subHeading": "The Omraniya factory was established on clear foundations and a comprehensive vision, so it adopted quality as a cornerstone. The management devoted its efforts and focused on quality to ensure obtaining an international Saudi product."
       }
     },
     "imageBoxLeft": {
@@ -1381,16 +1406,24 @@
     },
     "card": {
       "vision": {
+        "image": "vision_big",
+        "icon": "vision",
         "heading": "Our Vision",
-        "subHeading": "Aligning with the Kingdom's Vision 2030, Al-Omrania Logistics serves as a key supporter of logistic activities, playing a fundamental role in driving economic leadership through logistic services."
+        "subHeading": "We aim for sustainable leadership in the construction materials industry through continuous development. We exceed expectations by delivering distinguished products and consistently seek innovation."
       },
       "mission": {
+        "image": "message_big",
+        "icon": "message",
         "heading": "Our Message",
-        "subHeading": "Commitment to continuous investment in intensifying research and product development."
+        "subHeading": "At Al-Omrania, we go beyond expectations through uniqueness and innovation in the construction materials industry. Our mission propels us towards the future, where we commit to achieving excellence and supremacy in the construction sector.",
+        "subHeading2": "At the core of our mission, we prioritize sustainability and high quality as the foundation for delivering unique and reliable products. We strive diligently for sustainable leadership, aspiring to be the leading company in meeting market needs and surpassing customer expectations.",
+        "subHeading3": "Our values are characterized by transparency, innovation, and commitment to the highest standards of quality and safety. We take pride in our role as a driving force for progress in the construction industry, committing to continuous improvement and innovation to contribute to the realization of our project ambitions and sustainable growth."
       },
       "values": {
+        "image": "value_big",
+        "icon": "vision",
         "heading": "Quality & Safety",
-        "subHeading": "The Saudi Grinding and Polishing Materials Factory is licensed by one of the global factories in Italy and holds the German MBA international quality certification."
+        "subHeading": "The Omraniya factory was established on clear foundations and a comprehensive vision, so it adopted quality as a cornerstone. The management devoted its efforts and focused on quality to ensure obtaining an international Saudi product."
       }
     },
     "imageBoxLeft": {

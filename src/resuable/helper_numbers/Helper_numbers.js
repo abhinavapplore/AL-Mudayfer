@@ -19,7 +19,8 @@ const Helper_numbers = ({page}) => {
                     <br />
                     {t(`${page}.helper_section.heading2`)}
                 </div>
-                <div className={styles.tab}>
+               <div style={{display:'flex',width:'90%',gap:'20px'}}>
+               <div className={styles.tab}>
                     <FaPhoneAlt /> &nbsp;   {t(`${page}.helper_section.tab1.content`)}
                 </div>
                 <div className={styles.tab}>
@@ -28,6 +29,7 @@ const Helper_numbers = ({page}) => {
                 <div className={styles.tab}>
                     <RiWhatsappFill /> &nbsp;  {t(`${page}.helper_section.tab3.content`)}
                 </div>
+               </div>
             </div>
         </>
     )
