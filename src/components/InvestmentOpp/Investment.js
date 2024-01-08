@@ -42,7 +42,7 @@ const [align,setalign] = useState("left")
         <div className={styles.background_image}>
           <div className={styles.content}>
             <div className={styles.heading} style={{textTransform:'capitalize',textAlign:`${align}`}}>
-              {tag && <span className={styles.tag}>{tag}</span>}
+              {tag && <span className={styles.tag}>{t('joinInvest.investment.tag')}</span>}
                 {t(`${page}.investment.heading1`)}
               <br />
               

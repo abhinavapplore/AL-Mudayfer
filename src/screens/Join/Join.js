@@ -245,12 +245,12 @@ const Join = () => {
               </div>
               <div className={styles.left_form_container}>
                 <select placeholder={t(`join.supplier.formFields.industry`)} >
-                  <option>Choose Industry</option>
-                  <option>Choose Package</option>
+                  <option>{t(`join.supplier.formFields.industry`)}</option>
+                  <option>{t(`join.supplier.formFields.package`)}</option>
                 </select>
                 <select placeholder={t(`join.supplier.formFields.package`)}>
-                  <option>Choose Industry</option>
-                  <option>Choose Package</option>
+                  <option>{t(`join.supplier.formFields.industry`)}</option>
+                  <option>{t(`join.supplier.formFields.package`)}</option>
                 </select>
               </div>
               <div className={styles.button_and_textarea}>
@@ -304,12 +304,12 @@ const Join = () => {
               </div>
               <div className={styles.left_form_container}>
                 <select placeholder={t(`join.client.formFields.industry`)} >
-                  <option>Choose Industry</option>
-                  <option>Choose Package</option>
+                  <option>{t(`join.supplier.formFields.industry`)}</option>
+                  <option>{t(`join.supplier.formFields.package`)}</option>
                 </select>
                 <select placeholder={t(`join.client.formFields.package`)}>
-                  <option>Choose Industry</option>
-                  <option>Choose Package</option>
+                <option>{t(`join.supplier.formFields.industry`)}</option>
+                  <option>{t(`join.supplier.formFields.package`)}</option>
                 </select>
               </div>
               <div className={styles.button_and_textarea}>

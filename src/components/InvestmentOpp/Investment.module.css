@@ -136,6 +136,17 @@
   transform: translateY(-50%);
   background-color: #2a4074;
 }
+/* .tag::after {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 64px;
+  height: 1px;
+  content: "";
+  width: 64px;
+  transform: translateY(-50%);
+  background-color: #2a4074;
+} */
 
 @media (min-width: 1024px) {
   .content {
