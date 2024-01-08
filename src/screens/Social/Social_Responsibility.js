@@ -26,6 +26,8 @@ const Social_Responsibility = () => {
         description1="Saleh Al-Mudaifer Sons Holding Group carries in its genes the love of doing good for others, working for everyone, and the culture of social responsibility, believing that it is from this country and to it and part of its interconnected society. For this reason, Al-Mudaifer Holding has presented many community initiatives with different ideas that included direct support with materials and products from its factories, Training programs for university students and graduates have supported many charitable associations and institutions in their work."
         description2="The participation of Al-Mudaifer Holding Group at the group level or its subsidiaries in national events and activities is part of its firm belief in contributing to community interaction and the prosperity of society through its work. In general, Al-Mudaifer Holding finds that its extended work and contribution to the localization of industry, securing supply chains in the field of construction and building, and creating more jobs for the people of the country are an integral part of its social responsibility in national and human development."
       />
+      <br/>
+      <br/>
       <Experience62
         image1={exp}
         image2={exp}

@@ -520,7 +520,7 @@
       "heading": "Supplier",
       "mainHeading": "Discover the benefits of collaborating with us as a supplier.",
       "subHeading1": "Integration in the commercial market is an important requirement, especially between the producer and the investor who wants to benefit from his experience and work in marketing products by obtaining an important role as a wholesale and retail trader.",
-      "subHeading2": "We at Saleh Al-Mudaifer Sons Holding Group seek to maximize the benefits of our commercial activity to include different segments of society, and we welcome partnerships of this kind with all companies affiliated with the group.",
+      "subHeading2": "We at Saleh Al-Mudaifer Sons Holding Group seek to maximize the benefits of our commercial activity to include different segments of society  and we welcome partnerships of this kind with all companies affiliated with the group.",
       "formHeading": "Fill this form to start collaboration",
       "formSubHeading": "Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet",
       "formFields": {
@@ -535,7 +535,7 @@
     },
     "client": {
       "heading": "Investor",
-      "mainHeading": "Discover the benefits of collaborating with us as a client.",
+      "mainHeading": "Discover the benefits of collaborating with us as a Investor.",
       "subHeading1": "Integration in the commercial market is an important requirement, especially between the producer and the investor who wants to benefit from his experience and work in marketing products by obtaining an important role as a wholesale and retail trader.",
       "subHeading2": "We at Saleh Al-Mudaifer Sons Holding Group seek to maximize the benefits of our commercial activity to include different segments of society, and we welcome partnerships of this kind with all companies affiliated with the group.",
       "formHeading": "Fill this form to get in quotation",
@@ -1006,7 +1006,7 @@
   },
   "Omrania_material_ImageBoxLeft2": {
     "imageBoxLeft": {
-      "heading": "interlock",
+      "heading": "Interlock",
       "description1": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
       "buttonText": "read more",
       "imageSrc": "/path/to/image"
@@ -1014,7 +1014,7 @@
   },
   "Omrania_material_ImageBoxRight2": {
     "imageBoxRight": {
-      "heading": "pavers",
+      "heading": "Pavers",
       "description1": "A pioneer in the production of terrazzo, cement tiles, and soles, as well as blocks, interlocks, and pavers in the Middle East region, adhering to the highest international and local standards, specifications, and certifications.",
       "buttonText": "read more",
       "imageSrc": "/path/to/image"

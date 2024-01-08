@@ -26,8 +26,8 @@ const NewsHealdine = ({page}) => {
             <p>
             {t('newsDetails.news1.text')}
             </p>
-          </div>
-         <Link to="/media">
+            <br/>
+            <Link to="/media/1">
          <div className={styles.button}>
           {t('home.newsHeadline.readMore')}
             <div className={styles.arrow}>
@@ -35,6 +35,8 @@ const NewsHealdine = ({page}) => {
             </div>
           </div>
          </Link>
+          </div>
+        
           <ul className={styles.mobileNews}>
             <li className={currentNews === 1 ? styles.cardActive : styles.card}>
               <div className={styles.imageWrapper}>
@@ -90,6 +92,15 @@ const NewsHealdine = ({page}) => {
             </div>
             <h3>{t('newsDetails.news2.heading')}</h3>
             <p>{t('newsDetails.news2.text')}</p>
+            <br/>
+            <Link to="/media/2">
+         <div className={styles.button}>
+          {t('home.newsHeadline.readMore')}
+            <div className={styles.arrow}>
+              <BsArrowRight />
+            </div>
+          </div>
+         </Link>
           </div>
           <div className={currentNews === 3 ? styles.cardActive : styles.card}>
             <div className={styles.imageWrapper}>
@@ -97,6 +108,15 @@ const NewsHealdine = ({page}) => {
             </div>
             <h3>{t('newsDetails.news3.heading')}</h3>
             <p>{t('newsDetails.news3.text')}</p>
+            <br/>
+            <Link to="/media/3">
+         <div className={styles.button}>
+          {t('home.newsHeadline.readMore')}
+            <div className={styles.arrow}>
+              <BsArrowRight />
+            </div>
+          </div>
+         </Link>
           </div>
         </div>
       </div>
