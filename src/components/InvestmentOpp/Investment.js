@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { useTranslation } from 'react-i18next';
 import styles from "./Investment.module.css";
@@ -15,12 +15,18 @@ const Investment = ({
   media,
   page="true"
 }) => {
-
+const [align,setalign] = useState("left")
   const { t } = useTranslation();
 
   const handleHomeClick =()=>{
     window.location.href ="#employeesection"
   }
+
+  useEffect(() => {
+    const storedLanguage = localStorage.getItem('i18nextLng');
+    storedLanguage == "ar" ? setalign('justify') : setalign('left')
+  }, [localStorage.getItem('i18nextLng')])
+
 
   return (
     <>
@@ -35,14 +41,14 @@ const Investment = ({
       >
         <div className={styles.background_image}>
           <div className={styles.content}>
-            <div className={styles.heading} style={{textTransform:'capitalize'}}>
+            <div className={styles.heading} style={{textTransform:'capitalize',textAlign:`${align}`}}>
               {tag && <span className={styles.tag}>{tag}</span>}
                 {t(`${page}.investment.heading1`)}
               <br />
               
               { heading2&&t(`${page}.investment.heading2`)}
             </div>
-            <div
+            <div style={{textAlign:`${align}`}}
               className={join ? styles.join_sub_heading : styles.sub_heading}
             >
              {t(`${page}.investment.sub_heading`)}
