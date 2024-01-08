@@ -131,11 +131,11 @@
       "backgroundImage": "/path/to/aboutscreen",
       "heading1": "Saleh Almudayfer",
       "heading2": "Sons Holding Company",
-      "sub_heading": "Leader in the manufacture of terrazza tiles, blocks, cement tiles, interlocks, and balustrades for more than 50 years in the Middle East.",
+      "sub_heading": "Explore with us our inspiring journey, where passion and innovation converge to turn opportunities into an inspiring reality, building a sustainable future for generations to come. As a leading company in the investment world, we take pride in a history that spans over 60 years in the field of building materials.",
       "button": "Get started"
     },
-    "partner":  {
-      "heading1": "Partner with Al-Mudayfer",
+    "partner":  { 
+      "heading1": "About with Al-Mudayfer",
       "heading2": "The Building & Construction Experts",
       "description1": "In the sixties, the Saleh Almudayfer Sons Holding Group embarked on its investment journey by establishing the Omrania Materials Materials Company for building materials. This marked the splendid beginning of an investment history filled with achievements and uniqueness. Since then, the group has preserved its strong legacy and prosperity over the decades, achieving remarkable success in various economic fields.",
       "description2": "Today, the group is recognized as a leading force in the investment sector, characterized by innovation and excellence. Its ambitious investment vision is distinguished by the ability to make smart decisions and foster innovation, making it a key player in a pioneering alliance of the region's foremost investment companies.",
@@ -153,13 +153,13 @@
         "image": "/path/to/message_big",
         "icon": "/path/to/message",
         "heading": "Our Mission",
-        "subHeading": "To empower individuals and businesses by providing cutting-edge solutions and unparalleled services, fostering sustainable growth and prosperity. We are dedicated to pioneering innovative approaches, maintaining the highest standards of integrity, and making a positive impact on the global landscape."
+        "subHeading": "To empower individuals and businesses by providing cutting-edge solutions and unparalleled services, fostering sustainable growth and prosperity. We are dedicated to pioneering innovative approaches, maintaining the highest standards of integrity, and making a positive impact on the global landscape. Our mission is to be a catalyst for positive change, driving success, and contributing to the betterment of society."
       },
       "values": {
         "image": "/path/to/value_big",
         "icon": "/path/to/vision",
         "heading": "Our Values",
-        "subHeading": "Excellence, innovation, integrity, and sustainability are the core values that drive our business. We are committed to achieving the highest standards of quality and excellence in all our endeavors. We are dedicated to fostering innovation and creativity, and we are committed to the highest standards of integrity and transparency. We are committed to sustainable development and making a positive impact on the global landscape."
+        "subHeading": "Our core values are the guiding principles that define our behavior, decisions, and interactions within our organization. They represent the fundamental beliefs and shared commitments that shape our culture. Here are our key values:."
       }
     },
     "homeTrusted":"Trusted By 45M+ Users",
@@ -228,7 +228,7 @@
     "triplets": {
       "1": {
         "heading": "Social Responsibility",
-        "description": "In the sixties, the Saleh Almudayfer Sons Holding Group embarked on its investment journey by establishing the Omrania Materials Company for building materials. This marked the splendid beginning of an investment history filled with achievements and uniqueness. Since then, the group has preserved its strong legacy and prosperity over the decades, achieving remarkable success in various economic fields.",
+        "description": " The Saleh Al-Mudayfer Sons Holding Group carries in its genes a love for the well-being of others, a commitment to working for the benefit of all, and a culture of social responsibility. Believing that it is part of this nation, to it and an integral part of its interconnected society, the Al-Mudayfer Holding Group has presented numerous social initiatives with various ideas, including direct support with materials and products from its factories and training programs for university students and graduates. It has enriched many associations and charitable institutions in their work. The Al-Mudayfer Holding Group's contributions at the group or subsidiary company level in national events and activities are seen as part of its deep-seated belief in contributing to social interaction and the prosperity of society through its actions. Overall, Mudaffer Holding considers its extensive business activities and contributions to national development and humanity, including localizing industry, securing supply chains in the construction and building sector, and creating more jobs for the nation's citizens, an integral part of its social responsibility.",
         "link": {
           "to": "/investment/social_responsibility",
           "text": "Read More"
@@ -236,7 +236,7 @@
       },
       "2": {
         "heading": "National Responsibility",
-        "description": "Today, the group is recognized as a leading force in the investment sector, characterized by innovation and excellence. Its ambitious investment vision is distinguished by the ability to make smart decisions and foster innovation, making it a key player in a pioneering alliance of the region's foremost investment companies..",
+        "description": "In Saleh Al-Mudayfer Sons Holding Group, national responsibility is considered one of the core pillars that govern our values and actions. It is our deep commitment to contribute to sustainable development and national well-being. We clearly understand the crucial role that the private sector plays in building a strong future for the nation. Therefore, we ensure the integration of the concept of sustainability into all aspects of our business. This responsibility is manifested in our dedication to environmental protection, support for the community, and the promotion of economic growth. We believe that achieving success is not limited to commercial success alone; it also requires making a positive impact on the national level. The group has adopted principles and practices that reflect its genuine commitment to national responsibility. We continuously work on improving our performance and developing strategies that contribute to sustainable development and enhance prosperity for everyone.",
         "link": {
           "to": "/investment/national_responsibility",
           "text": "Read More"
@@ -244,7 +244,8 @@
       },
       "3": {
         "heading": "Environmental Responsibility",
-        "description": "The group's investments span across various sectors, including building materials, concrete, and wooden products. These investments reflect a diverse and creative investment journey, contributing effectively to sustainable development. With pride in its long and inspiring history, the Sons of Saleh Al-Mudayfer Holding Group continues to elevate its vision and excel in all areas of its business.",        "link": {
+        "description": "Despite the close association and clear interaction between the activities of Saleh Al-Mudayfer Sons Holding Group's companies and environmental impacts, such as geological or industrial activities, carbon emissions, and industrial waste, the group prioritizes this matter. It has developed a comprehensive and methodical plan to ensure that all the activities of Saleh Al-Mudayfer Sons Holding Group and its factories adhere to strict national standards for the environment and carbon emissions. The group strives to be environmentally friendly. To achieve this, the group has collaborated with leading specialized companies to supervise and monitor potential environmental impacts resulting from its activities. These efforts have also assisted the group in obtaining the necessary national certifications in this field, affirming the robustness of its operations in this aspect.   The Al-Mudayfer Holding Group has achieved tangible results through its environmental focus, ranging from maintaining the health of its employees to preserving the general environment surrounding the companies' operations and activities. The group has successfully reduced carbon emissions. ",   
+             "link": {
           "to": "/investment/environmental_responsibility",
           "text": "Read More"
         }
@@ -265,7 +266,7 @@
     "partner":{
       "heading1": "Partner with Al-Mudayfer",
       "heading2": "Testimonials",
-      "description1": "Al-Mudayfer is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management and capital management for more than 25 years."
+      "description1":"Discover the impact and excellence that Saleh Al-Mudayfer Sons Holding Group has had on individuals, businesses, and communities. Our journey has been marked by innovation, sustainability, and a commitment to delivering exceptional results. Don't just take our word for it; explore the testimonials below to get a glimpse of the experiences and perspectives of those who have collaborated with us. These testimonials reflect the real-world impact of our investments, values, and dedication to creating lasting success.  "
    
     }
    },
@@ -273,9 +274,8 @@
     "partner":{
       "heading1": "Partner with Al-Mudayfer",
       "heading2": "Timeline",
-      "description1": "Al-Mudayfer is an award-winning company that understands what it means to provide solutions on time and within budget to bring your vision to fruition. With our team of experts all under one roof, Premier handles the project from Design to Completion. As owner operators ourselves, we think and act just like you, from concept to completion. So, it’s no wonder that Premier has been a leading full-service company for design, architecture, procurement, project management, and capital management for more than 25 years.",
-      "description2": "Trust our project management experts at Al-Mudafir Holdings from Design to Completion!"
-
+      "description1": "The journey of Saleh Al-Mudayfer Sons Holding Group is a compelling timeline marked by innovation, growth, and impactful milestones. Let's take a brief look at key moments in the group's history     ",
+      "description2":"Today, Saleh Al-Mudayfer Sons Holding Group stands as a beacon of leadership and sustainability in the business and investment realm. With an eye on the future, the group continues to innovate, expand sustainably, and excel in all its endeavors, remaining a driving force in the region's investment landscape.     "
     }
   },
   "invest": {

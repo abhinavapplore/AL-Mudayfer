@@ -18,7 +18,7 @@ const Trusted = ({page}) => {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.heading} style={{animationDelay:'0s'}}>{  page=="home" ? t('home.trust') :    t('about.homeTrusted')}</div>
+                <div className={styles.heading} style={{animationDelay:'0s'}}>{  t('home.trust')}</div>
                 <div className={styles.images}>
                     <Marquee>
                         <div className={styles.image}>

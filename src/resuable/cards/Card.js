@@ -23,7 +23,7 @@ const Card = ({
   page
 }) => {
 
-  const {t} = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <div className={styles.container}>
@@ -33,18 +33,53 @@ const Card = ({
           <div className={styles.sub_heading}>{t(`${page}.card.vision.subHeading`)}</div>
         </div>
         <div className={styles.card}>
-          <div className={styles.heading}>{t(`${page}.card.values.heading`)}</div>
-          <div className={styles.sub_heading}>{t(`${page}.card.values.subHeading`)}</div>
+          {
+            page !="about"?
+            <>
+                <div className={styles.heading}>{t(`${page}.card.values.heading`)}</div>
+              <div className={styles.sub_heading}>{t(`${page}.card.mission.subHeading3`)}</div>
+            </>
+            :
+            <>
+              <div className={styles.heading}>{t(`${page}.card.mission.heading`)}</div>
+              <div className={styles.sub_heading}>{t(`${page}.card.mission.subHeading`)}</div>
+            </>
+          }
+          
         </div>
       </div>
       <div className={styles.section}>
-      <div className={styles.card}>
+        <div className={styles.card}>
+          {page !="about" && <>
           <div className={styles.heading}>{t(`${page}.card.mission.heading`)}</div>
           <div className={styles.sub_heading}>{t(`${page}.card.mission.subHeading`)}</div>
-          <div className={styles.sub_heading}>{t(`${page}.card.mission.subHeading2`)}</div>
-          <div className={styles.sub_heading}>{t(`${page}.card.mission.subHeading3`)}</div>
+
+          </>}
+          {page != "about" ?
+
+            <>
+              <div className={styles.sub_heading}>{t(`${page}.card.mission.subHeading2`)}</div>
+              <div className={styles.sub_heading}>{t(`${page}.card.mission.subHeading3`)}</div>
+
+            </>
+            :
+            <>
+            
+              <div className={styles.heading}>{t(`${page}.card.values.heading`)}</div>
+              <div className={styles.sub_heading}>{t(`${page}.card.values.subHeading`)}</div>
+              <ul>
+            <li>{t(`home.ourValues.selectHeading1`)}</li>
+            <li>{t(`home.ourValues.selectHeading2`)}</li>
+            <li>{t(`home.ourValues.selectHeading3`)}</li>
+            <li>{t(`home.ourValues.selectHeading4`)}</li>
+            <li>{t(`home.ourValues.selectHeading5`)}</li>
+            <li>{t(`home.ourValues.selectHeading6`)}</li>
+
+          </ul>
+            </>
+          }
         </div>
-        
+
       </div>
     </div>
   );

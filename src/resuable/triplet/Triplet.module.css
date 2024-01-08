@@ -60,7 +60,7 @@
   }
 
   .card {
-    height: 450px;
+    /* height: 780px; */
   }
 
   .card:nth-child(2) {

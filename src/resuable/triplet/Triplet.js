@@ -15,7 +15,7 @@ const Triplet = ({ img1, img2, img3, heading1, description1, button,page }) => {
   return (
     <>
       <div className={styles.container} >
-        <div className={styles.card}>
+        <div className={styles.card} style={{}}>
           <h1 className={styles.heading}>{t(`${page}.triplets.1.heading`)}</h1>
           <p className={styles.description}>
           {t(`${page}.triplets.1.description`)}
