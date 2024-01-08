@@ -36,11 +36,11 @@
     },
     "partner": {
       "heading1": "Partner with AL-MUDAYFER",
-      "heading2": "The Building  & Construction Expert",
-      "description1": "The Sons of Saleh Almudayfer Sons Holding Group is characterized by leadership and sustainability in the business and investment world. As a successful investor, the group seeks diversification and sustainable expansion, with a focus on innovation and the development of new investment models. With its distinguished history, the group remains committed to excellence and leadership, achieving excellence in various aspects of its business and participating as a key member in a leading alliance of prominent investment companies in the region.",
-      "description2": "Trust our project management experts at Al-Mudafir Holdings from Design to Completion!"
+      "heading2": "The Building & Construction material manufacturing Experts",
+      "description1": "Saleh Almudayfer Sons Holding  Group is characterized by leadership and sustainability in the business and investment world. As a successful investor, the group seeks diversification and sustainable expansion, with a focus on innovation and the development of new investment models. ",
+      "description2": "With its distinguished history, the group remains committed to excellence and leadership, achieving excellence in various aspects of its business and participating as a key member in a leading alliance of prominent investment companies in the region."
     },
-    "milestone": {},
+    "milestone": {},  
     "trust": "Our Investment",
     "experience62": {
       "heading": "Experience 62+ Years",
@@ -49,14 +49,7 @@
       "imageSrc": "/path/to/image"
     },
     "homeTrusted":"Our Investments",
-    "trusted": {
-      "content": {
-        "heading1": "We Invest",
-        "sub_heading": "Extend the hand of investment, as our hands are extended to all available opportunities.",
-        "button_text": "Know More",
-        "arrow": "BsArrowRight"
-      }
-    },
+    
     "ourValues": {
       "OurVal": "Our Values",
       "ourVision": "Our Vision",
@@ -78,8 +71,8 @@
     "imageBoxRight": {
       "heading": "The Board of Directors",
       "description1": "We invested in building a nation, and in developing a human being, so the products of Saleh Al-Mudaifer Sons Holding Company became an essential pillar in the construction and finishing work of various development projects in the Kingdom of Saudi Arabia",
-      "description2": "As the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
-      "buttonText": "Learn More"
+      "description2": "Driven by a commitment to excellence, our Board of Directors is dedicated to steering Saleh Almudayfer Sons Holding Group toward continued growth, innovation, and sustained success in the ever-evolving business landscape.",
+      "buttonText": "Get to Know"
     },
     "company": {
       "heading1": "INVESTMENT",
@@ -90,9 +83,9 @@
     },
     "imageBoxLeft": {
       "heading": "Employment Portal",
-      "description1":"Joining the work community of Saleh Al-Mudaifer Sons Holding Group companies is an opportunity that we are proud to offer to Saudi youth of all abilities and backgrounds, as the group’s work is diverse. We consider those working with us as our extended family in an ideal work environment that guarantees obtaining many job benefits and practical experiences." ,
-      "description2": "As the company’s investments were built on the legacy of the founding father and specialization in its supply chains.",
-      "buttonText": "Know More",
+      "description1":"Here where opportunities meet talent, and careers are built. Our Employment Portal is designed to streamline the hiring process, providing a platform for individuals to explore exciting career prospects within Saleh Almudayfer Sons Holding Group." ,
+      "description2": "Embark on a rewarding career journey with us at Saleh Almudayfer Sons Holding Group!",
+      "buttonText": "Apply Now",
       "page": "home"
     },
     "timeline": {
@@ -123,6 +116,14 @@
         "title": "Lorem ipsum dolor sit amet consectetur.",
         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla dui amet faucibus nam. Erat id laoreet posuere etiam morbi."
       }
+    }
+  },
+  "homeTrusted": {
+    "investment": {
+      "heading1": "We Invest",
+      "sub_heading": "Extend the hand of investment, as our hands are extended to all available opportunities.",
+      "button": "Know More",
+      "arrow": "BsArrowRight"
     }
   },
   "about": {
@@ -520,7 +521,7 @@
       "mainHeading": "Discover the benefits of collaborating with us as a supplier.",
       "subHeading1": "Integration in the commercial market is an important requirement, especially between the producer and the investor who wants to benefit from his experience and work in marketing products by obtaining an important role as a wholesale and retail trader.",
       "subHeading2": "We at Saleh Al-Mudaifer Sons Holding Group seek to maximize the benefits of our commercial activity to include different segments of society, and we welcome partnerships of this kind with all companies affiliated with the group.",
-      "formHeading": "Fill this form to get a quotation",
+      "formHeading": "Fill this form to start collaboration",
       "formSubHeading": "Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet",
       "formFields": {
         "firstName": "First Name",
@@ -530,7 +531,7 @@
         "industry": "Choose Industry",
         "package": "Choose Package"
       },
-      "submitButton": "Contact Us"
+      "submitButton": "Send the Form"
     },
     "client": {
       "heading": "Investor",
@@ -547,7 +548,7 @@
         "industry": "Choose Industry",
         "package": "Choose Package"
       },
-      "submitButton": "Contact Us"
+      "submitButton": "Send the Form"
     },
     "company": {
       "backgroundImage": "path/to/your/image.jpg",

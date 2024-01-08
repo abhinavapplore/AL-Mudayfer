@@ -54,6 +54,15 @@ const HomeScreen = () => {
       />
 
       <Trusted trusted={true} page="home"/>
+      <Investment
+        
+        heading1="Al-Mudayfer"
+        button={true}
+        sub_heading="The name that has been associated with building and construction works for development monuments over generations from the Kingdom of Saudi Arabia and to the Middle East."
+       
+        page="homeTrusted"
+      />
+
       <OurValues />
       <ConsHeading />
 

@@ -12,13 +12,13 @@ import company8 from '../../images/investment/company8.svg'
 import Marquee from "react-fast-marquee";
 import { useTranslation } from 'react-i18next';
 
-const Trusted = () => {
+const Trusted = ({page}) => {
 
     const {t} = useTranslation()
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.heading} style={{animationDelay:'0s'}}>{t('about.homeTrusted')}</div>
+                <div className={styles.heading} style={{animationDelay:'0s'}}>{  page=="home" ? t('home.trust') :    t('about.homeTrusted')}</div>
                 <div className={styles.images}>
                     <Marquee>
                         <div className={styles.image}>
